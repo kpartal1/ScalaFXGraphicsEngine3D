@@ -39,3 +39,5 @@ run
 runMain mud.Player
 eexit
 exit
+run
+exit

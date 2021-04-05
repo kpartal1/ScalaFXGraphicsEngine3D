@@ -1074,3 +1074,4 @@ object Main extends JFXApp {
 }
 Apr 05, 2021 6:44:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.05 18:45:12 INFO  shutting down Metals[0m

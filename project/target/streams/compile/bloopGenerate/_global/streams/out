@@ -1,4 +1,4 @@
-[debug] [graphicsengine3d-build] Classpath dependencies List()
-[debug] [graphicsengine3d-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'graphicsengine3d-build' to '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/.bloop/graphicsengine3d-build.json'
-[success] Generated .bloop/graphicsengine3d-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[graphicsengine3d-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[graphicsengine3d-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'graphicsengine3d-build' to 'C:\Users\12103\Documents\CodingProjects\GraphicsEngine3D\project\.bloop\graphicsengine3d-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\graphicsengine3d-build.json[0m

@@ -1,0 +1,708 @@
+[0m2021.04.05 12:14:02 INFO  Started: Metals version 0.10.0 in workspace '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D' for client vscode 1.55.0.[0m
+[0m2021.04.05 12:14:03 INFO  time: initialize in 1.14s[0m
+[0m2021.04.05 12:14:03 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.05 12:14:05 INFO  running '/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.4.7 -jar /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/metals7897418403865269522/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.05 12:14:06 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/metals.sbt[0m
+[0m2021.04.05 12:14:06 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/metals.sbt[0m
+[0m2021.04.05 12:14:05 INFO  skipping build import with status 'Started'[0m
+[0m2021.04.05 12:14:07 INFO  [info] Updated file /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/build.properties: set sbt.version to 1.4.7[0m
+[0m2021.04.05 12:14:07 INFO  [info] welcome to sbt 1.4.7 (AdoptOpenJDK Java 11.0.9)[0m
+[0m2021.04.05 12:14:10 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.05 12:14:10 INFO  [info] loading settings for project graphicsengine3d-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:14:10 INFO  [info] loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project[0m
+// DO NOT EDIT! This file is auto-generated.
+// This file enables sbt-bloop to create bloop config files.
+
+addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "1.4.8")
+
+// DO NOT EDIT! This file is auto-generated.
+// This file enables sbt-bloop to create bloop config files.
+
+addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "1.4.8")
+
+[0m2021.04.05 12:14:13 INFO  [info] loading settings for project graphicsengine3d-build from metals.sbt ...[0m
+[0m2021.04.05 12:14:13 INFO  [info] loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project[0m
+[0m2021.04.05 12:14:14 INFO  [success] Generated .bloop/graphicsengine3d-build.json[0m
+[0m2021.04.05 12:14:14 INFO  [success] Total time: 1 s, completed Apr 5, 2021, 12:14:14 PM[0m
+[0m2021.04.05 12:14:16 INFO  [info] loading settings for project graphicsengine3d from build.sbt ...[0m
+[0m2021.04.05 12:14:16 INFO  [info] set current project to GraphicalGame (in build file:/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/)[0m
+[0m2021.04.05 12:14:16 INFO  [success] Generated .bloop/graphicsengine3d.json[0m
+[0m2021.04.05 12:14:16 INFO  [success] Generated .bloop/graphicsengine3d-test.json[0m
+[0m2021.04.05 12:14:16 INFO  [success] Total time: 1 s, completed Apr 5, 2021, 12:14:17 PM[0m
+[0m2021.04.05 12:14:16 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.05 12:14:17 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+[0m2021.04.05 12:14:17 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17740033421801045153/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d.json'
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json'
+[0m[32m[D][0m Missing analysis file for project 'graphicsengine3d-test'
+[0m[32m[D][0m Missing analysis file for project 'graphicsengine3d'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17740033421801045153/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17740033421801045153/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:14:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:14:17 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher10533823751681953195/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher10533823751681953195/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher10533823751681953195/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:14:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:14:17 INFO  time: Connected to build server in 0.12s[0m
+[0m2021.04.05 12:14:17 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.05 12:14:21 INFO  time: indexed workspace in 4.15s[0m
+Apr 05, 2021 12:14:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///Users/konstantits/Documents/TestProjects/GraphicsEngine3D/build.sbt",
+        "type": 2
+      },
+      {
+        "uri": "file:///Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/build.properties",
+        "type": 3
+      },
+      {
+        "uri": "file:///Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/assembly.sbt",
+        "type": 1
+      },
+      {
+        "uri": "file:///Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/metals.sbt",
+        "type": 3
+      },
+      {
+        "uri": "file:///Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/build.properties",
+        "type": 1
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/metals.sbt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:1235)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:1234)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:1234)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:1186)
+	... 16 more
+
+[0m2021.04.05 12:14:35 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/plugins.sbt[0m
+[0m2021.04.05 12:14:35 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/metals.sbt[0m
+[0m2021.04.05 12:14:35 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/metals.sbt[0m
+[0m2021.04.05 12:14:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.12[0m
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.2.4")
+
+// DO NOT EDIT! This file is auto-generated.
+// This file enables sbt-bloop to create bloop config files.
+
+addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "1.4.8")
+
+// DO NOT EDIT! This file is auto-generated.
+// This file enables sbt-bloop to create bloop config files.
+
+addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "1.4.8")
+
+[0m2021.04.05 12:14:39 INFO  compiling graphicsengine3d (13 scala sources)[0m
+[0m2021.04.05 12:14:41 INFO  running '/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/metals1973490311021138430/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.05 12:14:42 INFO  time: compiled graphicsengine3d in 3.54s[0m
+[0m2021.04.05 12:14:46 INFO  [info] Loading settings for project graphicsengine3d-build-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:14:46 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/project[0m
+[0m2021.04.05 12:14:49 INFO  [info] Loading settings for project graphicsengine3d-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:14:49 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project[0m
+[0m2021.04.05 12:14:50 INFO  [success] Generated .bloop/graphicsengine3d-build-build.json[0m
+[0m2021.04.05 12:14:50 INFO  [warn] Removed stale /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/.bloop/mud-s21-kpartal1-build-build.json[0m
+[0m2021.04.05 12:14:50 INFO  [success] Total time: 1 s, completed Apr 5, 2021, 12:14:50 PM[0m
+[0m2021.04.05 12:14:50 INFO  [info] Loading settings for project graphicsengine3d-build from assembly.sbt,plugins.sbt,metals.sbt ...[0m
+[0m2021.04.05 12:14:50 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project[0m
+[0m2021.04.05 12:14:52 INFO  [success] Generated .bloop/graphicsengine3d-build.json[0m
+[0m2021.04.05 12:14:52 INFO  [warn] Removed stale /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/.bloop/mud-s21-kpartal1-build.json[0m
+[0m2021.04.05 12:14:52 INFO  [success] Total time: 1 s, completed Apr 5, 2021, 12:14:52 PM[0m
+[0m2021.04.05 12:14:54 INFO  [info] Loading settings for project graphicsengine3d from build.sbt ...[0m
+[0m2021.04.05 12:14:54 INFO  [info] Set current project to MUD (in build file:/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/)[0m
+[0m2021.04.05 12:14:54 INFO  [success] Generated .bloop/graphicsengine3d-test.json[0m
+[0m2021.04.05 12:14:54 INFO  [success] Generated .bloop/graphicsengine3d.json[0m
+[0m2021.04.05 12:14:54 INFO  [success] Total time: 0 s, completed Apr 5, 2021, 12:14:54 PM[0m
+[0m2021.04.05 12:14:54 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.05 12:14:54 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+[0m2021.04.05 12:14:54 INFO  Disconnecting from Bloop session...[0m
+No more data in the server stdin, exiting...[0m
+2021.04.05 12:14:54No more data in the server stdin, exiting... 
+INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...[0m
+No more data in the server stdin, exiting...
+2021.04.05 12:14:54 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.04.05 12:14:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher8816000594800998572/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d.json'
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher8816000594800998572/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher8816000594800998572/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:14:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:14:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0mOpening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12226662248407868519/bsp.socket'...2021.04.05 12:14:54
+ INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher16224831676011013866/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12226662248407868519/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12226662248407868519/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher16224831676011013866/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher16224831676011013866/bsp.socket...
+[0m2021.04.05 12:14:54 Starting thread that pumps stdin and redirects it to the bsp server...INFO 
+ tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:14:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:14:54 INFO  time: Connected to build server in 43ms[0m
+[0m2021.04.05 12:14:54 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.05 12:14:57 INFO  time: indexed workspace in 2.44s[0m
+[0m2021.04.05 12:15:13 INFO  compiling graphicsengine3d (6 scala sources)[0m
+[0m2021.04.05 12:15:15 INFO  time: compiled graphicsengine3d in 2.16s[0m
+[0m2021.04.05 12:15:17 INFO  compiling graphicsengine3d (5 scala sources)[0m
+[0m2021.04.05 12:15:17 INFO  time: compiled graphicsengine3d in 0.42s[0m
+[0m2021.04.05 12:15:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:15:22 INFO  time: compiled graphicsengine3d in 0.15s[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:14:10: stale bloop error: not found: value PlayerManager
+  import PlayerManager._
+         ^^^^^^^^^^^^^[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:18:46: stale bloop error: not found: type PlayerManager
+    val playerManager = system.actorOf(Props[PlayerManager], "PlayerManager")
+                                             ^^^^^^^^^^^^^[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:19:44: stale bloop error: not found: type RoomManager
+    val roomManager = system.actorOf(Props[RoomManager], "RoomManager")
+                                           ^^^^^^^^^^^[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:21:83: stale bloop error: not found: value CheckInput
+    system.scheduler.scheduleWithFixedDelay(0.seconds, 100.millis, playerManager, CheckInput)
+                                                                                  ^^^^^^^^^^[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:14:10: stale bloop error: not found: value PlayerManager
+  import PlayerManager._
+         ^^^^^^^^^^^^^[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:18:46: stale bloop error: not found: type PlayerManager
+    val playerManager = system.actorOf(Props[PlayerManager], "PlayerManager")
+                                             ^^^^^^^^^^^^^[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:19:44: stale bloop error: not found: type RoomManager
+    val roomManager = system.actorOf(Props[RoomManager], "RoomManager")
+                                           ^^^^^^^^^^^[0m
+[0m2021.04.05 12:15:32 INFO  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/mud/Main.scala:21:83: stale bloop error: not found: value CheckInput
+    system.scheduler.scheduleWithFixedDelay(0.seconds, 100.millis, playerManager, CheckInput)
+                                                                                  ^^^^^^^^^^[0m
+[0m2021.04.05 12:15:33 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:15:33 INFO  time: compiled graphicsengine3d in 0.21s[0m
+Apr 05, 2021 12:16:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+[0m2021.04.05 12:16:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:16:02 INFO  time: compiled graphicsengine3d in 0.28s[0m
+[0m2021.04.05 12:16:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:16:04 INFO  time: compiled graphicsengine3d in 0.26s[0m
+[0m2021.04.05 12:16:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:16:21 INFO  time: compiled graphicsengine3d in 56ms[0m
+[0m2021.04.05 12:16:31 INFO  running '/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/metals18391141936747631852/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.05 12:16:33 INFO  running '/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/metals3775499709480194615/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.05 12:16:34 INFO  [info] Loading settings for project graphicsengine3d-build-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:16:35 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/project[0m
+[0m2021.04.05 12:16:35 INFO  [info] Loading settings for project graphicsengine3d-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:16:36 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project[0m
+[0m2021.04.05 12:16:37 INFO  [info] Loading settings for project graphicsengine3d-build-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:16:37 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/project[0m
+[0m2021.04.05 12:16:38 INFO  [success] Generated .bloop/graphicsengine3d-build-build.json[0m
+[0m2021.04.05 12:16:38 INFO  [success] Total time: 2 s, completed Apr 5, 2021, 12:16:38 PM[0m
+[0m2021.04.05 12:16:38 INFO  [info] Loading settings for project graphicsengine3d-build from assembly.sbt,plugins.sbt,metals.sbt ...[0m
+[0m2021.04.05 12:16:38 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project[0m
+[0m2021.04.05 12:16:38 INFO  [info] Loading settings for project graphicsengine3d-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:16:38 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project[0m
+[0m2021.04.05 12:16:38 INFO  [success] Generated .bloop/graphicsengine3d-build.json[0m
+[0m2021.04.05 12:16:38 INFO  [success] Total time: 1 s, completed Apr 5, 2021, 12:16:39 PM[0m
+[0m2021.04.05 12:16:39 INFO  [info] Loading settings for project graphicsengine3d from build.sbt ...[0m
+[0m2021.04.05 12:16:39 INFO  [info] Set current project to MUD (in build file:/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/)[0m
+[0m2021.04.05 12:16:39 INFO  [success] Generated .bloop/graphicsengine3d.json[0m
+[0m2021.04.05 12:16:39 INFO  [success] Generated .bloop/graphicsengine3d-test.json[0m
+[0m2021.04.05 12:16:39 INFO  [success] Total time: 0 s, completed Apr 5, 2021, 12:16:40 PM[0m
+[0m2021.04.05 12:16:39 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.05 12:16:40 INFO  time: ran 'sbt bloopInstall' in 9.27s[0m
+[0m2021.04.05 12:16:40 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.05 12:16:40 INFO  Shut down connection with build server.[0m
+[0m2021.04.05 12:16:40 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0mNo more data in the client stdin, exiting...2021.04.05 12:16:40
+ INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.04.05 12:16:40 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher11348914452197140872/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher11348914452197140872/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher11348914452197140872/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:16:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:16:40 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.04.05 12:16:40 INFO  Attempting to connect to the build server...[0mOpening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher15085131817440799728/bsp.socket'...
+
+Starting the bsp launcher for bloop...
+Waiting for the bsp connection to come up...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher14578456309270445081/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher15085131817440799728/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher15085131817440799728/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher14578456309270445081/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher14578456309270445081/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:16:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:16:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:16:40 INFO  time: Connected to build server in 42ms[0m
+[0m2021.04.05 12:16:40 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.05 12:16:40 INFO  [success] Generated .bloop/graphicsengine3d-build-build.json[0m
+[0m2021.04.05 12:16:40 INFO  [success] Total time: 2 s, completed Apr 5, 2021, 12:16:40 PM[0m
+[0m2021.04.05 12:16:40 INFO  [info] Loading settings for project graphicsengine3d-build from assembly.sbt,plugins.sbt,metals.sbt ...[0m
+[0m2021.04.05 12:16:40 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project[0m
+[0m2021.04.05 12:16:40 INFO  [success] Generated .bloop/graphicsengine3d-build.json[0m
+[0m2021.04.05 12:16:40 INFO  [success] Total time: 0 s, completed Apr 5, 2021, 12:16:41 PM[0m
+[0m2021.04.05 12:16:41 INFO  time: indexed workspace in 1.56s[0m
+[0m2021.04.05 12:16:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:16:42 INFO  [info] Loading settings for project graphicsengine3d from build.sbt ...[0m
+[0m2021.04.05 12:16:41 INFO  time: compiled graphicsengine3d in 95ms[0m
+[0m2021.04.05 12:16:42 INFO  [info] Set current project to MUD (in build file:/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/)[0m
+[0m2021.04.05 12:16:42 INFO  [success] Generated .bloop/graphicsengine3d-test.json[0m
+[0m2021.04.05 12:16:42 INFO  [success] Generated .bloop/graphicsengine3d.json[0m
+[0m2021.04.05 12:16:42 INFO  [success] Total time: 0 s, completed Apr 5, 2021, 12:16:42 PM[0m
+[0m2021.04.05 12:16:42 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.05 12:16:42 INFO  time: ran 'sbt bloopInstall' in 9.56s[0m
+[0m2021.04.05 12:16:42 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.05 12:16:42 INFO  Shut down connection with build server.[0m
+[0m2021.04.05 12:16:42 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0mNo more data in the server stdin, exiting...2021.04.05 12:16:42
+ INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.04.05 12:16:42 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17896213015687743146/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17896213015687743146/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17896213015687743146/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:16:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:16:41 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.04.05 12:16:41 INFO  Attempting to connect to the build server...[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher15535990034585819782/bsp.socket'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher2644209505709185197/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher2644209505709185197/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher2644209505709185197/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher15535990034585819782/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher15535990034585819782/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:16:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:16:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:16:42 INFO  time: Connected to build server in 38ms[0m
+[0m2021.04.05 12:16:42 INFO  Connected to Build server: Bloop v1.4.8[0m
+Caught unexpected io exception handling event for /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/java
+java.nio.file.NoSuchFileException: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/java
+	at com.swoval.files.NativeDirectoryLister.fillResults(NativeDirectoryLister.java:93)
+	at com.swoval.files.NativeDirectoryLister.apply(NativeDirectoryLister.java:48)
+	at com.swoval.files.SimpleFileTreeView$Lister.impl(SimpleFileTreeView.java:149)
+	at com.swoval.files.SimpleFileTreeView$Lister.fillResults(SimpleFileTreeView.java:140)
+	at com.swoval.files.SimpleFileTreeView.list(SimpleFileTreeView.java:50)
+	at com.swoval.files.CachedDirectoryImpl.init(CachedDirectoryImpl.java:568)
+	at com.swoval.files.CachedDirectoryImpl.init(CachedDirectoryImpl.java:557)
+	at com.swoval.files.FileCacheDirectoryTree.newCachedDirectory(FileCacheDirectoryTree.java:623)
+	at com.swoval.files.FileCacheDirectoryTree.handleEvent(FileCacheDirectoryTree.java:298)
+	at com.swoval.files.FileTreeRepositories$1.onNext(FileTreeRepositories.java:79)
+	at com.swoval.files.FileTreeRepositories$1.onNext(FileTreeRepositories.java:73)
+	at com.swoval.files.Observers.onNext(Observers.java:31)
+	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:285)
+	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:259)
+	at com.swoval.files.apple.FileEventMonitorImpl$WrappedConsumer$1.run(FileEventMonitors.java:178)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.04.05 12:16:43 INFO  time: indexed workspace in 1.17s[0m
+[0m2021.04.05 12:16:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:16:43 INFO  time: compiled graphicsengine3d in 88ms[0m
+import _root_.scala.xml.{TopScope=>$scope}
+import _root_.sbt._
+import _root_.sbt.Keys._
+import _root_.sbt.nio.Keys._
+import _root_.sbt.ScriptedPlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.com.typesafe.sbteclipse.plugin.EclipsePlugin.autoImport._, _root_.sbtassembly.AssemblyPlugin.autoImport._
+import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.com.typesafe.sbteclipse.plugin.EclipsePlugin, _root_.sbtassembly.AssemblyPlugin
+name := "MUD"
+version := "1.0"
+scalaVersion := "2.12.12"
+
+run / fork := true
+run / connectInput := true
+
+mainClass in (Compile, packageBin) := Some("mud.Main")
+
+mainClass in (Compile, run) := Some("mud.Main")
+
+libraryDependencies ++= Seq(
+	"com.typesafe.akka" %% "akka-actor" % "2.6.8",
+	"com.typesafe.akka" %% "akka-testkit" % "2.6.8" % Test,
+	"org.scala-lang.modules" %% "scala-xml" % "1.3.0",
+	"com.novocode" % "junit-interface" % "0.11" % Test,
+	"org.scalactic" %% "scalactic" % "3.2.2",
+	"org.scalatest" %% "scalatest" % "3.2.2" % "test"
+)
+[0m2021.04.05 12:16:50 INFO  time: code lens generation in 2.54s[0m
+[0m2021.04.05 12:16:50 INFO  time: code lens generation in 2.54s[0m
+import _root_.scala.xml.{TopScope=>$scope}
+import _root_.sbt._
+import _root_.sbt.Keys._
+import _root_.sbt.nio.Keys._
+import _root_.sbt.ScriptedPlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.com.typesafe.sbteclipse.plugin.EclipsePlugin.autoImport._, _root_.sbtassembly.AssemblyPlugin.autoImport._
+import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.com.typesafe.sbteclipse.plugin.EclipsePlugin, _root_.sbtassembly.AssemblyPlugin
+name := "GraphicalGame"
+version := "1.0"
+scalaVersion := "2.12.12"
+run / fork := true
+run / connectInput := true
+
+// Determine OS version of JavaFX binaries
+lazy val osName = System.getProperty("os.name") match {
+  case n if n.startsWith("Linux")   => "linux"
+  case n if n.startsWith("Mac")     => "mac"
+  case n if n.startsWith("Windows") => "win"
+  case _ => throw new Exception("Unknown platform!")
+}
+lazy val javaFXModules = Seq("base", "controls", "fxml", "graphics", "media", "swing", "web")
+
+libraryDependencies ++= Seq(
+	"org.scalafx" %% "scalafx" % "11-R16",
+	"com.novocode" % "junit-interface" % "0.11" % Test,
+	"org.scalactic" %% "scalactic" % "3.2.2",
+	"org.scalatest" %% "scalatest" % "3.2.2" % "test"
+)
+
+libraryDependencies ++= javaFXModules.map( m =>
+  "org.openjfx" % s"javafx-$m" % "11" classifier osName
+)
+
+[0m2021.04.05 12:17:32 INFO  running '/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/metals14325961764774128693/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.05 12:17:35 INFO  [info] Loading settings for project graphicsengine3d-build-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:17:35 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/project[0m
+[0m2021.04.05 12:17:37 INFO  [info] Loading settings for project graphicsengine3d-build-build from metals.sbt ...[0m
+[0m2021.04.05 12:17:37 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project[0m
+[0m2021.04.05 12:17:38 INFO  [success] Generated .bloop/graphicsengine3d-build-build.json[0m
+[0m2021.04.05 12:17:38 INFO  [success] Total time: 1 s, completed Apr 5, 2021, 12:17:38 PM[0m
+[0m2021.04.05 12:17:38 INFO  [info] Loading settings for project graphicsengine3d-build from assembly.sbt,plugins.sbt,metals.sbt ...[0m
+[0m2021.04.05 12:17:38 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project[0m
+[0m2021.04.05 12:17:38 INFO  [success] Generated .bloop/graphicsengine3d-build.json[0m
+[0m2021.04.05 12:17:38 INFO  [success] Total time: 0 s, completed Apr 5, 2021, 12:17:39 PM[0m
+[0m2021.04.05 12:17:41 INFO  [info] Loading settings for project graphicsengine3d from build.sbt ...[0m
+[0m2021.04.05 12:17:41 INFO  [info] Set current project to GraphicalGame (in build file:/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/)[0m
+[0m2021.04.05 12:17:41 INFO  [success] Generated .bloop/graphicsengine3d.json[0m
+[0m2021.04.05 12:17:41 INFO  [success] Generated .bloop/graphicsengine3d-test.json[0m
+[0m2021.04.05 12:17:41 INFO  [success] Total time: 0 s, completed Apr 5, 2021, 12:17:42 PM[0m
+[0m2021.04.05 12:17:41 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.05 12:17:42 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2021.04.05 12:17:42 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.05 12:17:42 INFO  Shut down connection with build server.[0m
+[0m2021.04.05 12:17:42 INFO  Shut down connection with build server.[0m
+[0mNo more data in the client stdin, exiting...2021.04.05 12:17:42
+ INFO No more data in the client stdin, exiting... 
+Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.05 12:17:42 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12031166813010911654/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d.json'
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12031166813010911654/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12031166813010911654/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:17:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:17:42 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.04.05 12:17:42 INFO  Attempting to connect to the build server...[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher16671162199223757388/bsp.socket'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher14646305095625150796/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher14646305095625150796/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher14646305095625150796/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher16671162199223757388/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher16671162199223757388/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.05 12:17:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:17:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.04.05 12:17:42 INFO  time: Connected to build server in 37ms[0m
+[0m2021.04.05 12:17:42 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.05 12:17:44 INFO  time: indexed workspace in 1.1s[0m
+[0m2021.04.05 12:17:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:17:44 INFO  time: compiled graphicsengine3d in 0.1s[0m
+Apr 05, 2021 12:17:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+[0m2021.04.05 12:17:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:17:50 INFO  time: compiled graphicsengine3d in 0.6s[0m
+Apr 05, 2021 12:18:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:38)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:33)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionLspRange.toMeta(CommonMtagsEnrichments.scala:183)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$5(InsertInferredType.scala:85)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:84)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.04.05 12:18:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:18:27 INFO  time: compiled graphicsengine3d in 62ms[0m
+Apr 05, 2021 12:18:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:38)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:33)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionLspRange.toMeta(CommonMtagsEnrichments.scala:183)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$5(InsertInferredType.scala:85)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:84)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 05, 2021 12:18:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..7]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..7]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..7]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:38)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:33)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionLspRange.toMeta(CommonMtagsEnrichments.scala:183)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$5(InsertInferredType.scala:85)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:84)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 05, 2021 12:18:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 15 is not a valid line number, allowed [0..7]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:38)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:33)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionLspRange.toMeta(CommonMtagsEnrichments.scala:183)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$5(InsertInferredType.scala:85)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:84)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 05, 2021 12:18:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..7]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..7]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..7]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:38)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:33)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionLspRange.toMeta(CommonMtagsEnrichments.scala:183)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$5(InsertInferredType.scala:85)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:84)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.04.05 12:18:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:18:41 INFO  time: compiled graphicsengine3d in 51ms[0m
+[0m2021.04.05 12:18:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:18:44 INFO  time: compiled graphicsengine3d in 79ms[0m
+[0m2021.04.05 12:18:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:18:54 INFO  time: compiled graphicsengine3d in 0.46s[0m
+[0m2021.04.05 12:19:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:19:13 INFO  time: compiled graphicsengine3d in 85ms[0m
+[0m2021.04.05 12:19:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:19:23 INFO  time: compiled graphicsengine3d in 88ms[0m
+[0m2021.04.05 12:19:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:19:29 INFO  time: compiled graphicsengine3d in 0.6s[0m
+[0m2021.04.05 12:19:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.05 12:19:47 INFO  time: compiled graphicsengine3d in 0.11s[0m

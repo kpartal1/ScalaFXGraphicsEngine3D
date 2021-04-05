@@ -1,0 +1,41 @@
+run
+exit
+run
+compile
+run
+exit
+run
+exit
+run
+exit
+run
+exit
+run
+kon
+run
+ru
+run
+exit
+run
+exit
+run
+exit
+run
+rn
+run
+git add -A
+exit
+run
+runMain mud.Player
+runMain mud.Player.scala
+runMain mud.Player
+runMain PlayerManager.scala
+runMain mud.Room
+runMain Main.scala
+run
+runMain mud.Player
+run mud.Player
+run
+runMain mud.Player
+eexit
+exit

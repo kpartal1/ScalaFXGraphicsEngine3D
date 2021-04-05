@@ -1,0 +1,657 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "graphicsengine3d-test",
+        "directory": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D",
+        "workspaceDir": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D",
+        "sources": [
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/test/scala-2.12",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/test/scala",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/test/java",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "graphicsengine3d"
+        ],
+        "classpath": [
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d/scala-2.12/classes",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/11/javafx-fxml-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.2.2/scalatest-featurespec_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.2.2/scalatest-funspec_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.2.2/scalatest-mustmatchers_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.2.2/scalatest-propspec_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.2.2/scalatest-flatspec_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.2.2/scalatest-diagrams_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.2.2/scalatest-shouldmatchers_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/11/javafx-swing-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_2.12/11-R16/scalafx_2.12-11-R16.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.2.2/scalatest-refspec_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.2.2/scalatest_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/11/javafx-web-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.2.2/scalatest-funsuite_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.2.2/scalatest-wordspec_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.2.2/scalatest-freespec_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.2.2/scalatest-core_2.12-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.2.2/scalatest-matchers-core_2.12-3.2.2.jar"
+        ],
+        "out": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d",
+        "classesDir": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d/scala-2.12/test-classes",
+        "resources": [
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/test/resources",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.12/scala-compiler-2.12.12.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar"
+            ],
+            "analysis": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/konstantits/Documents/TestProjects/GraphicsEngine3D"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-media",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-media",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.2.2/scalatest-featurespec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-featurespec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.2.2/scalatest-featurespec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.2.2/scalatest-funspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.2.2/scalatest-funspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.2.2/scalatest-mustmatchers_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-mustmatchers_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.2.2/scalatest-mustmatchers_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.2.2/scalatest-propspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-propspec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.2.2/scalatest-propspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.2.2/scalatest-flatspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.2.2/scalatest-flatspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.2.2/scalatest-diagrams_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-diagrams_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.2.2/scalatest-diagrams_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-controls",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-controls",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11-sources.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "mac",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.2.2/scalatest-shouldmatchers_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-shouldmatchers_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.2.2/scalatest-shouldmatchers_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafx_2.12",
+                    "version": "11-R16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafx_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_2.12/11-R16/scalafx_2.12-11-R16.jar"
+                        },
+                        {
+                            "name": "scalafx_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_2.12/11-R16/scalafx_2.12-11-R16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.novocode",
+                    "name": "junit-interface",
+                    "version": "0.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-interface",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar"
+                        },
+                        {
+                            "name": "junit-interface",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.2.2/scalatest-refspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.2.2/scalatest-refspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.2.2/scalatest_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.2.2/scalatest_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.2.2/scalatest-funsuite_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.2.2/scalatest-funsuite_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.2.2/scalatest-wordspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-wordspec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.2.2/scalatest-wordspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.2.2/scalatest-freespec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-freespec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.2.2/scalatest-freespec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-base",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-base",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11-sources.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "mac",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-graphics",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-graphics",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "mac",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.2.2/scalatest-core_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.2.2/scalatest-core_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_2.12",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.2.2/scalatest-matchers-core_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-matchers-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.2.2/scalatest-matchers-core_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

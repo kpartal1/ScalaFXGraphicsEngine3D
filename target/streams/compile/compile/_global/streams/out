@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/konstantits/Documents/mud-s21-kpartal1/src/main/scala/mud/Main.scala:27:7: not found: value printl[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m      printl("nah")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

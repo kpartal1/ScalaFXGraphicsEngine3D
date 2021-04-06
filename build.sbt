@@ -1,4 +1,4 @@
-name := "GraphicalGame"
+name := "GraphicsEngine3D"
 version := "1.0"
 scalaVersion := "2.12.12"
 run / fork := true

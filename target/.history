@@ -48,3 +48,6 @@ run -deprecation
 run
 run -deprecation
 run
+git push
+exit
+run

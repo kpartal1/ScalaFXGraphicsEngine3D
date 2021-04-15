@@ -5096,3 +5096,85 @@ WARNING: Unmatched cancel notification for request id 4580
 [0m2021.04.15 16:18:30 INFO  compiling graphicsengine3d (1 scala source)[0m
 [0m2021.04.15 16:18:30 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
 [0m2021.04.15 16:18:30 INFO  time: compiled graphicsengine3d in 0.86s[0m
+Apr 15, 2021 4:19:30 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1000, count -1, length 4922
+Apr 15, 2021 4:22:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4961
+Apr 15, 2021 4:22:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4968
+Apr 15, 2021 4:22:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4975
+[0m2021.04.15 16:22:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:22:47 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.04.15 16:22:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:22:59 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:22:59 INFO  time: compiled graphicsengine3d in 0.9s[0m
+[0m2021.04.15 16:23:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:23:02 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:23:02 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.04.15 16:23:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:23:28 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:23:28 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.15 16:23:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:23:55 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.15 16:24:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:24:13 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:24:13 INFO  time: compiled graphicsengine3d in 0.84s[0m
+[0m2021.04.15 16:24:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:24:22 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:24:22 INFO  time: compiled graphicsengine3d in 0.96s[0m
+[0m2021.04.15 16:24:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:24:28 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:24:28 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.15 16:25:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:25:01 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:25:01 INFO  time: compiled graphicsengine3d in 0.95s[0m
+Apr 15, 2021 4:25:08 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 4965, count -1, length 5057
+[0m2021.04.15 16:25:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:25:13 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:25:13 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.15 16:25:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:25:28 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:25:28 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.15 16:26:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:26:27 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:26:27 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.15 16:26:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:26:36 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:26:36 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.15 16:28:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:28:13 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:28:13 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.15 16:28:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:28:35 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:28:35 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.15 16:28:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:28:45 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:28:45 INFO  time: compiled graphicsengine3d in 0.76s[0m
+[0m2021.04.15 16:28:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:28:53 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:28:53 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.15 16:29:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:29:22 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:29:22 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.15 16:30:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:30:55 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:30:55 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.15 16:31:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:31:39 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:31:39 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.04.15 16:32:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:32:21 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:32:21 INFO  time: compiled graphicsengine3d in 1.06s[0m
+[0m2021.04.15 16:33:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:33:08 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:33:08 INFO  time: compiled graphicsengine3d in 0.76s[0m
+[0m2021.04.15 16:34:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:34:34 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:34:34 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.15 16:34:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:34:42 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:34:42 INFO  time: compiled graphicsengine3d in 0.75s[0m
+Apr 15, 2021 4:37:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

@@ -5178,3 +5178,13 @@ WARNING: offset 4965, count -1, length 5057
 [0m2021.04.15 16:34:42 INFO  time: compiled graphicsengine3d in 0.75s[0m
 Apr 15, 2021 4:37:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+Apr 15, 2021 4:40:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6116
+Apr 15, 2021 4:40:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6123
+Apr 15, 2021 4:40:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6134
+Apr 15, 2021 4:43:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6146
+Apr 15, 2021 4:43:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6153

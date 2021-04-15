@@ -41,3 +41,10 @@ eexit
 exit
 run
 exit
+run
+exit
+run
+run -deprecation
+run
+run -deprecation
+run

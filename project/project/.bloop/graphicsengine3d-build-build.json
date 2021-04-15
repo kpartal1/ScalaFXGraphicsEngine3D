@@ -2,14 +2,14 @@
     "version": "1.4.0",
     "project": {
         "name": "graphicsengine3d-build-build",
-        "directory": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project",
-        "workspaceDir": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project",
+        "directory": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project",
+        "workspaceDir": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project",
         "sources": [
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\scala",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\java",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\scala-2.12",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\scala",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\java",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\scala-sbt-1.0",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -102,11 +102,11 @@
             "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\librarymanagement-ivy_2.12\\1.3.1\\librarymanagement-ivy_2.12-1.3.1.jar",
             "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-agent\\1.3.7\\test-agent-1.3.7.jar"
         ],
-        "out": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\.bloop\\graphicsengine3d-build-build",
-        "classesDir": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\.bloop\\graphicsengine3d-build-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\.bloop\\graphicsengine3d-build-build",
+        "classesDir": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\.bloop\\graphicsengine3d-build-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\resources",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\src\\main\\resources",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -123,7 +123,7 @@
                 "C:\\Users\\12103\\.sbt\\boot\\scala-2.12.10\\lib\\scala-reflect.jar",
                 "C:\\Users\\12103\\.sbt\\boot\\scala-2.12.10\\lib\\scala-xml_2.12.jar"
             ],
-            "analysis": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
+            "analysis": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -193,7 +193,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk-11.0.9",
                 "options": [
-                    "-Duser.dir=C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project"
+                    "-Duser.dir=C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\project\\project"
                 ]
             },
             "mainClass": [

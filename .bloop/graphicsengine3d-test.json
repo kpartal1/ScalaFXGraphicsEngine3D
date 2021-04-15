@@ -2,19 +2,19 @@
     "version": "1.4.0",
     "project": {
         "name": "graphicsengine3d-test",
-        "directory": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D",
-        "workspaceDir": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D",
+        "directory": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D",
+        "workspaceDir": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D",
         "sources": [
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\scala-2.12",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\scala",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\java",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\scala-2.12\\src_managed\\test"
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\scala-2.12",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\scala",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\java",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\scala-2.12\\src_managed\\test"
         ],
         "dependencies": [
             "graphicsengine3d"
         ],
         "classpath": [
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d\\scala-2.12\\classes",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d\\scala-2.12\\classes",
             "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar",
             "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.12\\scala-reflect-2.12.12.jar",
             "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11.jar",
@@ -51,11 +51,11 @@
             "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-compatible\\3.2.2\\scalatest-compatible-3.2.2.jar",
             "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-matchers-core_2.12\\3.2.2\\scalatest-matchers-core_2.12-3.2.2.jar"
         ],
-        "out": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d",
-        "classesDir": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d\\scala-2.12\\test-classes",
+        "out": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d",
+        "classesDir": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d\\scala-2.12\\test-classes",
         "resources": [
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\resources",
-            "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\scala-2.12\\resource_managed\\test"
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\test\\resources",
+            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\scala-2.12\\resource_managed\\test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -72,7 +72,7 @@
                 "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\1.12\\jansi-1.12.jar",
                 "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12.jar"
             ],
-            "analysis": "C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\streams\\test\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
+            "analysis": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\streams\\test\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -131,7 +131,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk-11.0.9",
                 "options": [
-                    "-Duser.dir=C:\\Users\\12103\\Documents\\CodingProjects\\GraphicsEngine3D"
+                    "-Duser.dir=C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D"
                 ]
             },
             "mainClass": [

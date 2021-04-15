@@ -4792,3 +4792,307 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.04.15 04:30:36 INFO  time: compiled graphicsengine3d in 3.09s[0m
 Apr 15, 2021 4:31:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.15 04:35:19 INFO  shutting down Metals[0m
+[0m2021.04.15 04:35:19 INFO  Shut down connection with build server.[0m
+[0m2021.04.15 04:35:19 INFO  Shut down connection with build server.[0m
+[0m2021.04.15 04:35:19 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.04.15 15:49:45 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.15 15:49:46 INFO  time: initialize in 1.17s[0m
+[0m2021.04.15 15:49:46 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.15 15:49:46 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.15 15:49:46 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37266'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.15 15:49:50 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+[0m2021.04.15 15:49:52 INFO  time: code lens generation in 5.25s[0m
+[0m2021.04.15 15:49:52 INFO  time: code lens generation in 5.3s[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d-test', 'graphicsengine3d'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37266...
+The server is listening for incoming connections at tcp://127.0.0.1:37266...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.15 15:49:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.15 15:49:53 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13663'...
+[0mWaiting for the bsp connection to come up...2021.04.15 15:49:53 
+INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19844'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13663...
+The server is listening for incoming connections at tcp://127.0.0.1:13663...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19844...
+The server is listening for incoming connections at tcp://127.0.0.1:19844...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.15 15:49:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.15 15:49:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.15 15:49:53 INFO  time: Connected to build server in 6.78s[0m
+[0m2021.04.15 15:49:53 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.15 15:49:53 INFO  time: Imported build in 0.13s[0m
+[0m2021.04.15 15:49:56 INFO  time: indexed workspace in 2.51s[0m
+[0m2021.04.15 15:49:57 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:50:00 INFO  time: compiled graphicsengine3d in 2.89s[0m
+[0m2021.04.15 15:52:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:52:47 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.04.15 15:53:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:53:02 INFO  time: compiled graphicsengine3d in 0.42s[0m
+[0m2021.04.15 15:53:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:53:13 INFO  time: compiled graphicsengine3d in 0.37s[0m
+[0m2021.04.15 15:53:16 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:53:16 INFO  time: compiled graphicsengine3d in 0.32s[0m
+Apr 15, 2021 3:53:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+Apr 15, 2021 3:53:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 229
+[0m2021.04.15 15:53:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:53:18 INFO  time: compiled graphicsengine3d in 0.34s[0m
+[0m2021.04.15 15:53:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:53:27 INFO  time: compiled graphicsengine3d in 0.31s[0m
+[0m2021.04.15 15:53:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 15:53:35 INFO  time: compiled graphicsengine3d in 0.27s[0m
+Apr 15, 2021 3:54:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+Apr 15, 2021 3:54:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 319
+[0m2021.04.15 15:54:37 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:54:37 INFO  time: compiled graphicsengine3d in 0.28s[0m
+[0m2021.04.15 15:54:39 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:54:39 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.15 15:55:01 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:01 INFO  time: compiled graphicsengine3d in 0.29s[0m
+Apr 15, 2021 3:55:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 435
+[0m2021.04.15 15:55:03 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:03 INFO  time: compiled graphicsengine3d in 0.27s[0m
+[0m2021.04.15 15:55:08 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:08 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.04.15 15:55:20 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:20 INFO  time: compiled graphicsengine3d in 0.24s[0m
+Apr 15, 2021 3:55:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 521
+[0m2021.04.15 15:55:36 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:36 INFO  time: compiled graphicsengine3d in 0.23s[0m
+Apr 15, 2021 3:55:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 543
+[0m2021.04.15 15:55:38 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:38 INFO  time: compiled graphicsengine3d in 0.23s[0m
+Apr 15, 2021 3:55:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 550
+[0m2021.04.15 15:55:41 INFO  compiling graphicsengine3d (2 scala sources)[0m
+Apr 15, 2021 3:55:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 559
+[0m2021.04.15 15:55:41 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.04.15 15:55:43 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:43 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.15 15:55:46 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:55:46 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.04.15 15:56:18 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:56:18 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.15 15:57:45 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:57:45 INFO  time: compiled graphicsengine3d in 0.3s[0m
+[0m2021.04.15 15:58:05 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:05 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:07 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:08 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:10 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:58:10 INFO  time: compiled graphicsengine3d in 60ms[0m
+[0m2021.04.15 15:58:11 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 15:58:11 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 15:58:11 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 15:58:12 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:58:12 INFO  time: compiled graphicsengine3d in 55ms[0m
+[0m2021.04.15 15:58:19 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:22 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:22 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:58:22 INFO  time: compiled graphicsengine3d in 49ms[0m
+[0m2021.04.15 15:58:25 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:58:25 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.15 15:58:27 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 15:58:27 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:31 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:32 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:35 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:37 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:42 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:45 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:46 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 15:58:49 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 15:58:49 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 15:58:49 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.04.15 16:00:04 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:06 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:06 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:06 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:00:06 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.15 16:00:07 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 16:00:07 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 16:00:09 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 16:00:09 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:00:09 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.15 16:00:09 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 16:00:11 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:11 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:12 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:12 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:12 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:14 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:14 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:17 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:18 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:20 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:22 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:24 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:29 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:31 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:31 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:32 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:00:32 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.15 16:00:36 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:36 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:40 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:42 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:43 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:43 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:45 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:47 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:49 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:50 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:57 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:00:57 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:01:04 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:01:07 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:01:07 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:01:07 INFO  time: compiled graphicsengine3d in 0.21s[0m
+Apr 15, 2021 4:01:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2121
+Apr 15, 2021 4:01:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2141
+[0m2021.04.15 16:03:47 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:03:47 INFO  time: compiled graphicsengine3d in 0.21s[0m
+Apr 15, 2021 4:04:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2729
+Apr 15, 2021 4:04:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2736
+[0m2021.04.15 16:04:27 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:04:27 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.15 16:04:32 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:04:32 INFO  time: compiled graphicsengine3d in 0.24s[0m
+Apr 15, 2021 4:04:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2830
+[0m2021.04.15 16:04:34 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:04:34 INFO  time: compiled graphicsengine3d in 0.23s[0m
+Apr 15, 2021 4:04:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2848
+[0m2021.04.15 16:04:47 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:04:47 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.04.15 16:04:50 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:04:50 INFO  time: compiled graphicsengine3d in 0.21s[0m
+Apr 15, 2021 4:04:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2875
+[0m2021.04.15 16:04:52 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:04:52 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.15 16:05:04 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:05:04 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:06:05 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:06:05 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.15 16:06:09 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:06:09 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:07:34 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:07:46 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the SemanticDB file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d\bloop-bsp-clients-classes\classes-Metals-Tv0xH43cQeSf8s_ShKrVVw==\META-INF\semanticdb\src\main\scala\graphicsengine3d\meshObjects.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.04.15 16:07:46 ERROR code navigation does not work for the file 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\meshObjects.scala' because the build target graphicsengine3d is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.04.15 16:07:47 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:07:47 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.15 16:08:48 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:08:48 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.04.15 16:08:51 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:08:51 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.15 16:09:11 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:09:11 INFO  time: compiled graphicsengine3d in 0.21s[0m
+Apr 15, 2021 4:09:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4141
+Apr 15, 2021 4:09:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4148
+[0m2021.04.15 16:09:43 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.15 16:09:45 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:09:45 INFO  time: compiled graphicsengine3d in 1.87s[0m
+[0m2021.04.15 16:09:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:09:53 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:09:53 INFO  time: compiled graphicsengine3d in 0.99s[0m
+Apr 15, 2021 4:10:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4261
+Apr 15, 2021 4:11:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4280
+Apr 15, 2021 4:12:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4305
+Apr 15, 2021 4:12:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4312
+[0m2021.04.15 16:12:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:12:50 INFO  time: compiled graphicsengine3d in 60ms[0m
+[0m2021.04.15 16:12:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:12:55 INFO  time: compiled graphicsengine3d in 0.51s[0m
+[0m2021.04.15 16:13:14 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:13:14 INFO  time: compiled graphicsengine3d in 0.47s[0m
+[0m2021.04.15 16:13:14 INFO  compiling graphicsengine3d (3 scala sources)[0m
+[0m2021.04.15 16:13:14 INFO  time: compiled graphicsengine3d in 0.26s[0m
+[0m2021.04.15 16:13:25 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:13:25 INFO  time: compiled graphicsengine3d in 51ms[0m
+Apr 15, 2021 4:13:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4535
+Apr 15, 2021 4:13:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4544
+Apr 15, 2021 4:14:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4566
+Apr 15, 2021 4:14:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4573
+Apr 15, 2021 4:14:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4580
+[0m2021.04.15 16:14:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:14:40 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:14:40 INFO  time: compiled graphicsengine3d in 1.05s[0m
+[0m2021.04.15 16:17:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:17:01 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:17:01 INFO  time: compiled graphicsengine3d in 0.9s[0m
+[0m2021.04.15 16:17:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:17:11 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:17:11 INFO  time: compiled graphicsengine3d in 0.9s[0m
+[0m2021.04.15 16:18:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:18:20 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:18:20 INFO  time: compiled graphicsengine3d in 0.87s[0m
+[0m2021.04.15 16:18:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 16:18:30 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 16:18:30 INFO  time: compiled graphicsengine3d in 0.86s[0m

@@ -23,14 +23,7 @@ object Main extends JFXApp {
   }
 
   private def getColor(lum: Double): Color = {
-    val pixel: Int = (4.0 * lum).toInt
-    pixel match {
-      case 0 => Color.DARKGRAY
-      case 1 => Color.GRAY
-      case 2 => Color.LIGHTGRAY
-      case 3 => Color.WHITE
-      case _ => Color.BLACK
-    }
+      Color.gray(lum)
   }
 
   // def drawLine(x1: Double, y1: Double, x2: Double, y2: Double, gc: GraphicsContext) = {

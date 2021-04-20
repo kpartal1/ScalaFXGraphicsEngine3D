@@ -9,9 +9,7 @@ import scalafx.scene.canvas.GraphicsContext
 import scalafx.scene.paint.Color
 object Main extends JFXApp {
 
-  private var fTheta: Double = 0
-
-  def multiplyMatrixVector(i: Vec3d, o: Vec3d, m: Mat4x4) = {
+  private def multiplyMatrixVector(i: Vec3d, o: Vec3d, m: Mat4x4) = {
     o.x = i.x * m.m(0)(0) + i.y * m.m(1)(0) + i.z * m.m(2)(0) + m.m(3)(0)
     o.y = i.x * m.m(0)(1) + i.y * m.m(1)(1) + i.z * m.m(2)(1) + m.m(3)(1)
     o.z = i.x * m.m(0)(2) + i.y * m.m(1)(2) + i.z * m.m(2)(2) + m.m(3)(2)
@@ -24,25 +22,45 @@ object Main extends JFXApp {
     }
   }
 
-  def drawLine(x1: Double, y1: Double, x2: Double, y2: Double, gc: GraphicsContext) = {
-    gc.beginPath()
-    gc.moveTo(x1, y1)
-    gc.lineTo(x2, y2)
-    gc.setStroke(Color.WHITE)
-    gc.stroke()
+  private def getColor(lum: Double): Color = {
+    val pixel: Int = (4.0 * lum).toInt
+    pixel match {
+      case 0 => Color.DARKGRAY
+      case 1 => Color.GRAY
+      case 2 => Color.LIGHTGRAY
+      case 3 => Color.WHITE
+      case _ => Color.BLACK
+    }
   }
 
-  def drawTriangle(x1: Double, y1: Double, x2: Double, y2: Double, x3: Double, y3: Double) = {
-    drawLine(x1, y1, x2, y2, gc)
-    drawLine(x2, y2, x3, y3, gc)
-    drawLine(x3, y3, x1, y1, gc)
+  // def drawLine(x1: Double, y1: Double, x2: Double, y2: Double, gc: GraphicsContext) = {
+  //   gc.beginPath()
+  //   gc.moveTo(x1, y1)
+  //   gc.lineTo(x2, y2)
+  //   gc.setStroke(Color.WHITE)
+  //   gc.stroke()
+  // }
+
+  private def drawTriangle(x1: Double, y1: Double, x2: Double, y2: Double, x3: Double, y3: Double, fillColor: Color, lineColor: Color) = {
+    // drawLine(x1, y1, x2, y2, gc)
+    // drawLine(x2, y2, x3, y3, gc)
+    // drawLine(x3, y3, x1, y1, gc)
+    gc.setFill(fillColor)
+    gc.setStroke(lineColor)
+    gc.fillPolygon(Seq((x1, y1), (x2, y2), (x3, y3)))
+    gc.strokePolygon(Seq((x1, y1), (x2, y2), (x3, y3)))
   }
 
   val canvas = new Canvas(1920, 1080)
   val gc: GraphicsContext = canvas.getGraphicsContext2D()
+  gc.setFill(Color.BLACK)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
-  val meshCube: Mesh = meshObjects.meshCube
+  val meshCube: Mesh = MeshObjects.meshCube
   val matProj: Mat4x4 = new Mat4x4
+  val vCamera: Vec3d = new Vec3d
+
+  private var fTheta: Double = 0
+  
   // Projection Matrix
   val fNear: Double = 0.1
   val fFar: Double = 1000.0
@@ -60,7 +78,6 @@ object Main extends JFXApp {
       scene = new Scene(1920, 1080) {
         content += canvas
         var lastTime = -1L
-        var count = 0
 		    val timer = AnimationTimer { time =>
 				if(lastTime >= 0) {
 					val delay = (time - lastTime) / 1e9
@@ -68,7 +85,6 @@ object Main extends JFXApp {
           val matRotZ: Mat4x4 = new Mat4x4
           val matRotX: Mat4x4= new Mat4x4
           fTheta += 1 * delay
-          count += 1
 
           // Rotation Z
           matRotZ.m(0)(0) = math.cos(fTheta);
@@ -85,7 +101,8 @@ object Main extends JFXApp {
           matRotX.m(2)(1) = -math.sin(fTheta * 0.5);
           matRotX.m(2)(2) = math.cos(fTheta * 0.5);
           matRotX.m(3)(3) = 1;
-
+          gc.setFill(Color.BLACK)
+          gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
           for(tri <- meshCube.tris) {
             val triProjected: Triangle = new Triangle
             val triRotatedZ: Triangle = new Triangle
@@ -103,25 +120,61 @@ object Main extends JFXApp {
 
             val triTranslated: Triangle = triRotatedZX
 
-            triTranslated.p(0).z = triRotatedZX.p(0).z + 3
-            triTranslated.p(1).z = triRotatedZX.p(1).z + 3
-            triTranslated.p(2).z = triRotatedZX.p(2).z + 3
+            triTranslated.p(0).z = triRotatedZX.p(0).z + 3.0
+            triTranslated.p(1).z = triRotatedZX.p(1).z + 3.0
+            triTranslated.p(2).z = triRotatedZX.p(2).z + 3.0
 
+            val normal: Vec3d = new Vec3d
+            val line1: Vec3d = new Vec3d
+            val line2: Vec3d = new Vec3d
+
+            line1.x = triTranslated.p(1).x - triTranslated.p(0).x
+            line1.y = triTranslated.p(1).y - triTranslated.p(0).y
+            line1.z = triTranslated.p(1).z - triTranslated.p(0).z
+
+            line2.x = triTranslated.p(2).x - triTranslated.p(0).x
+            line2.y = triTranslated.p(2).y - triTranslated.p(0).y
+            line2.z = triTranslated.p(2).z - triTranslated.p(0).z
+
+            normal.x = line1.y * line2.z - line1.z * line2.y
+            normal.y = line1.z * line2.x - line1.x * line2.z
+            normal.z = line1.x * line2.y - line1.y * line2.x
+
+            val l: Double = math.sqrt(normal.x * normal.x + normal.y * normal.y + normal.z * normal.z)
+            normal.x /= l; normal.y /= l; normal.z /= l
+            
+            //if(normal.z < 0) {
+            if(normal.x * (triTranslated.p(0).x - vCamera.x) +
+               normal.y * (triTranslated.p(0).y - vCamera.y) +
+               normal.z * (triTranslated.p(0).z - vCamera.z) < 0.0) {
+
+            val lightDirection: Vec3d = new Vec3d
+            lightDirection.x = 0.0
+            lightDirection.y = 0.0
+            lightDirection.z = -1.0
+            val l: Double = math.sqrt(lightDirection.x * lightDirection.x + lightDirection.y * lightDirection.y + lightDirection.z * lightDirection.z)
+            lightDirection.x /= l; lightDirection.y /= l; lightDirection.z /= l
+
+            val dp: Double = normal.x * lightDirection.x + normal.y * lightDirection.y + normal.z * lightDirection.z
+
+            // Project triangles from 3D -> 2D
             multiplyMatrixVector(triTranslated.p(0), triProjected.p(0), matProj)
             multiplyMatrixVector(triTranslated.p(1), triProjected.p(1), matProj)
             multiplyMatrixVector(triTranslated.p(2), triProjected.p(2), matProj)
 
             // Scale Into View
-            triProjected.p(0).x += 1; triProjected.p(0).y += 1
-            triProjected.p(1).x += 1; triProjected.p(1).y += 1
-            triProjected.p(2).x += 1; triProjected.p(2).y += 1
+            triProjected.p(0).x += 1.0; triProjected.p(0).y += 1.0
+            triProjected.p(1).x += 1.0; triProjected.p(1).y += 1.0
+            triProjected.p(2).x += 1.0; triProjected.p(2).y += 1.0
 
             triProjected.p(0).x *= 0.5 * canvas.getWidth(); triProjected.p(0).y *= 0.5 * canvas.getHeight()
             triProjected.p(1).x *= 0.5 * canvas.getWidth(); triProjected.p(1).y *= 0.5 * canvas.getHeight()
             triProjected.p(2).x *= 0.5 * canvas.getWidth(); triProjected.p(2).y *= 0.5 * canvas.getHeight()
 
-            drawTriangle(triProjected.p(0).x, triProjected.p(0).y, triProjected.p(1).x, triProjected.p(1).y, triProjected.p(2).x, triProjected.p(2).y)
-            if(count == 1) gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight()); count = 0
+            // Rasterize Triangle
+            val color = getColor(dp)
+            drawTriangle(triProjected.p(0).x, triProjected.p(0).y, triProjected.p(1).x, triProjected.p(1).y, triProjected.p(2).x, triProjected.p(2).y, color, color)
+            }
           }
 				}
 				lastTime = time

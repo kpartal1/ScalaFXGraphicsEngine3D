@@ -5188,3 +5188,561 @@ Apr 15, 2021 4:43:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 6146
 Apr 15, 2021 4:43:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 6153
+[0m2021.04.15 17:33:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 17:33:34 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 17:33:34 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.15 17:34:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 17:34:04 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 17:34:04 INFO  time: compiled graphicsengine3d in 0.74s[0m
+[0m2021.04.15 17:45:12 INFO  shutting down Metals[0m
+[0m2021.04.15 17:45:12 INFO  Shut down connection with build server.[0m
+[0m2021.04.15 17:45:12 INFO  Shut down connection with build server.[0m
+[0m2021.04.15 17:45:12 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.15 17:46:51 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.15 17:46:52 INFO  time: initialize in 1.42s[0m
+[0m2021.04.15 17:46:53 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.15 17:46:52 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala[0m
+[0m2021.04.15 17:46:52 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.15 17:46:52 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25807'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.15 17:46:57 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.15 17:46:59 INFO  time: code lens generation in 6.06s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d-test', 'graphicsengine3d'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25807...
+The server is listening for incoming connections at tcp://127.0.0.1:25807...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.15 17:46:59 INFO  time: code lens generation in 6.15s[0m
+[0m2021.04.15 17:46:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.15 17:46:59 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0mOpening a bsp server connection with 'bsp --protocol tcp --port 37497'...2021.04.15 17:46:59
+ INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25719'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37497...
+The server is listening for incoming connections at tcp://127.0.0.1:37497...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25719...
+The server is listening for incoming connections at tcp://127.0.0.1:25719...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.15 17:47:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.15 17:47:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.15 17:47:00 INFO  time: Connected to build server in 7.1s[0m
+[0m2021.04.15 17:47:00 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.15 17:47:00 INFO  time: Imported build in 0.13s[0m
+[0m2021.04.15 17:47:02 INFO  time: indexed workspace in 2.27s[0m
+Apr 15, 2021 5:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+Apr 15, 2021 5:48:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+[0m2021.04.15 17:49:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 17:49:19 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 17:49:19 INFO  time: compiled graphicsengine3d in 3.73s[0m
+[0m2021.04.15 17:50:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.15 17:50:02 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.15 17:50:02 INFO  time: compiled graphicsengine3d in 1.5s[0m
+Apr 15, 2021 5:51:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 214
+Apr 15, 2021 5:51:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 221
+Apr 15, 2021 5:51:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 228
+Apr 15, 2021 5:52:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 255
+[0m2021.04.15 17:52:43 INFO  shutting down Metals[0m
+[0m2021.04.15 17:52:43 INFO  Shut down connection with build server.[0m
+[0m2021.04.15 17:52:43 INFO  Shut down connection with build server.[0m
+[0m2021.04.15 17:52:43 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.04.18 03:36:31 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.18 03:36:32 INFO  time: initialize in 1.36s[0m
+[0m2021.04.18 03:36:33 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.18 03:36:33 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.18 03:36:33 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23299'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.18 03:36:37 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+[0m2021.04.18 03:36:38 INFO  time: code lens generation in 5.25s[0m
+[0m2021.04.18 03:36:38 INFO  time: code lens generation in 5.31s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d-test', 'graphicsengine3d'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23299...
+The server is listening for incoming connections at tcp://127.0.0.1:23299...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.18 03:36:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.18 03:36:38 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0mOpening a bsp server connection with 'bsp --protocol tcp --port 12529'...2021.04.18 03:36:38
+ INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 29478'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12529...
+The server is listening for incoming connections at tcp://127.0.0.1:12529...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:29478...
+The server is listening for incoming connections at tcp://127.0.0.1:29478...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.18 03:36:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.18 03:36:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.18 03:36:39 INFO  time: Connected to build server in 6.37s[0m
+[0m2021.04.18 03:36:39 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.18 03:36:39 INFO  time: Imported build in 0.12s[0m
+[0m2021.04.18 03:36:42 INFO  time: indexed workspace in 2.49s[0m
+[0m2021.04.18 03:42:28 INFO  shutting down Metals[0m
+[0m2021.04.18 03:42:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.18 03:42:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.18 03:42:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.19 04:28:04 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.19 04:28:05 INFO  time: initialize in 1.37s[0m
+[0m2021.04.19 04:28:06 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.19 04:28:05 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.19 04:28:05 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19094'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.20 02:26:03 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.20 02:26:04 INFO  time: initialize in 1.1s[0m
+[0m2021.04.20 02:26:08 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 02:26:08 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.20 02:26:08 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39545'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d-test', 'graphicsengine3d'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39545...
+The server is listening for incoming connections at tcp://127.0.0.1:39545...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.20 02:26:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.20 02:26:09 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0mOpening a bsp server connection with 'bsp --protocol tcp --port 45068'...2021.04.20 02:26:09
+ INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31207'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:45068...
+The server is listening for incoming connections at tcp://127.0.0.1:45068...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31207...
+The server is listening for incoming connections at tcp://127.0.0.1:31207...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.20 02:26:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.20 02:26:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.20 02:26:09 INFO  time: Connected to build server in 1.07s[0m
+[0m2021.04.20 02:26:09 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.20 02:26:11 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.20 02:26:13 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.20 02:26:13 INFO  time: code lens generation in 5.19s[0m
+[0m2021.04.20 02:26:14 INFO  time: indexed workspace in 3.72s[0m
+[0m2021.04.20 02:26:17 INFO  time: code lens generation in 8.67s[0m
+Apr 20, 2021 2:27:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.20 02:29:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:29:48 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:29:48 INFO  time: compiled graphicsengine3d in 3.9s[0m
+[0m2021.04.20 02:30:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:30:04 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:30:04 INFO  time: compiled graphicsengine3d in 1.29s[0m
+[0m2021.04.20 02:30:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:30:40 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:30:40 INFO  time: compiled graphicsengine3d in 1.15s[0m
+[0m2021.04.20 02:31:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:31:05 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:31:05 INFO  time: compiled graphicsengine3d in 1.08s[0m
+[0m2021.04.20 02:31:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:31:32 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:31:32 INFO  time: compiled graphicsengine3d in 1.05s[0m
+[0m2021.04.20 02:31:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:31:35 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:31:35 INFO  time: compiled graphicsengine3d in 1.16s[0m
+[0m2021.04.20 02:31:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:31:39 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:31:39 INFO  time: compiled graphicsengine3d in 0.97s[0m
+[0m2021.04.20 02:32:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:32:02 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:32:02 INFO  time: compiled graphicsengine3d in 0.86s[0m
+[0m2021.04.20 02:32:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:32:08 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:32:08 INFO  time: compiled graphicsengine3d in 0.9s[0m
+[0m2021.04.20 02:32:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:32:11 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:32:11 INFO  time: compiled graphicsengine3d in 0.85s[0m
+[0m2021.04.20 02:32:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:32:34 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:32:34 INFO  time: compiled graphicsengine3d in 0.92s[0m
+Apr 20, 2021 2:33:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 886
+[0m2021.04.20 02:33:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:33:30 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:33:30 INFO  time: compiled graphicsengine3d in 0.84s[0m
+Apr 20, 2021 2:33:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1212
+[0m2021.04.20 02:34:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:34:05 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.20 02:34:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:34:08 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:34:08 INFO  time: compiled graphicsengine3d in 0.88s[0m
+[0m2021.04.20 02:34:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:34:40 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:34:40 INFO  time: compiled graphicsengine3d in 1.02s[0m
+[0m2021.04.20 02:34:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:34:47 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:34:47 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.04.20 02:35:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:35:31 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:35:31 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 02:35:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:35:38 INFO  time: compiled graphicsengine3d in 62ms[0m
+[0m2021.04.20 02:35:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:35:47 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:35:47 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 02:36:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:36:06 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:36:06 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 02:37:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:37:04 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:37:04 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.04.20 02:38:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:38:31 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:38:31 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.04.20 02:38:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:38:55 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:38:55 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.04.20 02:39:14 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:39:14 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:39:14 INFO  time: compiled graphicsengine3d in 0.86s[0m
+[0m2021.04.20 02:40:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:40:02 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:40:02 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 02:40:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:40:21 INFO  time: compiled graphicsengine3d in 0.18s[0m
+[0m2021.04.20 02:42:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:42:43 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:42:43 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 02:43:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:43:01 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:43:01 INFO  time: compiled graphicsengine3d in 0.9s[0m
+[0m2021.04.20 02:43:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:43:13 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:43:13 INFO  time: compiled graphicsengine3d in 1.02s[0m
+[0m2021.04.20 02:43:16 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:43:16 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:43:16 INFO  time: compiled graphicsengine3d in 0.96s[0m
+[0m2021.04.20 02:43:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:43:58 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:43:58 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:44:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:44:20 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:44:20 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 02:44:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:44:30 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.20 02:44:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:44:40 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:44:40 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 02:45:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:45:37 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:45:37 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:46:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:46:30 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:46:30 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 02:46:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:46:39 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:46:39 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 02:46:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:46:56 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:46:56 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 02:47:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:47:06 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:47:06 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 02:47:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:47:15 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:47:15 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 02:47:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:47:22 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:47:22 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 02:47:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:47:40 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:47:40 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 02:48:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:48:46 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:48:46 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 02:48:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:48:52 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:48:52 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:49:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:49:59 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:49:59 INFO  time: compiled graphicsengine3d in 1.02s[0m
+[0m2021.04.20 02:50:10 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:50:10 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:50:10 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 02:50:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:50:24 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:50:24 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:50:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:50:31 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:50:31 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 02:50:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:50:38 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:50:38 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:50:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:50:51 INFO  time: compiled graphicsengine3d in 44ms[0m
+[0m2021.04.20 02:50:56 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:147:13: stale bloop error: ';' expected but 'else' found.
+            else gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight()); count = 0
+            ^[0m
+[0m2021.04.20 02:50:56 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:147:13: stale bloop error: ';' expected but 'else' found.
+            else gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight()); count = 0
+            ^[0m
+[0m2021.04.20 02:50:57 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:50:57 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:50:57 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:51:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:51:06 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:51:06 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:51:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:51:17 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:51:17 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 02:51:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:51:49 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:51:49 INFO  time: compiled graphicsengine3d in 0.77s[0m
+Apr 20, 2021 2:52:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2794
+[0m2021.04.20 02:52:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:52:21 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:52:21 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 02:54:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:54:26 INFO  time: compiled graphicsengine3d in 0.66s[0m
+[0m2021.04.20 02:54:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:54:27 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:54:27 INFO  time: compiled graphicsengine3d in 0.52s[0m
+Apr 20, 2021 2:54:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2901
+[0m2021.04.20 02:54:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:54:47 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:54:47 INFO  time: compiled graphicsengine3d in 0.79s[0m
+Apr 20, 2021 2:55:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2942
+[0m2021.04.20 02:58:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:58:24 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:58:24 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 02:58:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 02:58:55 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 02:58:55 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 03:00:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:00:38 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.04.20 03:00:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:00:47 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:00:47 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 03:01:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:01:12 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:01:12 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:05:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:05:48 INFO  time: compiled graphicsengine3d in 48ms[0m
+[0m2021.04.20 03:06:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:06:20 INFO  time: compiled graphicsengine3d in 48ms[0m
+[0m2021.04.20 03:06:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:06:38 INFO  time: compiled graphicsengine3d in 44ms[0m
+[0m2021.04.20 03:07:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:07:06 INFO  time: compiled graphicsengine3d in 47ms[0m
+[0m2021.04.20 03:07:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:07:15 INFO  time: compiled graphicsengine3d in 53ms[0m
+[0m2021.04.20 03:07:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:07:24 INFO  time: compiled graphicsengine3d in 47ms[0m
+Apr 20, 2021 3:07:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 158 is not a valid line number, allowed [0..157]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 158 is not a valid line number, allowed [0..157]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 158 is not a valid line number, allowed [0..157]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.04.20 03:07:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:07:49 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:07:49 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:09:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:09:34 INFO  time: compiled graphicsengine3d in 42ms[0m
+[0m2021.04.20 03:09:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:09:37 INFO  time: compiled graphicsengine3d in 46ms[0m
+[0m2021.04.20 03:09:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:09:39 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:09:39 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 03:10:14 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:10:14 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:10:14 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 03:10:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:10:20 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:10:20 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 03:10:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:10:45 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:10:45 INFO  time: compiled graphicsengine3d in 1.2s[0m
+[0m2021.04.20 03:11:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:11:07 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:11:07 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:12:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:12:29 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:12:29 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:12:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:12:41 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:12:41 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:16:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:16:47 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.20 03:17:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:17:08 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:17:08 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:17:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:17:20 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:17:20 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:17:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:17:46 WARN  there were two deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:17:46 INFO  time: compiled graphicsengine3d in 0.76s[0m
+[0m2021.04.20 03:17:57 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:17:57 WARN  there were three deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:17:57 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 03:18:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:18:27 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:18:27 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:18:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:18:44 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:18:44 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 03:18:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:18:56 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:18:56 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:19:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:19:02 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:19:02 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 03:19:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:19:28 WARN  there were three deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:19:28 INFO  time: compiled graphicsengine3d in 0.96s[0m
+[0m2021.04.20 03:19:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:19:52 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:19:52 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 03:20:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:20:00 WARN  there were three deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:20:00 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 03:21:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:21:07 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:21:07 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.04.20 03:22:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:22:40 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:22:40 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:23:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:23:54 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:23:54 INFO  time: compiled graphicsengine3d in 0.95s[0m
+Apr 20, 2021 3:24:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5488
+[0m2021.04.20 03:24:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:24:40 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:24:40 INFO  time: compiled graphicsengine3d in 0.84s[0m

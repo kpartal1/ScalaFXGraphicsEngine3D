@@ -1,6 +1,6 @@
 package graphicsengine3d
 
-object meshObjects {
+object MeshObjects {
   val vec1 = new Vec3d
   vec1.x = 0.0
   vec1.y = 0.0

@@ -23,7 +23,7 @@ object Main extends JFXApp {
   }
 
   private def getColor(lum: Double): Color = {
-      Color.gray(lum)
+      Color.hsb(270.0, 0.5, lum)
   }
 
   // def drawLine(x1: Double, y1: Double, x2: Double, y2: Double, gc: GraphicsContext) = {

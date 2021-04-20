@@ -5746,3 +5746,167 @@ WARNING: Unmatched cancel notification for request id 5488
 [0m2021.04.20 03:24:40 INFO  compiling graphicsengine3d (1 scala source)[0m
 [0m2021.04.20 03:24:40 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
 [0m2021.04.20 03:24:40 INFO  time: compiled graphicsengine3d in 0.84s[0m
+Apr 20, 2021 3:30:20 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 20, 2021 3:30:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Apr 20, 2021 3:30:22 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 20, 2021 3:30:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:96)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+[0m2021.04.20 03:30:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:30:22 INFO  time: compiled graphicsengine3d in 47ms[0m
+[0m2021.04.20 03:30:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:30:22 INFO  time: compiled graphicsengine3d in 22ms[0m
+Apr 20, 2021 3:30:23 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 20, 2021 3:30:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Apr 20, 2021 3:30:23 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 20, 2021 3:30:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Apr 20, 2021 3:30:24 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 20, 2021 3:30:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+[0m2021.04.20 03:30:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:30:42 WARN  there were four deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:30:42 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.04.20 03:30:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:30:48 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.04.20 03:31:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:31:21 INFO  time: compiled graphicsengine3d in 0.18s[0m
+[0m2021.04.20 03:32:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:32:17 INFO  time: compiled graphicsengine3d in 44ms[0m
+[0m2021.04.20 03:32:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:32:31 WARN  there were 5 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:32:31 INFO  time: compiled graphicsengine3d in 0.9s[0m
+[0m2021.04.20 03:34:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:34:03 INFO  time: compiled graphicsengine3d in 52ms[0m
+[0m2021.04.20 03:34:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:34:13 INFO  time: compiled graphicsengine3d in 40ms[0m
+[0m2021.04.20 03:34:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:34:26 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.20 03:34:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:34:43 INFO  time: compiled graphicsengine3d in 0.18s[0m
+[0m2021.04.20 03:34:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:34:56 WARN  there were 6 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:34:56 INFO  time: compiled graphicsengine3d in 0.86s[0m
+[0m2021.04.20 03:35:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:35:20 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:35:20 INFO  time: compiled graphicsengine3d in 0.98s[0m
+[0m2021.04.20 03:35:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:35:40 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:35:40 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.04.20 03:35:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:35:55 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:35:55 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:36:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:36:22 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:36:22 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:36:25 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:36:25 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:36:25 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 03:36:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:36:47 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:36:47 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 03:37:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:37:43 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:37:43 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 03:37:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:37:53 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:37:53 INFO  time: compiled graphicsengine3d in 0.99s[0m
+[0m2021.04.20 03:38:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:38:24 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:38:24 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.04.20 03:38:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:38:36 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:38:36 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:38:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:38:49 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:38:49 INFO  time: compiled graphicsengine3d in 0.87s[0m
+[0m2021.04.20 03:40:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:40:06 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:40:06 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:40:16 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:40:16 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:40:16 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:41:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:41:00 INFO  time: compiled graphicsengine3d in 0.19s[0m
+[0m2021.04.20 03:41:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:41:15 INFO  time: compiled graphicsengine3d in 0.18s[0m
+[0m2021.04.20 03:41:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:41:24 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.04.20 03:41:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:41:26 INFO  time: compiled graphicsengine3d in 0.19s[0m
+[0m2021.04.20 03:41:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:41:29 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:41:29 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.04.20 03:41:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:41:43 WARN  there were 8 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:41:43 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 03:41:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:41:58 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:41:58 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.04.20 03:42:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:42:15 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:42:16 INFO  time: compiled graphicsengine3d in 1.01s[0m
+[0m2021.04.20 03:42:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.20 03:42:23 WARN  there were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m2021.04.20 03:42:23 INFO  time: compiled graphicsengine3d in 0.82s[0m

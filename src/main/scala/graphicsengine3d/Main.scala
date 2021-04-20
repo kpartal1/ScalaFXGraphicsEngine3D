@@ -22,9 +22,9 @@ object Main extends JFXApp {
     }
   }
 
-  private def getColor(color: Color, lum: Double): Color = {
-      Color.hsb(color.hue, 0.5, lum)
-  }
+  // private def getColor(color: Color, lum: Double): Color = {
+  //     Color.hsb(color.hue, color.saturation, lum)
+  // }
 
   // def drawLine(x1: Double, y1: Double, x2: Double, y2: Double, gc: GraphicsContext) = {
   //   gc.beginPath()
@@ -165,7 +165,7 @@ object Main extends JFXApp {
             triProjected.p(2).x *= 0.5 * canvas.getWidth(); triProjected.p(2).y *= 0.5 * canvas.getHeight()
 
             // Rasterize Triangle
-            val color = getColor(Color.hsb(180.0 * fTheta, 0.5, dp), dp)
+            val color = Color.hsb(180.0 * fTheta, 0.5, dp)
             drawTriangle(triProjected.p(0).x, triProjected.p(0).y, triProjected.p(1).x, triProjected.p(1).y, triProjected.p(2).x, triProjected.p(2).y, color, color)
             }
           }

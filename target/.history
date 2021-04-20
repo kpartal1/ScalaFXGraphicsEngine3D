@@ -55,3 +55,7 @@ git push
 run
 git push origin master
 run
+git push
+run
+sbt
+run

@@ -100,7 +100,7 @@ object Main extends JFXApp {
           gc.setFill(Color.BLACK)
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
 
-          var vecTrianglesToRaster: ListBuffer[Triangle] = ListBuffer[Triangle]()
+          val vecTrianglesToRaster: ListBuffer[Triangle] = ListBuffer[Triangle]()
 
           // Draw Triangles
           for(tri <- meshCube.tris) {
@@ -179,9 +179,9 @@ object Main extends JFXApp {
           }
 
           // Sort triangles from back to front
-          vecTrianglesToRaster = vecTrianglesToRaster.sortWith(_.triSort(_))
+          val vecTrianglesToRasterSorted: ListBuffer[Triangle] = vecTrianglesToRaster.sortWith(_.triSort(_))
 
-          for(triProjected <- vecTrianglesToRaster) {
+          for(triProjected <- vecTrianglesToRasterSorted) {
             // Rasterize Triangle
             val color = Color.hsb(Color.ALICEBLUE.hue, 0.0, math.abs(triProjected.col))
             drawTriangle(triProjected.p(0).x, triProjected.p(0).y, triProjected.p(1).x, triProjected.p(1).y, triProjected.p(2).x, triProjected.p(2).y, color, color)

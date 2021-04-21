@@ -7,7 +7,14 @@ import scalafx.scene.Scene
 import scalafx.animation.AnimationTimer
 import scalafx.scene.canvas.GraphicsContext
 import scalafx.scene.paint.Color
+import scala.collection.mutable.ListBuffer
+import scala.io.Source
+
 object Main extends JFXApp {
+  
+  private def triSort(t: Triangle): Double = {
+    (t.p(0).z + t.p(1).z + t.p(2).z) / 3.0
+  }
 
   private def multiplyMatrixVector(i: Vec3d, o: Vec3d, m: Mat4x4) = {
     o.x = i.x * m.m(0)(0) + i.y * m.m(1)(0) + i.z * m.m(2)(0) + m.m(3)(0)
@@ -48,7 +55,7 @@ object Main extends JFXApp {
   val gc: GraphicsContext = canvas.getGraphicsContext2D()
   gc.setFill(Color.BLACK)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
-  val meshCube: Mesh = MeshObjects.meshCube
+  val meshCube: Mesh = MeshObjects.loadFromObjectFile("VideoShip.obj")
   val matProj: Mat4x4 = new Mat4x4
   val vCamera: Vec3d = new Vec3d
 
@@ -96,6 +103,10 @@ object Main extends JFXApp {
           matRotX.m(3)(3) = 1;
           gc.setFill(Color.BLACK)
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
+
+          val vecTrianglesToRaster: ListBuffer[Triangle] = ListBuffer[Triangle]()
+
+          // Draw Triangles
           for(tri <- meshCube.tris) {
             val triProjected: Triangle = new Triangle
             val triRotatedZ: Triangle = new Triangle
@@ -113,9 +124,9 @@ object Main extends JFXApp {
 
             val triTranslated: Triangle = triRotatedZX
 
-            triTranslated.p(0).z = triRotatedZX.p(0).z + 3.0
-            triTranslated.p(1).z = triRotatedZX.p(1).z + 3.0
-            triTranslated.p(2).z = triRotatedZX.p(2).z + 3.0
+            triTranslated.p(0).z = triRotatedZX.p(0).z + 8.0
+            triTranslated.p(1).z = triRotatedZX.p(1).z + 8.0
+            triTranslated.p(2).z = triRotatedZX.p(2).z + 8.0
 
             val normal: Vec3d = new Vec3d
             val line1: Vec3d = new Vec3d
@@ -149,11 +160,13 @@ object Main extends JFXApp {
             lightDirection.x /= l; lightDirection.y /= l; lightDirection.z /= l
 
             val dp: Double = normal.x * lightDirection.x + normal.y * lightDirection.y + normal.z * lightDirection.z
+            triTranslated.col = dp
 
             // Project triangles from 3D -> 2D
             multiplyMatrixVector(triTranslated.p(0), triProjected.p(0), matProj)
             multiplyMatrixVector(triTranslated.p(1), triProjected.p(1), matProj)
             multiplyMatrixVector(triTranslated.p(2), triProjected.p(2), matProj)
+            triProjected.col = triTranslated.col
 
             // Scale Into View
             triProjected.p(0).x += 1.0; triProjected.p(0).y += 1.0
@@ -164,10 +177,18 @@ object Main extends JFXApp {
             triProjected.p(1).x *= 0.5 * canvas.getWidth(); triProjected.p(1).y *= 0.5 * canvas.getHeight()
             triProjected.p(2).x *= 0.5 * canvas.getWidth(); triProjected.p(2).y *= 0.5 * canvas.getHeight()
 
-            // Rasterize Triangle
-            val color = Color.hsb(180.0 * fTheta, 0.5, dp)
-            drawTriangle(triProjected.p(0).x, triProjected.p(0).y, triProjected.p(1).x, triProjected.p(1).y, triProjected.p(2).x, triProjected.p(2).y, color, color)
+            // Store triangles for sorting
+            vecTrianglesToRaster += triProjected
             }
+          }
+
+          // Sort triangles from back to front
+          vecTrianglesToRaster.toList.sortBy(triSort(_))
+
+          for(triProjected <- vecTrianglesToRaster) {
+            // Rasterize Triangle
+            val color = Color.hsb(Color.ALICEBLUE.hue, 0.5, math.abs(triProjected.col))
+            drawTriangle(triProjected.p(0).x, triProjected.p(0).y, triProjected.p(1).x, triProjected.p(1).y, triProjected.p(2).x, triProjected.p(2).y, color, color)
           }
 				}
 				lastTime = time

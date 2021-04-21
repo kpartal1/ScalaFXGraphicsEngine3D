@@ -1,5 +1,5 @@
 package graphicsengine3d
 
 class Mesh {
-  var tris: List[Triangle] = Nil
+  var tris: List[Triangle] = _
 }

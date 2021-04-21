@@ -11,10 +11,6 @@ import scala.collection.mutable.ListBuffer
 import scala.io.Source
 
 object Main extends JFXApp {
-  
-  private def triSort(t: Triangle): Double = {
-    (t.p(0).z + t.p(1).z + t.p(2).z) / 3.0
-  }
 
   private def multiplyMatrixVector(i: Vec3d, o: Vec3d, m: Mat4x4) = {
     o.x = i.x * m.m(0)(0) + i.y * m.m(1)(0) + i.z * m.m(2)(0) + m.m(3)(0)
@@ -55,7 +51,7 @@ object Main extends JFXApp {
   val gc: GraphicsContext = canvas.getGraphicsContext2D()
   gc.setFill(Color.BLACK)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
-  val meshCube: Mesh = MeshObjects.loadFromObjectFile("VideoShip.obj")
+  val meshCube: Mesh = MeshObjects.loadFromObjectFile("src/main/resources/VideoShip.obj")
   val matProj: Mat4x4 = new Mat4x4
   val vCamera: Vec3d = new Vec3d
 
@@ -104,7 +100,7 @@ object Main extends JFXApp {
           gc.setFill(Color.BLACK)
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
 
-          val vecTrianglesToRaster: ListBuffer[Triangle] = ListBuffer[Triangle]()
+          var vecTrianglesToRaster: ListBuffer[Triangle] = ListBuffer[Triangle]()
 
           // Draw Triangles
           for(tri <- meshCube.tris) {
@@ -183,11 +179,11 @@ object Main extends JFXApp {
           }
 
           // Sort triangles from back to front
-          vecTrianglesToRaster.toList.sortBy(triSort(_))
+          vecTrianglesToRaster = vecTrianglesToRaster.sortWith(_.triSort(_))
 
           for(triProjected <- vecTrianglesToRaster) {
             // Rasterize Triangle
-            val color = Color.hsb(Color.ALICEBLUE.hue, 0.5, math.abs(triProjected.col))
+            val color = Color.hsb(Color.ALICEBLUE.hue, 0.0, math.abs(triProjected.col))
             drawTriangle(triProjected.p(0).x, triProjected.p(0).y, triProjected.p(1).x, triProjected.p(1).y, triProjected.p(2).x, triProjected.p(2).y, color, color)
           }
 				}

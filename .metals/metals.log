@@ -5277,3 +5277,5 @@ WARNING: Unmatched cancel notification for request id 6338
 [0m2021.04.22 14:01:55 INFO  time: compiled graphicsengine3d in 0.26s[0m
 [0m2021.04.22 14:03:17 INFO  compiling graphicsengine3d (2 scala sources)[0m
 [0m2021.04.22 14:03:17 INFO  time: compiled graphicsengine3d in 0.22s[0m
+Apr 22, 2021 2:03:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

@@ -8,9 +8,10 @@ import scalafx.animation.AnimationTimer
 import scalafx.scene.canvas.GraphicsContext
 import scalafx.scene.paint.Color
 import scala.io.Source
-import scala.collection.mutable.ArrayBuffer
 import scalafx.scene.input.KeyEvent
 import scalafx.scene.input.KeyCode
+import scala.collection.mutable.ListBuffer
+import scala.collection.mutable.ArrayBuffer
 
 object Main extends JFXApp {
 
@@ -116,16 +117,16 @@ object Main extends JFXApp {
 
   def pointAtMatrix(pos: Vec3d, target: Vec3d, up: Vec3d): Mat4x4 = {
     // Calculate new forward direction
-    val newForward: Vec3d = subVec(target, pos)
-    val normalizednewForward = normalizeVec(newForward)
+    val newForward: Vec3d = target - pos
+    val normalizednewForward = newForward.normalize
 
     // Calculate new up direction
-    val a: Vec3d = mulVec(normalizednewForward, dotProduct(up, normalizednewForward))
-    val newUp: Vec3d = subVec(up, a)
-    val normalizednewUp = normalizeVec(newUp)
+    val a: Vec3d = normalizednewForward * (up.dotProduct(normalizednewForward))
+    val newUp: Vec3d = up - a
+    val normalizednewUp = newUp.normalize
 
     // New right direction
-    val newRight: Vec3d = crossProduct(normalizednewUp, normalizednewForward)
+    val newRight: Vec3d = normalizednewUp.crossProduct(normalizednewForward)
 
     // Construct dimensioning and translation matrix
     val matrix: Mat4x4 = new Mat4x4
@@ -149,60 +150,6 @@ object Main extends JFXApp {
     matrix
   }
 
-  def addVec(v1: Vec3d, v2: Vec3d): Vec3d = {
-    val vector: Vec3d = new Vec3d
-    vector.x = v1.x + v2.x
-    vector.y = v1.y + v2.y
-    vector.z = v1.z + v2.z
-    vector
-  }
-
-  def subVec(v1: Vec3d, v2: Vec3d): Vec3d = {
-    val vector: Vec3d = new Vec3d
-    vector.x = v1.x - v2.x
-    vector.y = v1.y - v2.y
-    vector.z = v1.z - v2.z
-    vector
-  }
-
-  def mulVec(v: Vec3d, k: Double): Vec3d = {
-    val vector: Vec3d = new Vec3d
-    vector.x = v.x * k
-    vector.y = v.y * k
-    vector.z = v.z * k
-    vector
-  }
-
-  def divVec(v: Vec3d, k: Double): Vec3d = {
-    val vector: Vec3d = new Vec3d
-    vector.x = v.x / k
-    vector.y = v.y / k
-    vector.z = v.z / k
-    vector
-  }
-
-  def dotProduct(v1: Vec3d, v2: Vec3d): Double = {
-    v1.x * v2.x + v1.y * v2.y + v1.z * v2.z
-  }
-
-  def length(v: Vec3d): Double = {
-    math.sqrt(dotProduct(v, v))
-  }
-
-  def normalizeVec(v: Vec3d): Vec3d = {
-    val l: Double = length(v)
-    v.x /= l; v.y /= l; v.z /= l
-    v
-  }
-  
-  def crossProduct(v1: Vec3d, v2: Vec3d): Vec3d = {
-    var v: Vec3d = new Vec3d
-    v.x = v1.y * v2.z - v1.z * v2.y
-    v.y = v1.z * v2.x - v1.x * v2.z
-    v.z = v1.x * v2.y - v1.y * v2.x
-    v
-  }
-
   def intersectPlane(planeP: Vec3d, planeN: Vec3d, lineStart: Vec3d, lineEnd: Vec3d): Vec3d = {
     val planeNorm: Vec3d = normalizeVec(planeN)
     val planeD: Double = -dotProduct(planeNorm, planeP)
@@ -215,11 +162,9 @@ object Main extends JFXApp {
     ret
   }
 
-  def clipAgainstPlane(plane_p: Vec3d, plane_n: Vec3d, in_tri: Triangle, out_tri1: Triangle, out_tri2: Triangle): (Int, Triangle, Triangle) = {
+  def clipAgainstPlane(plane_p: Vec3d, plane_n: Vec3d, in_tri: Triangle, out_tri1: Triangle, out_tri2: Triangle): Int = {
 		// Make sure plane normal is indeed normal
 		val normalizedplane_n: Vec3d = normalizeVec(plane_n)
-    var mutableout_tri1: Triangle = out_tri1
-    var mutableout_tri2: Triangle = out_tri2
 
 		// Return signed shortest distance from point to plane, plane normal must be normalised
 		def dist(p: Vec3d): Double = {
@@ -228,8 +173,8 @@ object Main extends JFXApp {
 
 		// Create two temporary storage arrays to classify points either side of plane
 		// If distance sign is positive, point lies on "inside" of plane
-		var inside_points: Array[Vec3d] = Array.fill(3)(new Vec3d);  var nInsidePointCount: Int = 0
-		var outside_points: Array[Vec3d] = Array.fill(3)(new Vec3d); var nOutsidePointCount: Int = 0
+		val inside_points: Array[Vec3d] = Array.fill(3)(new Vec3d);  var nInsidePointCount: Int = 0
+		val outside_points: Array[Vec3d] = Array.fill(3)(new Vec3d); var nOutsidePointCount: Int = 0
 
 		// Get signed distance of each point in triangle to plane
 		val d0: Double = dist(in_tri.p(0))
@@ -237,7 +182,7 @@ object Main extends JFXApp {
 		val d2: Double = dist(in_tri.p(2))
 
 		if (d0 >= 0) {
-      inside_points(nInsidePointCount) = in_tri.p(0); 
+      inside_points(nInsidePointCount) = in_tri.p(0);
       nInsidePointCount += 1
     } else {
       outside_points(nOutsidePointCount) = in_tri.p(0) 
@@ -267,16 +212,20 @@ object Main extends JFXApp {
 			// All points lie on the outside of plane, so clip whole triangle
 			// It ceases to exist
 
-			return (0, mutableout_tri1, mutableout_tri2) // No returned triangles are valid
+			return 0 // No returned triangles are valid
 		}
 
 		if (nInsidePointCount == 3)
 		{
 			// All points lie on the inside of plane, so do nothing
 			// and allow the triangle to simply pass through
-			mutableout_tri1 = in_tri
+			out_tri1.p(0) = in_tri.p(0)
+      out_tri1.p(1) = in_tri.p(1)
+      out_tri1.p(2) = in_tri.p(2)
+      out_tri1.brightness = in_tri.brightness
+			out_tri1.col =  in_tri.col
 
-			return (1, mutableout_tri1, mutableout_tri2) // Just the one returned original triangle is valid
+			return 1 // Just the one returned original triangle is valid
 		}
 
 		if (nInsidePointCount == 1 && nOutsidePointCount == 2)
@@ -285,18 +234,18 @@ object Main extends JFXApp {
 			// the plane, the triangle simply becomes a smaller triangle
 
 			// Copy appearance info to new triangle
-      mutableout_tri1.brightness = in_tri.brightness
-			mutableout_tri1.col =  Color.BLUE//in_tri.col;
+      out_tri1.brightness = in_tri.brightness
+			out_tri1.col =  Color.BLUE//in_tri.col;
 
 			// The inside point is valid, so keep that...
-			mutableout_tri1.p(0) = inside_points(0)
+			out_tri1.p(0) = inside_points(0)
 
 			// but the two new points are at the locations where the 
 			// original sides of the triangle (lines) intersect with the plane
-			mutableout_tri1.p(1) = intersectPlane(plane_p, normalizedplane_n, inside_points(0), outside_points(0))
-			mutableout_tri1.p(2) = intersectPlane(plane_p, normalizedplane_n, inside_points(0), outside_points(1))
+			out_tri1.p(1) = intersectPlane(plane_p, normalizedplane_n, inside_points(0), outside_points(0))
+			out_tri1.p(2) = intersectPlane(plane_p, normalizedplane_n, inside_points(0), outside_points(1))
 
-			return (1, mutableout_tri1, mutableout_tri2) // Return the newly formed single triangle
+			return 1 // Return the newly formed single triangle
 		}
 
 		if (nInsidePointCount == 2 && nOutsidePointCount == 1)
@@ -306,29 +255,29 @@ object Main extends JFXApp {
 			// represent a quad with two new triangles
 
 			// Copy appearance info to new triangles
-      mutableout_tri1.brightness = in_tri.brightness
-			mutableout_tri1.col =  Color.GREEN//in_tri.col
+      out_tri1.brightness = in_tri.brightness
+			out_tri1.col =  Color.GREEN//in_tri.col
 
-      mutableout_tri2.brightness = in_tri.brightness
-			mutableout_tri2.col =  Color.RED//in_tri.col
+      out_tri2.brightness = in_tri.brightness
+			out_tri2.col =  Color.RED//in_tri.col
 
 			// The first triangle consists of the two inside points and a new
 			// point determined by the location where one side of the triangle
 			// intersects with the plane
-			mutableout_tri1.p(0) = inside_points(0)
-			mutableout_tri1.p(1) = inside_points(1)
-			mutableout_tri1.p(2) = intersectPlane(plane_p, normalizedplane_n, inside_points(0), outside_points(0))
+			out_tri1.p(0) = inside_points(0)
+			out_tri1.p(1) = inside_points(1)
+			out_tri1.p(2) = intersectPlane(plane_p, normalizedplane_n, inside_points(0), outside_points(0))
 
 			// The second triangle is composed of one of he inside points, a
 			// new point determined by the intersection of the other side of the 
 			// triangle and the plane, and the newly created point above
-			mutableout_tri2.p(0) = inside_points(1)
-			mutableout_tri2.p(1) = mutableout_tri1.p(2)
-			mutableout_tri2.p(2) = intersectPlane(plane_p, normalizedplane_n, inside_points(1), outside_points(0))
+			out_tri2.p(0) = inside_points(1)
+			out_tri2.p(1) = out_tri1.p(2)
+			out_tri2.p(2) = intersectPlane(plane_p, normalizedplane_n, inside_points(1), outside_points(0))
 
-			return (2, mutableout_tri1, mutableout_tri2) // Return two newly formed triangles which form a quad
+			return 2 // Return two newly formed triangles which form a quad
 		}
-    (1, mutableout_tri1, mutableout_tri2)
+    1
 	}
 
   private def drawTriangle(x1: Double, y1: Double, x2: Double, y2: Double, x3: Double, y3: Double, fillColor: Color, lineColor: Color): Unit = {
@@ -379,7 +328,7 @@ object Main extends JFXApp {
       scene = new Scene(1920, 1080) {
         content += canvas
         var lastTime = -1L
-		    val timer = AnimationTimer { time =>
+        val timer = AnimationTimer { time =>
 				if(lastTime >= 0) {
 					val delay = (time - lastTime) / 1e9
           
@@ -462,10 +411,7 @@ object Main extends JFXApp {
               // additional triangles. 
               var nClippedTriangles: Int = 0
               val clipped: Array[Triangle] = Array.fill(2)(new Triangle)
-              val ret: (Int, Triangle, Triangle) = clipAgainstPlane(fNear, fFar, triViewed, clipped(0), clipped(1))
-              nClippedTriangles = ret._1
-              clipped(0) = ret._2
-              clipped(1) = ret._3
+              nClippedTriangles = clipAgainstPlane(fNear, fFar, triViewed, clipped(0), clipped(1))
 
               // We may end up with multiple triangles form the clip, so project as
               // required
@@ -503,7 +449,7 @@ object Main extends JFXApp {
                 triProjected.p(2).x *= 0.5 * canvas.getWidth(); triProjected.p(2).y *= 0.5 * canvas.getHeight()
 
                 // Store triangles for sorting
-                vecTrianglesToRaster.append(triProjected)
+                vecTrianglesToRaster += triProjected
             }
           }
         }
@@ -511,7 +457,8 @@ object Main extends JFXApp {
           // Fill Screen
           gc.setFill(Color.BLACK)
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
-          val arrayTriangles: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
+
+          val arrayTriangles: ListBuffer[Triangle] = ListBuffer[Triangle]()
           for(triToRaster <- vecTrianglesToRaster) {
             // Clip triangles against all four screen edges, this could yield a bunch of triangles
             val clipped: Array[Triangle] = Array.fill(2)(new Triangle)
@@ -526,25 +473,13 @@ object Main extends JFXApp {
 
                 p match {
                   case 0 =>
-                    val ret = clipAgainstPlane(vec1, vec2, test, clipped(0), clipped(1))
-                    nTrisToAdd = ret._1
-                    clipped(0) = ret._2
-                    clipped(1) = ret._3
+                    nTrisToAdd = clipAgainstPlane(vec1, vec2, test, clipped(0), clipped(1))
                   case 1 =>
-                    val ret = clipAgainstPlane(vec3, vec4, test, clipped(0), clipped(1))
-                    nTrisToAdd = ret._1
-                    clipped(0) = ret._2
-                    clipped(1) = ret._3
+                    nTrisToAdd = clipAgainstPlane(vec3, vec4, test, clipped(0), clipped(1))
                   case 2 =>
-                    val ret = clipAgainstPlane(vec1, vec5, test, clipped(0), clipped(1))
-                    nTrisToAdd = ret._1
-                    clipped(0) = ret._2
-                    clipped(1) = ret._3
+                    nTrisToAdd = clipAgainstPlane(vec1, vec5, test, clipped(0), clipped(1))
                   case 3 =>
-                    val ret = clipAgainstPlane(vec6, vec7, test, clipped(0), clipped(1))
-                    nTrisToAdd = ret._1
-                    clipped(0) = ret._2
-                    clipped(1) = ret._3
+                    nTrisToAdd = clipAgainstPlane(vec6, vec7, test, clipped(0), clipped(1))
                 }
                 for(w <- 0 until nTrisToAdd) arrayTriangles.append(clipped(w))
               }

@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
 	"org.scalafx" %% "scalafx" % "11-R16",
 	"com.novocode" % "junit-interface" % "0.11" % Test,
 	"org.scalactic" %% "scalactic" % "3.2.2",
-	"org.scalatest" %% "scalatest" % "3.2.2" % "test"
+	"org.scalatest" %% "scalatest" % "3.2.2" % "test",
 )
 
 libraryDependencies ++= javaFXModules.map( m =>

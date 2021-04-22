@@ -1,5 +1,7 @@
 package graphicsengine3d
 
+import scala.collection.mutable.ArrayBuffer
+
 class Mesh {
-  var tris: List[Triangle] = _
+  var tris: ArrayBuffer[Triangle] = _
 }

@@ -1,13 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Vec3d.scala:27:21: identifier expected but '.' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    vector.x = this..x * k[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Vec3d.scala:28:21: identifier expected but '.' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    vector.y = this..y * k[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Vec3d.scala:40:21: identifier expected but 'this' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  def dot(v: Vec3d, this: Vec3d): Double = {[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Vec3d.scala:59:5: ':' expected but eof found.[0m
-[0m[[0m[31merror[0m] [0m[0m  }[0m
-[0m[[0m[31merror[0m] [0m[0m   ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 7 deprecation warnings (since 1.0.0-R9); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -4,7 +4,7 @@ import scala.io.Source
 import scala.collection.mutable.ArrayBuffer
 
 object MeshObjects {
-  def loadFromObjectFile(fileName: String): Mesh = {
+  def loadObjectFromFile(fileName: String): Mesh = {
     val tri: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
     val tmp: ArrayBuffer[Vec3d] = ArrayBuffer[Vec3d]()
     val src: Source = Source.fromFile(fileName)

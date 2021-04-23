@@ -1,5 +1,7 @@
 package graphicsengine3d
 
+import scalafx.scene.paint.Color
+
 class Vec3d(var x: Double = 0.0, var y: Double = 0.0, var z: Double = 0.0) {
   var w: Double = 1.0
   
@@ -20,6 +22,14 @@ class Vec3d(var x: Double = 0.0, var y: Double = 0.0, var z: Double = 0.0) {
     vector
   }
 
+  def += (v: Vec3d): Vec3d = {
+    this.x += v.x
+    this.y += v.y
+    this.z += v.z
+    this.w += v.w
+    this
+  }
+
   def - (v: Vec3d): Vec3d = {
     val vector: Vec3d = new Vec3d
     vector.x = this.x - v.x
@@ -27,6 +37,14 @@ class Vec3d(var x: Double = 0.0, var y: Double = 0.0, var z: Double = 0.0) {
     vector.z = this.z - v.z
     vector
   }  
+  
+  def -= (v: Vec3d): Vec3d = {
+    this.x -= v.x
+    this.y -= v.y
+    this.z -= v.z
+    this.w -= v.w
+    this
+  }
 
   def * (k: Double): Vec3d = {
     val vector: Vec3d = new Vec3d

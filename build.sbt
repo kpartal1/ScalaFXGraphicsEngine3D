@@ -1,6 +1,7 @@
 name := "GraphicsEngine3D"
 version := "1.0"
 scalaVersion := "2.12.12"
+scalacOptions ++= Seq("-deprecation", "-feature")
 run / fork := true
 run / connectInput := true
 

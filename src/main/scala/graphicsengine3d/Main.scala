@@ -29,7 +29,7 @@ object Main extends JFXApp {
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
 
   // Load Object File
-  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/teapot.obj")
+  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj")
 
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4
@@ -93,7 +93,7 @@ object Main extends JFXApp {
           // Draw Triangles
           for(tri <- meshCube.tris) {
             
-            val triProjected: Triangle = new Triangle
+            
             val triTransformed: Triangle = new Triangle
             val triViewed: Triangle = new Triangle
 
@@ -141,6 +141,7 @@ object Main extends JFXApp {
               for (n <- 0 until nClippedTriangles) {
 
                 // Project triangles from 3D --> 2D
+                val triProjected: Triangle = new Triangle
                 triProjected.p(0).multiplyMatrixVector(matProj, clipped(n).p(0))
                 triProjected.p(1).multiplyMatrixVector(matProj, clipped(n).p(1))
                 triProjected.p(2).multiplyMatrixVector(matProj, clipped(n).p(2))
@@ -170,6 +171,7 @@ object Main extends JFXApp {
 
                 // Store triangles for sorting
                 vecTrianglesToRasterUnsorted += triProjected
+                clipped(n) = new Triangle
               }
             }
           }
@@ -194,7 +196,6 @@ object Main extends JFXApp {
               while(nNewTriangles > 0) {
                 val test: Triangle = arrayTriangles.remove(0)
                 nNewTriangles -= 1
-
                 nTrisToAdd = p match {
                   case 0 => test.clipAgainstPlane(new Vec3d(0.0, 0.0, 0.0), new Vec3d(0.0, 1.0, 0.0), clipped(0), clipped(1))
                   case 1 => test.clipAgainstPlane(new Vec3d(0.0, canvas.getHeight() - 1.0, 0.0), new Vec3d(0.0, -1.0, 0.0), clipped(0), clipped(1))
@@ -202,14 +203,18 @@ object Main extends JFXApp {
                   case 3 => test.clipAgainstPlane(new Vec3d(canvas.getWidth() - 1.0, 0.0, 0.0), new Vec3d(-1.0, 0.0, 0.0), clipped(0), clipped(1))
                   case _ => 0
                 }
-                for(w <- 0 until nTrisToAdd) arrayTriangles += clipped(w)
+                for(w <- 0 until nTrisToAdd) {
+                  arrayTriangles += clipped(w)
+                  clipped(w) = new Triangle
+                }
               }
               nNewTriangles = arrayTriangles.length
             }
             
             // Rasterize Triangle
             for(t <- arrayTriangles) {
-              t.fill(gc, Color.hsb(t.col.hue, t.sat, t.bri), Color.Black)
+              val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
+              t.fill(gc, color, color)
             }
           }
         }

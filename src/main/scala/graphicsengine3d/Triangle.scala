@@ -26,15 +26,15 @@ class Triangle {
     gc.strokePolygon(Seq((this.p(0).x, this.p(0).y), (this.p(1).x, this.p(1).y), (this.p(2).x, this.p(2).y)))
   }
   
-  def intersectPlane(planeP: Vec3d, planeN: Vec3d, lineStart: Vec3d, lineEnd: Vec3d): Vec3d = {
-    planeN.normalize
+  def intersectPlane(planeP: Vec3d, plane_n: Vec3d, lineStart: Vec3d, lineEnd: Vec3d): Vec3d = {
+    val planeN: Vec3d = plane_n.normalize
     val planeD: Double = -planeN.dotProduct(planeP)
     val ad: Double = lineStart.dotProduct(planeN)
     val bd: Double = lineEnd.dotProduct(planeN)
     val t: Double = (-planeD - ad) / (bd - ad)
     val lineStartToEnd: Vec3d = lineEnd - lineStart
     val lineToIntersect: Vec3d = lineStartToEnd * t
-    lineStart + lineToIntersect
+    return lineStart + lineToIntersect
   }
 
 	override def toString: String = {
@@ -43,9 +43,9 @@ class Triangle {
 		"(" + this.p(2).x + ", " + this.p(2).y + ", " + this.p(2).z + ")"
 	}
 
-  def clipAgainstPlane(plane_p: Vec3d, plane_n: Vec3d, out_tri1: Triangle, out_tri2: Triangle): Int = {
+  def clipAgainstPlane(plane_p: Vec3d, planeN: Vec3d, out_tri1: Triangle, out_tri2: Triangle): Int = {
 		// Make sure plane normal is indeed normal
-		plane_n.normalize
+		val plane_n: Vec3d = planeN.normalize
 
 		// Return signed shortest distance from point to plane, plane normal must be normalised
 		def dist(p: Vec3d) = {
@@ -118,8 +118,8 @@ class Triangle {
 
 			// Copy appearance info to new triangle
       out_tri1.bri = this.bri
-			out_tri1.sat = 0.5
-			out_tri1.col =  Color.Blue//this.col;
+			out_tri1.sat = this.sat
+			out_tri1.col = this.col;
 
 			// The inside point is valid, so keep that...
 			out_tri1.p(0) = inside_points(0)
@@ -140,12 +140,12 @@ class Triangle {
 
 			// Copy appearance info to new triangles
       out_tri1.bri = this.bri
-			out_tri1.sat = 0.5
-			out_tri1.col = Color.Green//this.col
+			out_tri1.sat = this.sat
+			out_tri1.col = this.col
 
       out_tri2.bri = this.bri
-			out_tri2.sat = 0.5
-			out_tri2.col = Color.Red//this.col
+			out_tri2.sat = this.sat
+			out_tri2.col = this.col
 
 			// The first triangle consists of the two inside points and a new
 			// point determined by the location where one side of the triangle

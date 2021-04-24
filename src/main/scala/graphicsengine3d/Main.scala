@@ -52,12 +52,12 @@ object Main extends JFXApp {
         if(lastTime >= 0) {
           val delay = (time - lastTime) / 1e9
           
-          val vForward: Vec3d = vLookDir * (16.0 * delay)
+          val vForward: Vec3d = vLookDir * (8.0 * delay)
           
-          if(upHeld) vCamera.y += 16.0 * delay
-          if(downHeld) vCamera.y -= 16.0 * delay
-          if(leftHeld) vCamera.x -= 16.0 * delay
-          if(rightHeld) vCamera.x += 16.0 * delay
+          if(upHeld) vCamera.y += 8.0 * delay
+          if(downHeld) vCamera.y -= 8.0 * delay
+          if(leftHeld) vCamera.x -= 8.0 * delay
+          if(rightHeld) vCamera.x += 8.0 * delay
 
 
           if(wHeld) vCamera += vForward

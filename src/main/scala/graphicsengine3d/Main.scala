@@ -51,13 +51,14 @@ object Main extends JFXApp {
       val timer = AnimationTimer { time =>
         if(lastTime >= 0) {
           val delay = (time - lastTime) / 1e9
+          
+          val vForward: Vec3d = vLookDir * (16.0 * delay)
+          
+          if(upHeld) vCamera.y += 16.0 * delay
+          if(downHeld) vCamera.y -= 16.0 * delay
+          if(leftHeld) vCamera.x -= 16.0 * delay
+          if(rightHeld) vCamera.x += 16.0 * delay
 
-          if(upHeld) vCamera.y += 8.0 * delay
-          if(downHeld) vCamera.y -= 8.0 * delay
-          if(leftHeld) vCamera.x -= 8.0 * delay
-          if(rightHeld) vCamera.x += 8.0 * delay
-
-          val vForward: Vec3d = vLookDir * (8.0 * delay)
 
           if(wHeld) vCamera += vForward
           if(sHeld) vCamera -= vForward
@@ -90,10 +91,7 @@ object Main extends JFXApp {
           // Draw Triangles
           for(tri <- meshCube.tris) {
             
-            
             val triTransformed: Triangle = new Triangle
-            val triViewed: Triangle = new Triangle
-
             triTransformed.p(0).multiplyMatrixVector(matWorld, tri.p(0))
             triTransformed.p(1).multiplyMatrixVector(matWorld, tri.p(1))
             triTransformed.p(2).multiplyMatrixVector(matWorld, tri.p(2))
@@ -120,6 +118,7 @@ object Main extends JFXApp {
               triTransformed.col = col
 
               // Convert world space --> view space
+              val triViewed: Triangle = new Triangle
               triViewed.p(0).multiplyMatrixVector(matView, triTransformed.p(0))
               triViewed.p(1).multiplyMatrixVector(matView, triTransformed.p(1))
               triViewed.p(2).multiplyMatrixVector(matView, triTransformed.p(2))

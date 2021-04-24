@@ -6,8 +6,9 @@ import scalafx.scene.canvas.Canvas
 
 class Triangle {
   var p: Array[Vec3d] = Array.fill(3){new Vec3d}
-  var brightness = 1.0
+  var bri: Double = 1.0
   var col: Color = Color.Black
+	var sat: Double = 1.0
   def apply(vec1: Vec3d, vec2: Vec3d, vec3: Vec3d): Unit = {
     this.p(0) = vec1; this.p(1) = vec2; this.p(2) = vec3
   }
@@ -18,14 +19,14 @@ class Triangle {
     z1 > z2
   }
 
-  def fill(gc: GraphicsContext, x1: Double, y1: Double, x2: Double, y2: Double, x3: Double, y3: Double, fillColor: Color): Unit = {
+  def fill(gc: GraphicsContext, fillColor: Color): Unit = {
     gc.setFill(fillColor)
-    gc.fillPolygon(Seq((x1, y1), (x2, y2), (x3, y3)))
+    gc.fillPolygon(Seq((this.p(0).x, this.p(0).y), (this.p(1).x, this.p(1).y), (this.p(2).x, this.p(2).y)))
   }
 
-  def draw(gc: GraphicsContext, x1: Double, y1: Double, x2: Double, y2: Double, x3: Double, y3: Double, strokeColor: Color): Unit = {
+  def draw(gc: GraphicsContext, strokeColor: Color): Unit = {
     gc.setStroke(strokeColor)
-    gc.strokePolygon(Seq((x1, y1), (x2, y2), (x3, y3)))
+    gc.strokePolygon(Seq((this.p(0).x, this.p(0).y), (this.p(1).x, this.p(1).y), (this.p(2).x, this.p(2).y)))
   }
   
   def intersectPlane(planeP: Vec3d, planeN: Vec3d, lineStart: Vec3d, lineEnd: Vec3d): Vec3d = {
@@ -38,6 +39,18 @@ class Triangle {
     val lineToIntersect: Vec3d = lineStartToEnd * t
     lineStart + lineToIntersect
   }
+
+	override def toString: String = {
+		"(" + this.p(0).x + ", " + this.p(0).y + ", " + this.p(0).z + ")\n" +
+		"(" + this.p(1).x + ", " + this.p(1).y + ", " + this.p(1).z + ")\n" +
+		"(" + this.p(2).x + ", " + this.p(2).y + ", " + this.p(2).z + ")"
+	}
+
+	// def isPositive: Boolean = {
+	// 	this.p(0).x > 0 && this.p(0).y > 0 && this.p(0).z > 0 &&
+	// 	this.p(1).x > 0 && this.p(1).y > 0 && this.p(1).z > 0 &&
+	// 	this.p(2).x > 0 && this.p(2).y > 0 && this.p(2).z > 0
+	// }
 
   def clipAgainstPlane(plane_p: Vec3d, plane_n: Vec3d, out_tri1: Triangle, out_tri2: Triangle): Int = {
 		// Make sure plane normal is indeed normal
@@ -86,32 +99,35 @@ class Triangle {
 
 		if (nInsidePointCount == 0)
 		{
-			// All points lie on the outside of plane, so clip whole triangle
+			// All  points lie on the outside of plane, so clip whole triangle
 			// It ceases to exist
 
 			return 0 // No returned triangles are valid
 		}
 
-		if (nInsidePointCount == 3)
+		if (nInsidePointCount == 3) 
 		{
 			// All points lie on the inside of plane, so do nothing
 			// and allow the triangle to simply pass through
 			out_tri1.p(0) = this.p(0)
       out_tri1.p(1) = this.p(1)
       out_tri1.p(2) = this.p(2)
-      out_tri1.brightness = this.brightness
+      out_tri1.bri = this.bri
+			out_tri1.sat = this.sat
 			out_tri1.col =  this.col
 
-			return 1 // Just the one returned original triangle is valid
+			return 1 // Just the one retuned original triangle is valid
 		}
 
 		if (nInsidePointCount == 1 && nOutsidePointCount == 2)
 		{
-			// Triangle should be clipped. As two points lie outside
+			// Triangle should be clipped. As 
+		  // two points lie outside
 			// the plane, the triangle simply becomes a smaller triangle
 
 			// Copy appearance info to new triangle
-      out_tri1.brightness = this.brightness
+      out_tri1.bri = this.bri
+			out_tri1.sat = 0.5
 			out_tri1.col =  Color.Blue//this.col;
 
 			// The inside point is valid, so keep that...
@@ -132,11 +148,13 @@ class Triangle {
 			// represent a quad with two new triangles
 
 			// Copy appearance info to new triangles
-      out_tri1.brightness = this.brightness
-			out_tri1.col =  Color.Green//this.col
+      out_tri1.bri = this.bri
+			out_tri1.sat = 0.5
+			out_tri1.col = Color.Green//this.col
 
-      out_tri2.brightness = this.brightness
-			out_tri2.col =  Color.Red//this.col
+      out_tri2.bri = this.bri
+			out_tri2.sat = 0.5
+			out_tri2.col = Color.Red//this.col
 
 			// The first triangle consists of the two inside points and a new
 			// point determined by the location where one side of the triangle

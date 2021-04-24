@@ -29,7 +29,7 @@ object Main extends JFXApp {
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
 
   // Load Object File
-  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/VideoShip.obj")
+  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj")
 
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4
@@ -47,10 +47,14 @@ object Main extends JFXApp {
     scene = new Scene(1920, 1080) {
       content += canvas
       var lastTime = -1L
+      var nextFrame: Boolean = false
       val timer = AnimationTimer { time =>
-        if(lastTime >= 0) {
+        if(/*nextFrame*/lastTime >= 0) {
+          nextFrame = false
+          // println("New Frame")
+          // println(canvas.getHeight, canvas.getWidth)
           val delay = (time - lastTime) / 1e9
-          
+
           if(upHeld) vCamera.y += 8.0 * delay
           if(downHeld) vCamera.y -= 8.0 * delay
           if(leftHeld) vCamera.x -= 8.0 * delay
@@ -64,7 +68,7 @@ object Main extends JFXApp {
           if(aHeld) fYaw -= 2.0 * delay
           if(dHeld) fYaw += 2.0 * delay
 
-          fTheta += 1 * delay
+          //fTheta += 1 * delay
           val matRotZ: Mat4x4 = matrix.makeRotZ(fTheta * 0.5)
           val matRotX: Mat4x4 = matrix.makeRotX(fTheta)
           
@@ -109,14 +113,16 @@ object Main extends JFXApp {
 
               // Shading value based on alignment of light direction and triangle surface normal
               val dp: Double = math.max(0.1, lightDirection.dotProduct(normal))
-              triTransformed.brightness = dp
-              triTransformed.col = Color.Orange
+              triTransformed.bri = dp
+              triTransformed.sat = 0.0
+              triTransformed.col = Color.White
 
               // Convert world space --> view space
               triViewed.p(0).multiplyMatrixVector(matView, triTransformed.p(0))
               triViewed.p(1).multiplyMatrixVector(matView, triTransformed.p(1))
               triViewed.p(2).multiplyMatrixVector(matView, triTransformed.p(2))
-              triViewed.brightness = triTransformed.brightness
+              triViewed.bri = triTransformed.bri
+              triViewed.sat = triTransformed.sat
               triViewed.col = triTransformed.col
 
               // Clip Viewed Triangle against near plane, this could form two additional
@@ -133,7 +139,8 @@ object Main extends JFXApp {
                 triProjected.p(0).multiplyMatrixVector(matProj, clipped(n).p(0))
                 triProjected.p(1).multiplyMatrixVector(matProj, clipped(n).p(1))
                 triProjected.p(2).multiplyMatrixVector(matProj, clipped(n).p(2))
-                triProjected.brightness = clipped(n).brightness
+                triProjected.bri = clipped(n).bri
+                triProjected.sat = clipped(n).sat
                 triProjected.col = clipped(n).col
 
                 // Scale into view and normalize
@@ -142,12 +149,9 @@ object Main extends JFXApp {
                 triProjected.p(2) = triProjected.p(2) / triProjected.p(2).w
 
                 // X/Y are inverted so put them back
-                triProjected.p(0).x *= -1.0
-                triProjected.p(1).x *= -1.0
-                triProjected.p(2).x *= -1.0
-                triProjected.p(0).y *= -1.0
-                triProjected.p(1).y *= -1.0
-                triProjected.p(2).y *= -1.0
+                triProjected.p(0).x *= -1.0; triProjected.p(1).y *= -1.0
+                triProjected.p(2).x *= -1.0; triProjected.p(0).y *= -1.0
+                triProjected.p(1).x *= -1.0; triProjected.p(2).y *= -1.0
 
                 // Scale Into View
                 val vOffsetView: Vec3d = new Vec3d(1.0, 1.0, 0.0)
@@ -172,15 +176,19 @@ object Main extends JFXApp {
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
 
           val arrayTriangles: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
+          
           for(triToRaster <- vecTrianglesToRaster) {
             // Clip triangles against all four screen edges, this could yield a bunch of triangles
             val clipped: Array[Triangle] = Array.fill(2)(new Triangle)
+            var nNewTriangles: Int = arrayTriangles.length
             arrayTriangles += triToRaster
-            var nNewTriangles: Int = 1
             for(p <- 0 until 4) {
+              
               var nTrisToAdd: Int = 0
               while(nNewTriangles > 0) {
+                //println(p, nNewTriangles)
                 val test: Triangle = arrayTriangles.remove(0)
+                //println(arrayTriangles.length)
                 nNewTriangles -= 1
 
                 nTrisToAdd = p match {
@@ -192,17 +200,18 @@ object Main extends JFXApp {
                 }
               }
               for(w <- 0 until nTrisToAdd) {
-                //println(p, nNewTriangles, nTrisToAdd)
                 arrayTriangles += clipped(w)
+                //println(p, nTrisToAdd, clipped(w))
               }
               nNewTriangles = arrayTriangles.length
             }
             
             // Rasterize Triangle
             for(t <- arrayTriangles) {
-              val color = Color.hsb(t.col.hue, 0.5, t.brightness)
-              t.fill(gc, t.p(0).x, t.p(0).y, t.p(1).x, t.p(1).y, t.p(2).x, t.p(2).y, color)
-              t.draw(gc, t.p(0).x, t.p(0).y, t.p(1).x, t.p(1).y, t.p(2).x, t.p(2).y, Color.Black)
+              //println(t)
+              val color = Color.hsb(t.col.hue, t.sat, t.bri)
+              t.fill(gc, color)
+              t.draw(gc, Color.Black)
             }
           }
         }
@@ -220,6 +229,7 @@ object Main extends JFXApp {
             case KeyCode.W => wHeld = true
             case KeyCode.S => sHeld = true
             case KeyCode.D => dHeld = true
+            case KeyCode.N => nextFrame = true
             case _ =>
           }
         }

@@ -18,7 +18,6 @@ class Vec3d(var x: Double = 0.0, var y: Double = 0.0, var z: Double = 0.0) {
     vector.x = this.x + v.x
     vector.y = this.y + v.y
     vector.z = this.z + v.z
-    vector.w = this.w + v.w
     vector
   }
 
@@ -26,7 +25,6 @@ class Vec3d(var x: Double = 0.0, var y: Double = 0.0, var z: Double = 0.0) {
     this.x += v.x
     this.y += v.y
     this.z += v.z
-    this.w += v.w
     this
   }
 
@@ -42,7 +40,6 @@ class Vec3d(var x: Double = 0.0, var y: Double = 0.0, var z: Double = 0.0) {
     this.x -= v.x
     this.y -= v.y
     this.z -= v.z
-    this.w -= v.w
     this
   }
 

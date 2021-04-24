@@ -5,7 +5,7 @@ import scalafx.scene.canvas.GraphicsContext
 import scalafx.scene.canvas.Canvas
 
 class Triangle {
-  var p: Array[Vec3d] = Array.fill(3){new Vec3d}
+  var p: Array[Vec3d] = Array.fill(3)(new Vec3d)
   var bri: Double = 1.0
   var col: Color = Color.Black
 	var sat: Double = 1.0
@@ -19,13 +19,10 @@ class Triangle {
     z1 > z2
   }
 
-  def fill(gc: GraphicsContext, fillColor: Color): Unit = {
+  def fill(gc: GraphicsContext, fillColor: Color, strokeColor: Color): Unit = {
     gc.setFill(fillColor)
     gc.fillPolygon(Seq((this.p(0).x, this.p(0).y), (this.p(1).x, this.p(1).y), (this.p(2).x, this.p(2).y)))
-  }
-
-  def draw(gc: GraphicsContext, strokeColor: Color): Unit = {
-    gc.setStroke(strokeColor)
+		gc.setStroke(strokeColor)
     gc.strokePolygon(Seq((this.p(0).x, this.p(0).y), (this.p(1).x, this.p(1).y), (this.p(2).x, this.p(2).y)))
   }
   
@@ -45,12 +42,6 @@ class Triangle {
 		"(" + this.p(1).x + ", " + this.p(1).y + ", " + this.p(1).z + ")\n" +
 		"(" + this.p(2).x + ", " + this.p(2).y + ", " + this.p(2).z + ")"
 	}
-
-	// def isPositive: Boolean = {
-	// 	this.p(0).x > 0 && this.p(0).y > 0 && this.p(0).z > 0 &&
-	// 	this.p(1).x > 0 && this.p(1).y > 0 && this.p(1).z > 0 &&
-	// 	this.p(2).x > 0 && this.p(2).y > 0 && this.p(2).z > 0
-	// }
 
   def clipAgainstPlane(plane_p: Vec3d, plane_n: Vec3d, out_tri1: Triangle, out_tri2: Triangle): Int = {
 		// Make sure plane normal is indeed normal

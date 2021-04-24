@@ -2041,3 +2041,204 @@ Apr 23, 2021 9:10:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 12403
 Apr 23, 2021 9:10:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 12415
+[0m2021.04.23 21:11:22 INFO  shutting down Metals[0m
+[0m2021.04.23 21:11:22 INFO  Shut down connection with build server.[0m
+[0m2021.04.23 21:11:22 INFO  Shut down connection with build server.[0m
+[0m2021.04.23 21:11:22 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.24 02:30:46 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.24 02:30:47 INFO  time: initialize in 1.17s[0m
+[0m2021.04.24 02:30:47 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.24 02:30:47 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala[0m
+[0m2021.04.24 02:30:47 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16252'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.24 02:30:51 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.24 02:30:53 INFO  time: code lens generation in 5.33s[0m
+[0m2021.04.24 02:30:53 INFO  time: code lens generation in 5.39s[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16252...
+The server is listening for incoming connections at tcp://127.0.0.1:16252...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.24 02:30:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.24 02:30:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.04.24 02:30:57 INFO  Attempting to connect to the build server...Opening a bsp server connection with 'bsp --protocol tcp --port 24530'...[0m
+
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37964'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24530...
+The server is listening for incoming connections at tcp://127.0.0.1:24530...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37964...
+The server is listening for incoming connections at tcp://127.0.0.1:37964...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.24 02:30:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.24 02:30:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.24 02:31:00 INFO  time: Connected to build server in 12s[0m
+[0m2021.04.24 02:31:00 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.04.24 02:31:03 INFO  time: indexed workspace in 2.49s[0m
+[0m2021.04.24 02:31:04 INFO  compiling graphicsengine3d (6 scala sources)[0m
+[0m2021.04.24 02:31:10 INFO  time: compiled graphicsengine3d in 6.23s[0m
+[0m2021.04.24 02:31:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:31:56 INFO  time: compiled graphicsengine3d in 2.19s[0m
+Apr 24, 2021 2:32:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 103
+[0m2021.04.24 02:32:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:32:36 INFO  time: compiled graphicsengine3d in 0.86s[0m
+[0m2021.04.24 02:32:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:32:37 INFO  time: compiled graphicsengine3d in 0.39s[0m
+[0m2021.04.24 02:32:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:32:39 INFO  time: compiled graphicsengine3d in 0.91s[0m
+[0m2021.04.24 02:32:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:32:41 INFO  time: compiled graphicsengine3d in 0.3s[0m
+Apr 24, 2021 2:32:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+[0m2021.04.24 02:32:56 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.24 02:32:58 INFO  time: compiled graphicsengine3d in 1.6s[0m
+[0m2021.04.24 02:33:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:33:44 INFO  time: compiled graphicsengine3d in 1.33s[0m
+[0m2021.04.24 02:33:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:33:53 INFO  time: compiled graphicsengine3d in 1.3s[0m
+[0m2021.04.24 02:34:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:34:09 INFO  time: compiled graphicsengine3d in 1.33s[0m
+Apr 24, 2021 2:35:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 383
+Apr 24, 2021 2:35:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 393
+[0m2021.04.24 02:35:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:35:29 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.04.24 02:36:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:36:29 INFO  time: compiled graphicsengine3d in 0.64s[0m
+[0m2021.04.24 02:36:29 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.24 02:36:29 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.04.24 02:36:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:36:32 INFO  time: compiled graphicsengine3d in 0.67s[0m
+[0m2021.04.24 02:36:32 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.24 02:36:32 INFO  time: compiled graphicsengine3d in 0.22s[0m
+Apr 24, 2021 2:36:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 441
+Apr 24, 2021 2:36:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 453
+Apr 24, 2021 2:36:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+Apr 24, 2021 2:36:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 483
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 163, 163, 178)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 163, 163, 171)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 163, 163, 173)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 163, 163, 174)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec3d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 163, 163, 175)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec3d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 163, 163, 175)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec3d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 163, 163, 175)
+[0m2021.04.24 02:37:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:37:18 INFO  time: compiled graphicsengine3d in 0.16s[0m
+[0m2021.04.24 02:37:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:37:26 INFO  time: compiled graphicsengine3d in 0.11s[0m
+Apr 24, 2021 2:37:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 695
+Apr 24, 2021 2:37:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 702
+Apr 24, 2021 2:37:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 709
+Apr 24, 2021 2:37:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 716
+Apr 24, 2021 2:38:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 724
+Apr 24, 2021 2:38:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 731
+Apr 24, 2021 2:38:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 738
+[0m2021.04.24 02:40:16 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:40:16 INFO  time: compiled graphicsengine3d in 0.62s[0m
+Apr 24, 2021 2:41:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 782
+[0m2021.04.24 02:41:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:41:51 INFO  time: compiled graphicsengine3d in 1.3s[0m
+Apr 24, 2021 2:42:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 801
+Apr 24, 2021 2:43:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 816
+Apr 24, 2021 2:43:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 824
+Apr 24, 2021 2:44:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 831
+Apr 24, 2021 2:50:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 900
+Apr 24, 2021 2:50:37 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 213, count -1, length 6081
+[0m2021.04.24 02:50:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+Apr 24, 2021 2:50:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 958
+[0m2021.04.24 02:50:40 INFO  time: compiled graphicsengine3d in 0.85s[0m
+[0m2021.04.24 02:50:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:50:47 INFO  time: compiled graphicsengine3d in 1.2s[0m
+[0m2021.04.24 02:52:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:52:32 INFO  time: compiled graphicsengine3d in 1.28s[0m
+[0m2021.04.24 02:53:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:53:07 INFO  time: compiled graphicsengine3d in 1.14s[0m
+[0m2021.04.24 02:54:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:54:10 INFO  time: compiled graphicsengine3d in 1.18s[0m
+[0m2021.04.24 02:55:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:55:35 INFO  time: compiled graphicsengine3d in 1.14s[0m
+[0m2021.04.24 02:57:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:57:51 INFO  time: compiled graphicsengine3d in 1.14s[0m
+[0m2021.04.24 02:59:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:59:07 INFO  time: compiled graphicsengine3d in 1.15s[0m
+[0m2021.04.24 02:59:14 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:59:15 INFO  time: compiled graphicsengine3d in 1.17s[0m
+[0m2021.04.24 02:59:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:59:30 INFO  time: compiled graphicsengine3d in 1.13s[0m
+[0m2021.04.24 02:59:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 02:59:43 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.04.24 03:00:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 03:00:23 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.04.24 03:00:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 03:00:32 INFO  time: compiled graphicsengine3d in 1.14s[0m
+[0m2021.04.24 03:00:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 03:00:57 INFO  time: compiled graphicsengine3d in 1.34s[0m
+[0m2021.04.24 03:01:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 03:01:22 INFO  time: compiled graphicsengine3d in 1.14s[0m
+[0m2021.04.24 03:01:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 03:01:46 INFO  time: compiled graphicsengine3d in 1.15s[0m
+Apr 24, 2021 3:02:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1756
+Apr 24, 2021 3:05:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1765
+Apr 24, 2021 3:05:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1773

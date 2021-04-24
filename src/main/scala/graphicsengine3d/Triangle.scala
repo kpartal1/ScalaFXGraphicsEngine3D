@@ -9,6 +9,7 @@ class Triangle {
   var bri: Double = 1.0
   var col: Color = Color.Black
 	var sat: Double = 1.0
+	
   def apply(vec1: Vec3d, vec2: Vec3d, vec3: Vec3d): Unit = {
     this.p(0) = vec1; this.p(1) = vec2; this.p(2) = vec3
   }

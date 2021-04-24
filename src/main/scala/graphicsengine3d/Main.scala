@@ -49,10 +49,7 @@ object Main extends JFXApp {
       var lastTime = -1L
       var nextFrame: Boolean = false
       val timer = AnimationTimer { time =>
-        if(/*nextFrame*/lastTime >= 0) {
-          nextFrame = false
-          // println("New Frame")
-          // println(canvas.getHeight, canvas.getWidth)
+        if(lastTime >= 0) {
           val delay = (time - lastTime) / 1e9
 
           if(upHeld) vCamera.y += 8.0 * delay

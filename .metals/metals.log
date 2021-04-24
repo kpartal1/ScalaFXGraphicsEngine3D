@@ -2460,3 +2460,33 @@ WARNING: Unmatched cancel notification for request id 3110
 [0m2021.04.24 04:39:28 INFO  time: compiled graphicsengine3d in 1.1s[0m
 [0m2021.04.24 04:39:48 INFO  compiling graphicsengine3d (1 scala source)[0m
 [0m2021.04.24 04:39:49 INFO  time: compiled graphicsengine3d in 1.11s[0m
+[0m2021.04.24 04:40:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:40:06 INFO  time: compiled graphicsengine3d in 1.14s[0m
+[0m2021.04.24 04:40:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:40:20 INFO  time: compiled graphicsengine3d in 1.35s[0m
+[0m2021.04.24 04:40:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:40:42 INFO  time: compiled graphicsengine3d in 0.19s[0m
+[0m2021.04.24 04:40:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:40:46 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.24 04:41:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:41:10 INFO  time: compiled graphicsengine3d in 1.11s[0m
+[0m2021.04.24 04:41:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:41:24 INFO  time: compiled graphicsengine3d in 0.19s[0m
+[0m2021.04.24 04:41:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:41:33 INFO  time: compiled graphicsengine3d in 1.1s[0m
+[0m2021.04.24 04:42:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:42:46 INFO  time: compiled graphicsengine3d in 1.09s[0m
+[0m2021.04.24 04:43:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 04:43:06 INFO  time: compiled graphicsengine3d in 1.37s[0m
+Apr 24, 2021 4:43:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.24 04:44:15 INFO  shutting down Metals[0m
+[0m2021.04.24 04:44:15 INFO  Shut down connection with build server.[0m
+[0m2021.04.24 04:44:15 INFO  Shut down connection with build server.[0m
+[0m2021.04.24 04:44:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

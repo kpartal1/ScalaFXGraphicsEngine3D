@@ -2713,3 +2713,1470 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.04.24 05:56:49 INFO  time: compiled graphicsengine3d in 1.08s[0m
 Apr 24, 2021 5:56:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.24 06:03:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 06:04:01 INFO  time: compiled graphicsengine3d in 1.4s[0m
+[0m2021.04.24 06:05:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.24 06:05:10 INFO  time: compiled graphicsengine3d in 1.16s[0m
+[0m2021.04.24 06:05:23 INFO  shutting down Metals[0m
+[0m2021.04.24 06:05:23 INFO  Shut down connection with build server.[0m
+[0m2021.04.24 06:05:23 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.24 06:05:23 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+[0m2021.04.28 00:30:18 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.28 00:30:20 INFO  time: initialize in 1.8s[0m
+[0m2021.04.28 00:30:20 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.28 00:30:20 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.28 00:30:20 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22433'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.28 00:30:24 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+[0m2021.04.28 00:30:26 INFO  time: code lens generation in 5.36s[0m
+[0m2021.04.28 00:30:26 INFO  time: code lens generation in 5.43s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22433...
+The server is listening for incoming connections at tcp://127.0.0.1:22433...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.28 00:30:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 00:30:26 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24115'...
+[0m2021.04.28 00:30:26 Waiting for the bsp connection to come up...INFO  
+Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43290'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24115...
+The server is listening for incoming connections at tcp://127.0.0.1:24115...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43290...
+The server is listening for incoming connections at tcp://127.0.0.1:43290...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.28 00:30:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 00:30:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 00:30:27 INFO  time: Connected to build server in 6.57s[0m
+[0m2021.04.28 00:30:27 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.04.28 00:30:27 INFO  time: Imported build in 0.11s[0m
+[0m2021.04.28 00:30:29 INFO  time: indexed workspace in 2.27s[0m
+[0m2021.04.28 00:30:30 INFO  compiling graphicsengine3d (6 scala sources)[0m
+[0m2021.04.28 00:30:37 INFO  time: compiled graphicsengine3d in 6.5s[0m
+[0m2021.04.28 00:31:52 INFO  shutting down Metals[0m
+[0m2021.04.28 00:31:52 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.28 00:31:52 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.04.28 00:31:52 No more data in the server stdin, exiting...
+INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.28 23:30:12 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.28 23:30:14 INFO  time: initialize in 1.82s[0m
+[0m2021.04.28 23:30:14 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.28 23:30:14 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.28 23:30:14 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11464'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.04.28 23:30:19 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11464...
+The server is listening for incoming connections at tcp://127.0.0.1:11464...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.28 23:30:21 INFO  time: code lens generation in 1.67s[0m
+[0m2021.04.28 23:30:21 INFO  time: code lens generation in 1.74s[0m
+[0m2021.04.28 23:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 23:30:21 INFO  time: code lens generation in 1.97s[0m
+[0m2021.04.28 23:30:21 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.28 23:30:21 INFO  time: code lens generation in 2.02s[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20220'...
+[0m2021.04.28 23:30:21 INFO Waiting for the bsp connection to come up... 
+Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38007'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20220...
+The server is listening for incoming connections at tcp://127.0.0.1:20220...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38007...
+The server is listening for incoming connections at tcp://127.0.0.1:38007...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.28 23:30:21 INFO  time: code lens generation in 6.49s[0m
+[0m2021.04.28 23:30:21 INFO  time: code lens generation in 6.54s[0m
+[0m2021.04.28 23:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 23:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 23:30:21 INFO  time: Connected to build server in 7.03s[0m
+[0m2021.04.28 23:30:21 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.04.28 23:30:21 INFO  time: Imported build in 0.12s[0m
+[0m2021.04.28 23:30:24 INFO  time: indexed workspace in 2.27s[0m
+[0m2021.04.28 23:30:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:30:35 INFO  time: compiled graphicsengine3d in 6.25s[0m
+[0m2021.04.28 23:30:57 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:31:00 INFO  time: compiled graphicsengine3d in 2.33s[0m
+[0m2021.04.28 23:31:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:31:25 INFO  time: compiled graphicsengine3d in 1.74s[0m
+[0m2021.04.28 23:31:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:31:30 INFO  time: compiled graphicsengine3d in 1.6s[0m
+[0m2021.04.28 23:31:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:31:46 INFO  time: compiled graphicsengine3d in 1.93s[0m
+[0m2021.04.28 23:34:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:34:33 INFO  time: compiled graphicsengine3d in 1.46s[0m
+[0m2021.04.28 23:34:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:35:00 INFO  time: compiled graphicsengine3d in 1.64s[0m
+[0m2021.04.28 23:35:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:35:44 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.04.28 23:35:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:35:48 INFO  time: compiled graphicsengine3d in 59ms[0m
+[0m2021.04.28 23:35:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:35:51 INFO  time: compiled graphicsengine3d in 66ms[0m
+[0m2021.04.28 23:35:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:35:54 INFO  time: compiled graphicsengine3d in 1.37s[0m
+[0m2021.04.28 23:36:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:36:16 INFO  time: compiled graphicsengine3d in 1.34s[0m
+[0m2021.04.28 23:36:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:36:40 INFO  time: compiled graphicsengine3d in 1.31s[0m
+[0m2021.04.28 23:36:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:36:55 INFO  time: compiled graphicsengine3d in 1.32s[0m
+[0m2021.04.28 23:37:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:37:07 INFO  time: compiled graphicsengine3d in 1.31s[0m
+[0m2021.04.28 23:37:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:37:30 INFO  time: compiled graphicsengine3d in 1.25s[0m
+[0m2021.04.28 23:37:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:37:36 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.28 23:37:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:37:56 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.28 23:37:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:38:00 INFO  time: compiled graphicsengine3d in 1.54s[0m
+Apr 28, 2021 11:38:33 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Apr 28, 2021 11:38:33 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.04.28 23:38:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:38:36 INFO  time: compiled graphicsengine3d in 1.24s[0m
+[0m2021.04.28 23:38:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:38:52 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.28 23:38:57 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:38:57 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.28 23:39:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:39:18 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.28 23:39:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:39:20 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.28 23:39:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:39:28 INFO  time: compiled graphicsengine3d in 1.3s[0m
+[0m2021.04.28 23:39:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:39:37 INFO  time: compiled graphicsengine3d in 1.27s[0m
+[0m2021.04.28 23:39:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:40:00 INFO  time: compiled graphicsengine3d in 1.25s[0m
+[0m2021.04.28 23:40:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:40:15 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.04.28 23:40:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:40:23 INFO  time: compiled graphicsengine3d in 1.26s[0m
+[0m2021.04.28 23:41:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:41:33 INFO  time: compiled graphicsengine3d in 1.27s[0m
+[0m2021.04.28 23:42:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:42:37 INFO  time: compiled graphicsengine3d in 1.25s[0m
+[0m2021.04.28 23:42:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:42:50 INFO  time: compiled graphicsengine3d in 1.27s[0m
+[0m2021.04.28 23:42:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:42:54 INFO  time: compiled graphicsengine3d in 1.22s[0m
+[0m2021.04.28 23:43:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:43:56 INFO  time: compiled graphicsengine3d in 1.22s[0m
+Apr 28, 2021 11:44:28 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+scala.MatchError: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:233)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inArgParam$1(Variances.scala:231)
+	at scala.reflect.internal.Variance$.loop$2(Variance.scala:108)
+	at scala.reflect.internal.Variance$.foldExtract2(Variance.scala:109)
+	at scala.reflect.internal.Variances$varianceInType.inArgs(Variances.scala:223)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.apply(Variances.scala:253)
+	at scala.reflect.internal.Variances.$anonfun$varianceInType$1(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType$(Variances.scala:213)
+	at scala.reflect.internal.SymbolTable.varianceInType(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.$anonfun$matchesPtInst$2(Implicits.scala:608)
+	at scala.reflect.internal.tpe.TypeConstraints.$anonfun$solve$4(TypeConstraints.scala:213)
+	at scala.reflect.internal.tpe.TypeConstraints.solve(TypeConstraints.scala:212)
+	at scala.reflect.internal.tpe.TypeConstraints.solve$(TypeConstraints.scala:209)
+	at scala.reflect.internal.SymbolTable.solve(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes(Infer.scala:153)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes$(Infer.scala:145)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.solvedTypes(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$matchesPtInst(Implicits.scala:608)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1112)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:47)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:46)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$applyImplicitArgs$2(Typers.scala:262)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:255)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit1(Implicits.scala:763)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit0(Implicits.scala:715)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$typedImplicit(Implicits.scala:540)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1113)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView(Implicits.scala:51)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView$(Implicits.scala:50)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitView(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.inferView(Typers.scala:322)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptExprNotFunMode$1(Typers.scala:1117)
+	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1181)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1225)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5738)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:712)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1883)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5645)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5354)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:45)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:124)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr 28, 2021 11:44:28 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+scala.MatchError: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:233)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inArgParam$1(Variances.scala:231)
+	at scala.reflect.internal.Variance$.loop$2(Variance.scala:108)
+	at scala.reflect.internal.Variance$.foldExtract2(Variance.scala:109)
+	at scala.reflect.internal.Variances$varianceInType.inArgs(Variances.scala:223)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.apply(Variances.scala:253)
+	at scala.reflect.internal.Variances.$anonfun$varianceInType$1(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType$(Variances.scala:213)
+	at scala.reflect.internal.SymbolTable.varianceInType(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.$anonfun$matchesPtInst$2(Implicits.scala:608)
+	at scala.reflect.internal.tpe.TypeConstraints.$anonfun$solve$4(TypeConstraints.scala:213)
+	at scala.reflect.internal.tpe.TypeConstraints.solve(TypeConstraints.scala:212)
+	at scala.reflect.internal.tpe.TypeConstraints.solve$(TypeConstraints.scala:209)
+	at scala.reflect.internal.SymbolTable.solve(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes(Infer.scala:153)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes$(Infer.scala:145)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.solvedTypes(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$matchesPtInst(Implicits.scala:608)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1112)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:47)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:46)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$applyImplicitArgs$2(Typers.scala:262)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:255)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit1(Implicits.scala:763)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit0(Implicits.scala:715)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$typedImplicit(Implicits.scala:540)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1113)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView(Implicits.scala:51)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView$(Implicits.scala:50)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitView(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.inferView(Typers.scala:322)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptExprNotFunMode$1(Typers.scala:1117)
+	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1181)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1225)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5738)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:712)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1883)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5645)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5354)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:45)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:124)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr 28, 2021 11:44:39 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+scala.MatchError: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:233)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inArgParam$1(Variances.scala:231)
+	at scala.reflect.internal.Variance$.loop$2(Variance.scala:108)
+	at scala.reflect.internal.Variance$.foldExtract2(Variance.scala:109)
+	at scala.reflect.internal.Variances$varianceInType.inArgs(Variances.scala:223)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.apply(Variances.scala:253)
+	at scala.reflect.internal.Variances.$anonfun$varianceInType$1(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType$(Variances.scala:213)
+	at scala.reflect.internal.SymbolTable.varianceInType(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.$anonfun$matchesPtInst$2(Implicits.scala:608)
+	at scala.reflect.internal.tpe.TypeConstraints.$anonfun$solve$4(TypeConstraints.scala:213)
+	at scala.reflect.internal.tpe.TypeConstraints.solve(TypeConstraints.scala:212)
+	at scala.reflect.internal.tpe.TypeConstraints.solve$(TypeConstraints.scala:209)
+	at scala.reflect.internal.SymbolTable.solve(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes(Infer.scala:153)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes$(Infer.scala:145)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.solvedTypes(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$matchesPtInst(Implicits.scala:608)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1112)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:47)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:46)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$applyImplicitArgs$2(Typers.scala:262)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:255)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit1(Implicits.scala:763)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit0(Implicits.scala:715)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$typedImplicit(Implicits.scala:540)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1113)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView(Implicits.scala:51)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView$(Implicits.scala:50)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitView(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.inferView(Typers.scala:322)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptExprNotFunMode$1(Typers.scala:1117)
+	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1181)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1225)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5738)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:712)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1883)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5645)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5354)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:45)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:124)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr 28, 2021 11:44:39 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+scala.MatchError: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:233)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inArgParam$1(Variances.scala:231)
+	at scala.reflect.internal.Variance$.loop$2(Variance.scala:108)
+	at scala.reflect.internal.Variance$.foldExtract2(Variance.scala:109)
+	at scala.reflect.internal.Variances$varianceInType.inArgs(Variances.scala:223)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.apply(Variances.scala:253)
+	at scala.reflect.internal.Variances.$anonfun$varianceInType$1(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType$(Variances.scala:213)
+	at scala.reflect.internal.SymbolTable.varianceInType(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.$anonfun$matchesPtInst$2(Implicits.scala:608)
+	at scala.reflect.internal.tpe.TypeConstraints.$anonfun$solve$4(TypeConstraints.scala:213)
+	at scala.reflect.internal.tpe.TypeConstraints.solve(TypeConstraints.scala:212)
+	at scala.reflect.internal.tpe.TypeConstraints.solve$(TypeConstraints.scala:209)
+	at scala.reflect.internal.SymbolTable.solve(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes(Infer.scala:153)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes$(Infer.scala:145)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.solvedTypes(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$matchesPtInst(Implicits.scala:608)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1112)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:47)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:46)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$applyImplicitArgs$2(Typers.scala:262)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:255)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit1(Implicits.scala:763)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit0(Implicits.scala:715)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$typedImplicit(Implicits.scala:540)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1113)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView(Implicits.scala:51)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView$(Implicits.scala:50)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitView(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.inferView(Typers.scala:322)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptExprNotFunMode$1(Typers.scala:1117)
+	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1181)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1225)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5738)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:712)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1883)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5645)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5354)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:45)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:124)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr 28, 2021 11:44:39 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+scala.MatchError: input (of class scala.meta.internal.pc.MetalsGlobal$PrettyType)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:233)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inArgParam$1(Variances.scala:231)
+	at scala.reflect.internal.Variance$.loop$2(Variance.scala:108)
+	at scala.reflect.internal.Variance$.foldExtract2(Variance.scala:109)
+	at scala.reflect.internal.Variances$varianceInType.inArgs(Variances.scala:223)
+	at scala.reflect.internal.Variances$varianceInType.$anonfun$inType$1(Variances.scala:241)
+	at scala.reflect.internal.Variances$varianceInType.apply(Variances.scala:253)
+	at scala.reflect.internal.Variances.$anonfun$varianceInType$1(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType(Variances.scala:214)
+	at scala.reflect.internal.Variances.varianceInType$(Variances.scala:213)
+	at scala.reflect.internal.SymbolTable.varianceInType(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.$anonfun$matchesPtInst$2(Implicits.scala:608)
+	at scala.reflect.internal.tpe.TypeConstraints.$anonfun$solve$4(TypeConstraints.scala:213)
+	at scala.reflect.internal.tpe.TypeConstraints.solve(TypeConstraints.scala:212)
+	at scala.reflect.internal.tpe.TypeConstraints.solve$(TypeConstraints.scala:209)
+	at scala.reflect.internal.SymbolTable.solve(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes(Infer.scala:153)
+	at scala.tools.nsc.typechecker.Infer.solvedTypes$(Infer.scala:145)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.solvedTypes(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$matchesPtInst(Implicits.scala:608)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1112)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:47)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:46)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$applyImplicitArgs$2(Typers.scala:262)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:255)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit1(Implicits.scala:763)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.typedImplicit0(Implicits.scala:715)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$typedImplicit(Implicits.scala:540)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.rankImplicits(Implicits.scala:1113)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.findBest(Implicits.scala:1144)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1201)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1571)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:110)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:92)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:89)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView(Implicits.scala:51)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitView$(Implicits.scala:50)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitView(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Typers$Typer.inferView(Typers.scala:322)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptExprNotFunMode$1(Typers.scala:1117)
+	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1181)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1225)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5738)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$silent$2(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:725)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1830)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5644)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2495)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$103(Typers.scala:5653)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:499)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedArg$1(Typers.scala:3353)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:490)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgWithFormal$1(PatternTypers.scala:113)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.$anonfun$typedArgsForFormals$4(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals(PatternTypers.scala:127)
+	at scala.tools.nsc.typechecker.PatternTypers$PatternTyper.typedArgsForFormals$(PatternTypers.scala:108)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArgsForFormals(Typers.scala:201)
+	at scala.tools.nsc.typechecker.Typers$Typer.handleMonomorphicCall$1(Typers.scala:3692)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3725)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$26(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:712)
+	at scala.tools.nsc.typechecker.Typers$Typer.tryTypedApply$1(Typers.scala:4767)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:4851)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:4862)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5678)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedAssign$1(Typers.scala:4476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5659)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5688)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2017)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1883)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5645)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5788)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3335)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5354)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5724)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:45)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:30)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:124)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[0m2021.04.28 23:45:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:45:04 INFO  time: compiled graphicsengine3d in 1.23s[0m
+[0m2021.04.28 23:45:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:45:23 INFO  time: compiled graphicsengine3d in 1.24s[0m
+[0m2021.04.28 23:45:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:45:43 INFO  time: compiled graphicsengine3d in 1.55s[0m
+[0m2021.04.28 23:45:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:45:50 INFO  time: compiled graphicsengine3d in 1.25s[0m
+[0m2021.04.28 23:46:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:46:01 INFO  time: compiled graphicsengine3d in 1.31s[0m
+[0m2021.04.28 23:46:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:46:13 INFO  time: compiled graphicsengine3d in 1.24s[0m
+[0m2021.04.28 23:47:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:47:02 INFO  time: compiled graphicsengine3d in 1.4s[0m
+[0m2021.04.28 23:47:56 INFO  shutting down Metals[0m
+[0m2021.04.28 23:47:56 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.28 23:47:56 INFO  Shut down connection with build server.[0m
+[0mNo more data in the client stdin, exiting...
+2021.04.28 23:47:56 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.04.28 23:54:47 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.04.28 23:54:49 INFO  time: initialize in 1.75s[0m
+[0m2021.04.28 23:54:50 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.28 23:54:49 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.04.28 23:54:49 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26619'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26619...
+The server is listening for incoming connections at tcp://127.0.0.1:26619...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.28 23:54:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 23:54:51 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.28 23:54:51 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20522'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 45409'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20522...
+The server is listening for incoming connections at tcp://127.0.0.1:20522...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:45409...
+The server is listening for incoming connections at tcp://127.0.0.1:45409...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.28 23:54:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 23:54:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.28 23:54:51 INFO  time: Connected to build server in 1.67s[0m
+[0m2021.04.28 23:54:51 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.04.28 23:54:53 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.28 23:54:56 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.28 23:54:56 INFO  time: code lens generation in 6.47s[0m
+[0m2021.04.28 23:54:57 INFO  time: indexed workspace in 4.3s[0m
+[0m2021.04.28 23:55:00 INFO  time: code lens generation in 10s[0m
+[0m2021.04.28 23:55:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:55:04 INFO  time: compiled graphicsengine3d in 1.28s[0m
+[0m2021.04.28 23:55:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:55:47 INFO  time: compiled graphicsengine3d in 1.56s[0m
+[0m2021.04.28 23:56:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:56:33 INFO  time: compiled graphicsengine3d in 1.24s[0m
+[0m2021.04.28 23:56:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:56:38 INFO  time: compiled graphicsengine3d in 1.31s[0m
+[0m2021.04.28 23:56:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:56:54 INFO  time: compiled graphicsengine3d in 1.28s[0m
+[0m2021.04.28 23:57:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:57:09 INFO  time: compiled graphicsengine3d in 1.21s[0m
+[0m2021.04.28 23:57:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:57:20 INFO  time: compiled graphicsengine3d in 1.22s[0m
+[0m2021.04.28 23:58:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:58:27 INFO  time: compiled graphicsengine3d in 1.22s[0m
+[0m2021.04.28 23:58:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:58:42 INFO  time: compiled graphicsengine3d in 1.2s[0m
+[0m2021.04.28 23:58:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:58:47 INFO  time: compiled graphicsengine3d in 1.27s[0m
+[0m2021.04.28 23:59:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:59:05 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.04.28 23:59:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+Apr 28, 2021 11:59:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 245
+[0m2021.04.28 23:59:22 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.04.28 23:59:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.28 23:59:29 INFO  time: compiled graphicsengine3d in 1.61s[0m
+Apr 29, 2021 12:10:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 297
+[0m2021.04.29 03:15:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:15:00 INFO  time: compiled graphicsengine3d in 0.19s[0m
+Apr 29, 2021 3:16:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 478
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 221, 221, 236)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 221, 221, 229)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 221, 221, 231)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 221, 221, 232)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 221, 221, 233)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 221, 221, 233)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 221, 221, 233)
+[0m2021.04.29 03:17:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:17:08 INFO  time: compiled graphicsengine3d in 0.11s[0m
+Apr 29, 2021 3:17:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 684
+Apr 29, 2021 3:17:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 690
+[0m2021.04.29 03:17:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:17:17 INFO  time: compiled graphicsengine3d in 91ms[0m
+Apr 29, 2021 3:17:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 703
+[0m2021.04.29 03:17:22 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.29 03:17:22 INFO  time: compiled graphicsengine3d in 0.68s[0m
+[0m2021.04.29 03:17:22 INFO  compiling graphicsengine3d (2 scala sources)[0m
+Apr 29, 2021 3:17:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 709
+[0m2021.04.29 03:17:23 INFO  time: compiled graphicsengine3d in 0.92s[0m
+Apr 29, 2021 3:18:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 719
+[0m2021.04.29 03:18:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:18:40 INFO  time: compiled graphicsengine3d in 1.25s[0m
+[0m2021.04.29 03:18:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:18:50 INFO  time: compiled graphicsengine3d in 1.35s[0m
+[0m2021.04.29 03:19:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:19:36 INFO  time: compiled graphicsengine3d in 1.23s[0m
+[0m2021.04.29 03:22:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:22:09 INFO  time: compiled graphicsengine3d in 98ms[0m
+[0m2021.04.29 03:22:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:22:47 INFO  time: compiled graphicsengine3d in 46ms[0m
+[0m2021.04.29 03:22:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:22:51 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.04.29 03:22:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:22:54 INFO  time: compiled graphicsengine3d in 91ms[0m
+[0m2021.04.29 03:23:25 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:23:25 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.04.29 03:23:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:23:38 INFO  time: compiled graphicsengine3d in 88ms[0m
+[0m2021.04.29 03:23:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:23:44 INFO  time: compiled graphicsengine3d in 0.12s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2577)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2570)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2572)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2573)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec3d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2574)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2573)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2575)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2574)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2574)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2562, 2562, 2574)
+[0m2021.04.29 03:25:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:25:02 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.04.29 03:25:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:25:48 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.04.29 03:26:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:26:05 INFO  time: compiled graphicsengine3d in 0.1s[0m
+Apr 29, 2021 3:26:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1844
+[0m2021.04.29 03:26:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:26:26 INFO  time: compiled graphicsengine3d in 99ms[0m
+[0m2021.04.29 03:26:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:26:40 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:145:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri1.p(1) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:146:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri1.p(2) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(1))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:171:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri1.p(2) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:178:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri2.p(2) = intersectPlane(plane_p, plane_n, inside_points(1), outside_points(0))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:145:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri1.p(1) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:146:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri1.p(2) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(1))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:171:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri1.p(2) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:34 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:178:20: stale bloop error: type mismatch;
+ found   : (graphicsengine3d.Vec3d, Double)
+ required: graphicsengine3d.Vec3d
+			out_tri2.p(2) = intersectPlane(plane_p, plane_n, inside_points(1), outside_points(0))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.04.29 03:27:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:27:35 INFO  time: compiled graphicsengine3d in 0.66s[0m
+[0m2021.04.29 03:28:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:28:26 INFO  time: compiled graphicsengine3d in 90ms[0m
+[0m2021.04.29 03:28:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:28:51 INFO  time: compiled graphicsengine3d in 96ms[0m
+[0m2021.04.29 03:28:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:28:58 INFO  time: compiled graphicsengine3d in 0.63s[0m
+Apr 29, 2021 3:28:59 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.04.29 03:29:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:29:12 INFO  time: compiled graphicsengine3d in 0.64s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in (graphicsengine3d.Vec3d, <error>)RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 5300, 5300, 5316)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in (graphicsengine3d.Vec3d, <error>)RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 5401, 5401, 5417)
+[0m2021.04.29 03:29:33 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:29:33 INFO  time: compiled graphicsengine3d in 0.65s[0m
+[0m2021.04.29 03:33:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:33:03 INFO  time: compiled graphicsengine3d in 90ms[0m
+Apr 29, 2021 3:33:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2796
+[0m2021.04.29 03:33:13 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.04.29 03:33:13 INFO  time: compiled graphicsengine3d in 0.7s[0m
+Apr 29, 2021 3:33:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2823
+[0m2021.04.29 03:33:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:33:31 INFO  time: compiled graphicsengine3d in 0.65s[0m
+[0m2021.04.29 03:34:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:34:04 INFO  time: compiled graphicsengine3d in 0.65s[0m
+[0m2021.04.29 03:35:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:35:35 INFO  time: compiled graphicsengine3d in 0.66s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in (graphicsengine3d.Vec3d, <error>)RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 6687, 6687, 6703)
+[0m2021.04.29 03:36:10 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:36:10 INFO  time: compiled graphicsengine3d in 0.64s[0m
+[0m2021.04.29 03:36:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:36:40 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.04.29 03:37:14 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:37:14 INFO  time: compiled graphicsengine3d in 0.64s[0m
+[0m2021.04.29 03:37:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:37:18 INFO  time: compiled graphicsengine3d in 0.67s[0m
+[0m2021.04.29 03:39:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:39:48 INFO  time: compiled graphicsengine3d in 91ms[0m
+[0m2021.04.29 03:40:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:40:13 INFO  time: compiled graphicsengine3d in 0.67s[0m
+[0m2021.04.29 03:40:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:40:42 INFO  time: compiled graphicsengine3d in 0.68s[0m
+[0m2021.04.29 03:40:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:40:52 INFO  time: compiled graphicsengine3d in 0.67s[0m
+Apr 29, 2021 3:41:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4153
+[0m2021.04.29 03:41:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:41:42 INFO  time: compiled graphicsengine3d in 1.65s[0m
+[0m2021.04.29 03:42:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:42:27 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.04.29 03:42:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:42:34 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.04.29 03:42:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:42:46 INFO  time: compiled graphicsengine3d in 1.2s[0m
+Apr 29, 2021 3:50:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4470
+[0m2021.04.29 03:52:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:52:08 INFO  time: compiled graphicsengine3d in 0.6s[0m
+[0m2021.04.29 03:52:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:52:15 INFO  time: compiled graphicsengine3d in 0.64s[0m
+[0m2021.04.29 03:52:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:52:18 INFO  time: compiled graphicsengine3d in 86ms[0m
+[0m2021.04.29 03:53:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:53:45 INFO  time: compiled graphicsengine3d in 0.67s[0m
+[0m2021.04.29 03:55:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:55:31 INFO  time: compiled graphicsengine3d in 0.67s[0m
+[0m2021.04.29 03:55:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:55:56 INFO  time: compiled graphicsengine3d in 89ms[0m
+[0m2021.04.29 03:55:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:55:59 INFO  time: compiled graphicsengine3d in 92ms[0m
+[0m2021.04.29 03:56:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:56:03 INFO  time: compiled graphicsengine3d in 86ms[0m
+[0m2021.04.29 03:57:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:57:27 INFO  time: compiled graphicsengine3d in 88ms[0m
+[0m2021.04.29 03:57:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.04.29 03:57:56 INFO  time: compiled graphicsengine3d in 88ms[0m
+[0m2021.04.29 03:57:56 INFO  shutting down Metals[0m
+[0m2021.04.29 03:57:56 INFO  Shut down connection with build server.[0m
+[0m2021.04.29 03:57:56 INFO  Shut down connection with build server.[0m
+[0mNo more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.04.29 03:57:56 No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.05.03 23:32:01 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m

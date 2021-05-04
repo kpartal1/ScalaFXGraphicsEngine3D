@@ -27,7 +27,6 @@ object Main extends JFXApp {
   val gc: GraphicsContext = canvas.getGraphicsContext2D()
   gc.setFill(Color.Black)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
-
   // Load Object File
   val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj")
 
@@ -95,6 +94,9 @@ object Main extends JFXApp {
             triTransformed.p(0).multiplyMatrixVector(matWorld, tri.p(0))
             triTransformed.p(1).multiplyMatrixVector(matWorld, tri.p(1))
             triTransformed.p(2).multiplyMatrixVector(matWorld, tri.p(2))
+            triTransformed.t(0) = tri.t(0)
+            triTransformed.t(1) = tri.t(1)
+            triTransformed.t(2) = tri.t(2)
 
             val line1: Vec3d = triTransformed.p(1) - triTransformed.p(0)
             val line2: Vec3d = triTransformed.p(2) - triTransformed.p(0)
@@ -111,7 +113,7 @@ object Main extends JFXApp {
               
               val bri: Double = dp
               val sat: Double = 0.0
-              val col: Color = Color.Orange
+              val col: Color = Color.DarkGreen
 
               triTransformed.bri = bri
               triTransformed.sat = sat
@@ -122,15 +124,21 @@ object Main extends JFXApp {
               triViewed.p(0).multiplyMatrixVector(matView, triTransformed.p(0))
               triViewed.p(1).multiplyMatrixVector(matView, triTransformed.p(1))
               triViewed.p(2).multiplyMatrixVector(matView, triTransformed.p(2))
+              triViewed.t(0) = triTransformed.t(0)
+              triViewed.t(1) = triTransformed.t(1)
+              triViewed.t(2) = triTransformed.t(2)
               triViewed.bri = triTransformed.bri
               triViewed.sat = triTransformed.sat
               triViewed.col = triTransformed.col
 
               // Clip Viewed Triangle against near plane, this could form two additional
-              // additional triangles. 
+              // additional triangles.
               var nClippedTriangles: Int = 0
               val clipped: Array[Triangle] = Array.fill(2)(new Triangle)
-              nClippedTriangles = triViewed.clipAgainstPlane(new Vec3d(0.0, 0.0, 0.1), new Vec3d(0.0, 0.0, 1.0), clipped(0), clipped(1))
+              val ret = triViewed.clipAgainstPlane(new Vec3d(0.0, 0.0, 0.1), new Vec3d(0.0, 0.0, 1.0))
+              nClippedTriangles = ret._1
+              clipped(0) = ret._2
+              clipped(1) = ret._3
 
               // We may end up with multiple triangles form the clip, so project as
               // required
@@ -141,6 +149,9 @@ object Main extends JFXApp {
                 triProjected.p(0).multiplyMatrixVector(matProj, clipped(n).p(0))
                 triProjected.p(1).multiplyMatrixVector(matProj, clipped(n).p(1))
                 triProjected.p(2).multiplyMatrixVector(matProj, clipped(n).p(2))
+                triProjected.t(0) = clipped(n).t(0)
+                triProjected.t(1) = clipped(n).t(1)
+                triProjected.t(2) = clipped(n).t(2)
                 triProjected.bri = clipped(n).bri
                 triProjected.sat = clipped(n).sat
                 triProjected.col = clipped(n).col
@@ -178,7 +189,6 @@ object Main extends JFXApp {
           gc.setFill(Color.Black)
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
 
-          
           for(triToRaster <- vecTrianglesToRaster) {
             // Clip triangles against all four screen edges, this could yield a bunch of triangles
             val clipped: Array[Triangle] = Array.fill(2)(new Triangle)
@@ -193,15 +203,30 @@ object Main extends JFXApp {
                 val test: Triangle = arrayTriangles.remove(0)
                 nNewTriangles -= 1
                 nTrisToAdd = p match {
-                  case 0 => test.clipAgainstPlane(new Vec3d(0.0, 0.0, 0.0), new Vec3d(0.0, 1.0, 0.0), clipped(0), clipped(1))
-                  case 1 => test.clipAgainstPlane(new Vec3d(0.0, canvas.getHeight() - 1.0, 0.0), new Vec3d(0.0, -1.0, 0.0), clipped(0), clipped(1))
-                  case 2 => test.clipAgainstPlane(new Vec3d(0.0, 0.0, 0.0), new Vec3d(1.0, 0.0, 0.0), clipped(0), clipped(1))
-                  case 3 => test.clipAgainstPlane(new Vec3d(canvas.getWidth() - 1.0, 0.0, 0.0), new Vec3d(-1.0, 0.0, 0.0), clipped(0), clipped(1))
+                  case 0 =>
+                    val ret = test.clipAgainstPlane(new Vec3d(0.0, 0.0, 0.0), new Vec3d(0.0, 1.0, 0.0))
+                    clipped(0) = ret._2
+                    clipped(1) = ret._3
+                    ret._1
+                  case 1 =>
+                    val ret = test.clipAgainstPlane(new Vec3d(0.0, canvas.getHeight() - 1.0, 0.0), new Vec3d(0.0, -1.0, 0.0))
+                    clipped(0) = ret._2
+                    clipped(1) = ret._3
+                    ret._1
+                  case 2 =>
+                    val ret = test.clipAgainstPlane(new Vec3d(0.0, 0.0, 0.0), new Vec3d(1.0, 0.0, 0.0))
+                    clipped(0) = ret._2
+                    clipped(1) = ret._3
+                    ret._1
+                  case 3 =>
+                    val ret = test.clipAgainstPlane(new Vec3d(canvas.getWidth() - 1.0, 0.0, 0.0), new Vec3d(-1.0, 0.0, 0.0))
+                    clipped(0) = ret._2
+                    clipped(1) = ret._3
+                    ret._1
                   case _ => 0
                 }
                 for(w <- 0 until nTrisToAdd) {
                   arrayTriangles += clipped(w)
-                  clipped(w) = new Triangle
                 }
               }
               nNewTriangles = arrayTriangles.length
@@ -210,7 +235,7 @@ object Main extends JFXApp {
             // Rasterize Triangle
             for(t <- arrayTriangles) {
               val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
-              t.fill(gc, color, color)
+              t.fill(gc, color, Color.White)
             }
           }
         }

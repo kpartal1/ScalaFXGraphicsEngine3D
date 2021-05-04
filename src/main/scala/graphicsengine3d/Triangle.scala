@@ -6,6 +6,7 @@ import scalafx.scene.canvas.Canvas
 
 class Triangle {
   var p: Array[Vec3d] = Array.fill(3)(new Vec3d)
+	var t: Array[Vec2d] = Array.fill(3)(new Vec2d)
   var bri: Double = 1.0
   var col: Color = Color.Black
 	var sat: Double = 1.0
@@ -27,7 +28,7 @@ class Triangle {
     gc.strokePolygon(Seq((this.p(0).x, this.p(0).y), (this.p(1).x, this.p(1).y), (this.p(2).x, this.p(2).y)))
   }
   
-  def intersectPlane(planeP: Vec3d, plane_n: Vec3d, lineStart: Vec3d, lineEnd: Vec3d): Vec3d = {
+  def intersectPlane(planeP: Vec3d, plane_n: Vec3d, lineStart: Vec3d, lineEnd: Vec3d): (Vec3d, Double) = {
     val planeN: Vec3d = plane_n.normalize
     val planeD: Double = -planeN.dotProduct(planeP)
     val ad: Double = lineStart.dotProduct(planeN)
@@ -35,7 +36,7 @@ class Triangle {
     val t: Double = (-planeD - ad) / (bd - ad)
     val lineStartToEnd: Vec3d = lineEnd - lineStart
     val lineToIntersect: Vec3d = lineStartToEnd * t
-    return lineStart + lineToIntersect
+    return (lineStart + lineToIntersect, t)
   }
 
 	override def toString: String = {
@@ -44,9 +45,11 @@ class Triangle {
 		"(" + this.p(2).x + ", " + this.p(2).y + ", " + this.p(2).z + ")"
 	}
 
-  def clipAgainstPlane(plane_p: Vec3d, planeN: Vec3d, out_tri1: Triangle, out_tri2: Triangle): Int = {
+  def clipAgainstPlane(plane_p: Vec3d, planeN: Vec3d): (Int, Triangle, Triangle) = {
 		// Make sure plane normal is indeed normal
 		val plane_n: Vec3d = planeN.normalize
+		val out_tri1: Triangle = new Triangle
+		val out_tri2: Triangle = new Triangle
 
 		// Return signed shortest distance from point to plane, plane normal must be normalised
 		def dist(p: Vec3d) = {
@@ -57,6 +60,8 @@ class Triangle {
 		// If distance sign is positive, point lies on "inside" of plane
 		val inside_points: Array[Vec3d] = Array.fill(3)(new Vec3d);  var nInsidePointCount: Int = 0
 		val outside_points: Array[Vec3d] = Array.fill(3)(new Vec3d); var nOutsidePointCount: Int = 0
+		val inside_tex: Array[Vec2d] = Array.fill(3)(new Vec2d); var nInsideTexCount: Int = 0
+		val outside_tex: Array[Vec2d] = Array.fill(3)(new Vec2d); var nOutsideTexCount: Int = 0
 
 		// Get signed distance of each point in triangle to plane
 		val d0: Double = dist(this.p(0))
@@ -66,23 +71,35 @@ class Triangle {
 		if (d0 >= 0) {
       inside_points(nInsidePointCount) = this.p(0)
       nInsidePointCount += 1
+			inside_tex(nInsideTexCount) = this.t(0)
+			nInsideTexCount += 1
     } else {
       outside_points(nOutsidePointCount) = this.p(0) 
       nOutsidePointCount += 1
+			outside_tex(nOutsideTexCount) = this.t(0)
+			nOutsideTexCount += 1
     }
 		if (d1 >= 0) {
       inside_points(nInsidePointCount) = this.p(1) 
       nInsidePointCount += 1
+			inside_tex(nInsideTexCount) = this.t(1)
+			nInsideTexCount += 1
     } else {
       outside_points(nOutsidePointCount) = this.p(1)
       nOutsidePointCount += 1
+			outside_tex(nOutsideTexCount) = this.t(1)
+			nOutsideTexCount += 1
     }
 		if (d2 >= 0) {
       inside_points(nInsidePointCount) = this.p(2)
       nInsidePointCount += 1
+			inside_tex(nInsideTexCount) = this.t(2)
+			nInsideTexCount += 1
     } else {
       outside_points(nOutsidePointCount) = this.p(2)
       nOutsidePointCount += 1
+			outside_tex(nOutsideTexCount) = this.t(2)
+			nOutsideTexCount += 1
     }
 
 		// Now classify triangle points, and break the input triangle into 
@@ -94,7 +111,7 @@ class Triangle {
 			// All  points lie on the outside of plane, so clip whole triangle
 			// It ceases to exist
 
-			return 0 // No returned triangles are valid
+			return (0, out_tri1, out_tri2) // No returned triangles are valid
 		}
 
 		if (nInsidePointCount == 3) 
@@ -108,7 +125,7 @@ class Triangle {
 			out_tri1.sat = this.sat
 			out_tri1.col =  this.col
 
-			return 1 // Just the one retuned original triangle is valid
+			return (1, out_tri1, out_tri2) // Just the one retuned original triangle is valid
 		}
 
 		if (nInsidePointCount == 1 && nOutsidePointCount == 2)
@@ -124,13 +141,21 @@ class Triangle {
 
 			// The inside point is valid, so keep that...
 			out_tri1.p(0) = inside_points(0)
+			out_tri1.t(0) = inside_tex(0)
 
 			// but the two new points are at the locations where the 
 			// original sides of the triangle (lines) intersect with the plane
-			out_tri1.p(1) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
-			out_tri1.p(2) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(1))
+			val ip1: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
+			val ip2: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(1))
+			out_tri1.p(1) = ip1._1
+			out_tri1.t(1).u = ip1._2 * (outside_tex(0).u - inside_tex(0).u) + inside_tex(0).u
+			out_tri1.t(1).v = ip1._2 * (outside_tex(0).v - inside_tex(0).v) + inside_tex(0).v
 
-			return 1 // Return the newly formed single triangle
+			out_tri1.p(2) = ip2._1
+			out_tri1.t(2).u = ip2._2 * (outside_tex(0).u - inside_tex(0).u) + inside_tex(0).u
+			out_tri1.t(2).v = ip2._2 * (outside_tex(0).v - inside_tex(0).v) + inside_tex(0).v
+
+			return (1, out_tri1, out_tri2) // Return the newly formed single triangle
 		}
 
 		if (nInsidePointCount == 2 && nOutsidePointCount == 1)
@@ -153,17 +178,36 @@ class Triangle {
 			// intersects with the plane
 			out_tri1.p(0) = inside_points(0)
 			out_tri1.p(1) = inside_points(1)
-			out_tri1.p(2) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
+			out_tri1.t(0) = inside_tex(0)
+			out_tri1.t(1) = inside_tex(1)
+
+			val ip1: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
+			out_tri1.p(2) = ip1._1
+			out_tri1.t(2).u = ip1._2 * (outside_tex(0).u - inside_tex(0).u) + inside_tex(0).u
+			out_tri1.t(2).v = ip1._2 * (outside_tex(0).v - inside_tex(0).v) + inside_tex(0).v
 
 			// The second triangle is composed of one of he inside points, a
 			// new point determined by the intersection of the other side of the 
 			// triangle and the plane, and the newly created point above
 			out_tri2.p(0) = inside_points(1)
 			out_tri2.p(1) = out_tri1.p(2)
-			out_tri2.p(2) = intersectPlane(plane_p, plane_n, inside_points(1), outside_points(0))
+			out_tri2.t(0) = inside_tex(1)
+			out_tri2.t(1) = out_tri1.t(2)
+			val ip2: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(1), outside_points(0))
+			out_tri2.p(2) = ip2._1
+			out_tri1.t(2).u = ip2._2 * (outside_tex(0).u - inside_tex(1).u) + inside_tex(1).u
+			out_tri1.t(2).v = ip2._2 * (outside_tex(0).v - inside_tex(1).v) + inside_tex(1).v
 
-			return 2 // Return two newly formed triangles which form a quad
+			return (2, out_tri1, out_tri2) // Return two newly formed triangles which form a quad
 		}
-    1
+    (1, out_tri1, out_tri2)
+	}
+
+	def texturedTriangle(x1: Int, y1: Int, u1: Double, v1: Double, x2: Int, y2: Int, u2: Double, v2: Double, x3: Int, y3: Int, u3: Double, v3: Double): Unit = {
+		if(y2 < y1) {
+			val tmp: Int = y1
+			// y1 = y2
+			// y2 = tmp
+		}
 	}
 }

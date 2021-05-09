@@ -4435,3 +4435,311 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.05.09 02:28:14 INFO  time: indexed workspace in 3.94s[0m
 May 09, 2021 2:28:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 2:29:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+May 09, 2021 2:29:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+[0m2021.05.09 02:29:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+May 09, 2021 2:29:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+[0m2021.05.09 02:29:48 INFO  time: compiled graphicsengine3d in 2.47s[0m
+May 09, 2021 2:36:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+May 09, 2021 2:36:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+May 09, 2021 2:36:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+May 09, 2021 2:36:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+May 09, 2021 2:36:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 147
+May 09, 2021 2:38:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+[0m2021.05.09 02:38:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:38:14 INFO  time: compiled graphicsengine3d in 3.19s[0m
+[0m2021.05.09 02:41:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:41:23 INFO  time: compiled graphicsengine3d in 1.85s[0m
+[0m2021.05.09 02:41:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:41:38 INFO  time: compiled graphicsengine3d in 1.62s[0m
+May 09, 2021 2:42:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 260
+[0m2021.05.09 02:42:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:42:21 INFO  time: compiled graphicsengine3d in 1.05s[0m
+[0m2021.05.09 02:42:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:42:23 INFO  time: compiled graphicsengine3d in 0.85s[0m
+[0m2021.05.09 02:42:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:42:27 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.05.09 02:42:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:42:37 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.05.09 02:42:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:42:59 INFO  time: compiled graphicsengine3d in 0.64s[0m
+May 09, 2021 2:43:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 390
+May 09, 2021 2:43:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 397
+May 09, 2021 2:43:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 405
+May 09, 2021 2:43:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 411
+May 09, 2021 2:43:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 421
+May 09, 2021 2:43:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 428
+May 09, 2021 2:44:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 448
+[0m2021.05.09 02:44:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:44:52 INFO  Deduplicating compilation of graphicsengine3d from bsp client 'Metals 0.10.2' (since 16m 43.757s)[0m
+[0m2021.05.09 02:44:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:44:53 INFO  time: compiled graphicsengine3d in 1.3s[0m
+May 09, 2021 2:45:11 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1330, count -1, length 11381
+[0m2021.05.09 02:45:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:45:18 INFO  time: compiled graphicsengine3d in 1.38s[0m
+[0m2021.05.09 02:45:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:45:45 INFO  time: compiled graphicsengine3d in 0.29s[0m
+[0m2021.05.09 02:45:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:45:48 INFO  time: compiled graphicsengine3d in 0.25s[0m
+[0m2021.05.09 02:45:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:45:52 INFO  time: compiled graphicsengine3d in 1.37s[0m
+[0m2021.05.09 02:48:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:48:04 INFO  time: compiled graphicsengine3d in 1.37s[0m
+[0m2021.05.09 02:50:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:51:00 INFO  time: compiled graphicsengine3d in 1.5s[0m
+May 09, 2021 2:51:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 907
+[0m2021.05.09 02:51:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:51:21 INFO  time: compiled graphicsengine3d in 0.13s[0m
+[0m2021.05.09 02:51:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:51:23 INFO  time: compiled graphicsengine3d in 0.74s[0m
+[0m2021.05.09 02:52:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:52:32 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 02:53:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:53:17 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 02:53:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:53:24 INFO  time: compiled graphicsengine3d in 0.76s[0m
+[0m2021.05.09 02:53:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:53:49 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 02:54:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:54:26 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 02:54:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:54:36 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 02:54:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:54:45 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 02:55:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:55:42 INFO  time: compiled graphicsengine3d in 99ms[0m
+[0m2021.05.09 02:55:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:55:47 INFO  time: compiled graphicsengine3d in 66ms[0m
+[0m2021.05.09 02:55:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:55:51 INFO  time: compiled graphicsengine3d in 50ms[0m
+[0m2021.05.09 02:56:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:56:01 INFO  time: compiled graphicsengine3d in 0.7s[0m
+[0m2021.05.09 02:56:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:56:05 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 02:56:16 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:56:16 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.09 02:56:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:56:26 INFO  time: compiled graphicsengine3d in 46ms[0m
+[0m2021.05.09 02:56:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:56:43 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 02:56:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:56:56 INFO  time: compiled graphicsengine3d in 48ms[0m
+[0m2021.05.09 02:57:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:57:17 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.09 02:57:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:57:19 INFO  time: compiled graphicsengine3d in 46ms[0m
+[0m2021.05.09 02:57:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:57:24 INFO  time: compiled graphicsengine3d in 48ms[0m
+[0m2021.05.09 02:57:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:57:32 INFO  time: compiled graphicsengine3d in 46ms[0m
+[0m2021.05.09 02:57:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:57:41 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 02:58:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:58:04 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 02:58:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:58:07 INFO  time: compiled graphicsengine3d in 99ms[0m
+[0m2021.05.09 02:58:10 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:58:10 INFO  time: compiled graphicsengine3d in 95ms[0m
+[0m2021.05.09 02:58:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:58:17 INFO  time: compiled graphicsengine3d in 96ms[0m
+[0m2021.05.09 02:58:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:58:24 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.09 02:58:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:58:28 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 02:58:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:58:43 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 02:59:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 02:59:02 INFO  time: compiled graphicsengine3d in 0.71s[0m
+May 09, 2021 3:02:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2894
+May 09, 2021 3:02:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2903
+May 09, 2021 3:02:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2910
+May 09, 2021 3:02:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2919
+May 09, 2021 3:02:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2926
+[0m2021.05.09 03:02:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:02:59 INFO  time: compiled graphicsengine3d in 0.23s[0m
+May 09, 2021 3:03:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3126
+May 09, 2021 3:03:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3133
+[0m2021.05.09 03:04:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:04:13 INFO  time: compiled graphicsengine3d in 0.23s[0m
+May 09, 2021 3:04:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3191
+[0m2021.05.09 03:04:22 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:04:22 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.05.09 03:04:26 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:04:26 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.09 03:04:53 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:04:53 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.09 03:04:56 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:04:56 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.09 03:05:07 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:05:07 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.09 03:05:25 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:05:25 INFO  time: compiled graphicsengine3d in 0.23s[0m
+May 09, 2021 3:06:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3492
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in (Int, <error>)RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 8087, 8087, 8101)
+[0m2021.05.09 03:06:49 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:06:49 INFO  time: compiled graphicsengine3d in 48ms[0m
+[0m2021.05.09 03:06:52 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:06:52 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.09 03:06:59 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:06:59 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.05.09 03:07:10 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:07:10 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.09 03:07:18 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:07:18 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.05.09 03:07:24 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:07:24 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.09 03:07:27 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:07:27 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.09 03:07:36 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:07:36 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.05.09 03:07:41 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:07:41 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.05.09 03:07:48 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:07:48 INFO  time: compiled graphicsengine3d in 0.23s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in (Int, Int)RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 8181, 8181, 8191)
+[0m2021.05.09 03:09:11 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 03:09:13 INFO  time: compiled graphicsengine3d in 1.78s[0m
+[0m2021.05.09 03:09:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:09:29 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 03:10:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:10:03 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.05.09 03:10:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:10:19 INFO  time: compiled graphicsengine3d in 0.68s[0m
+[0m2021.05.09 03:10:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:10:39 INFO  time: compiled graphicsengine3d in 92ms[0m
+[0m2021.05.09 03:10:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:10:50 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.09 03:10:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:10:58 INFO  time: compiled graphicsengine3d in 88ms[0m
+[0m2021.05.09 03:11:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:11:06 INFO  time: compiled graphicsengine3d in 0.67s[0m
+[0m2021.05.09 03:11:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:11:49 INFO  time: compiled graphicsengine3d in 96ms[0m
+[0m2021.05.09 03:12:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:12:04 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.05.09 03:13:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:13:01 INFO  time: compiled graphicsengine3d in 0.68s[0m
+[0m2021.05.09 03:13:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:13:07 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 03:13:16 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:13:16 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.05.09 03:13:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:13:29 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 03:13:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:13:34 INFO  time: compiled graphicsengine3d in 92ms[0m
+[0m2021.05.09 03:14:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:14:18 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 03:15:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:15:07 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.05.09 03:15:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:15:19 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.05.09 03:15:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:15:35 INFO  time: compiled graphicsengine3d in 0.7s[0m
+[0m2021.05.09 03:15:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:15:53 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 03:16:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:16:11 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 03:16:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:16:22 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 03:16:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:16:55 INFO  time: compiled graphicsengine3d in 0.7s[0m
+[0m2021.05.09 03:17:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:17:26 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 03:17:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:17:34 INFO  time: compiled graphicsengine3d in 96ms[0m
+[0m2021.05.09 03:17:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:17:47 INFO  time: compiled graphicsengine3d in 1.11s[0m
+[0m2021.05.09 03:18:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:18:13 INFO  time: compiled graphicsengine3d in 0.7s[0m
+[0m2021.05.09 03:18:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:18:27 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.05.09 03:19:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:19:01 INFO  time: compiled graphicsengine3d in 0.69s[0m
+[0m2021.05.09 03:19:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:19:38 INFO  time: compiled graphicsengine3d in 0.71s[0m
+May 09, 2021 3:25:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6338
+[0m2021.05.09 03:25:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:25:21 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 03:25:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:25:28 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 03:25:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:25:56 INFO  time: compiled graphicsengine3d in 93ms[0m
+[0m2021.05.09 03:26:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:26:03 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 03:28:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:28:13 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.09 03:28:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:28:30 INFO  time: compiled graphicsengine3d in 99ms[0m
+[0m2021.05.09 03:28:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:28:32 INFO  time: compiled graphicsengine3d in 95ms[0m
+[0m2021.05.09 03:28:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:28:32 INFO  time: compiled graphicsengine3d in 76ms[0m
+[0m2021.05.09 03:28:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:28:48 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 03:28:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:28:54 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 03:29:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:29:56 INFO  time: compiled graphicsengine3d in 0.7s[0m
+[0m2021.05.09 03:30:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:30:12 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 03:30:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:30:37 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 03:30:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:30:40 INFO  time: compiled graphicsengine3d in 93ms[0m
+[0m2021.05.09 03:31:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:31:59 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 03:32:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:32:29 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 03:33:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:33:09 INFO  time: compiled graphicsengine3d in 0.76s[0m
+[0m2021.05.09 03:34:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:34:02 INFO  time: compiled graphicsengine3d in 96ms[0m
+[0m2021.05.09 03:34:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:34:12 INFO  time: compiled graphicsengine3d in 92ms[0m
+[0m2021.05.09 03:35:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:35:32 INFO  time: compiled graphicsengine3d in 0.75s[0m
+[0m2021.05.09 03:35:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:35:39 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.05.09 03:36:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:36:05 INFO  time: compiled graphicsengine3d in 0.73s[0m
+[0m2021.05.09 03:36:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:36:34 INFO  time: compiled graphicsengine3d in 0.99s[0m
+[0m2021.05.09 03:36:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:36:47 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 03:36:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:36:54 INFO  time: compiled graphicsengine3d in 0.71s[0m
+[0m2021.05.09 03:37:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:37:02 INFO  time: compiled graphicsengine3d in 0.72s[0m
+[0m2021.05.09 03:37:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:37:07 INFO  time: compiled graphicsengine3d in 91ms[0m
+[0m2021.05.09 03:37:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 03:37:55 INFO  time: compiled graphicsengine3d in 0.72s[0m

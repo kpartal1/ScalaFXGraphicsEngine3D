@@ -2,7 +2,7 @@ package graphicsengine3d
 
 import scalafx.scene.paint.Color
 import scalafx.scene.canvas.GraphicsContext
-import scalafx.scene.canvas.Canvas
+import scalafx.scene.image.Image
 
 class Triangle {
   var p: Array[Vec3d] = Array.fill(3)(new Vec3d)
@@ -203,11 +203,119 @@ class Triangle {
     (1, out_tri1, out_tri2)
 	}
 
-	def texturedTriangle(x1: Int, y1: Int, u1: Double, v1: Double, x2: Int, y2: Int, u2: Double, v2: Double, x3: Int, y3: Int, u3: Double, v3: Double): Unit = {
+	def swap[A](x: A, y: A): (A, A) = {
+		(y, x)
+	}
+
+	def texturedTriangle(sprite: Image): Unit = {
+		var x1: Int = this.p(0).x.toInt; var y1: Int = this.p(0).y.toInt; var u1: Double = this.t(0).u; var v1: Double = this.t(0).v
+		var x2: Int = this.p(1).x.toInt; var y2: Int = this.p(1).y.toInt; var u2: Double = this.t(1).u; var v2: Double = this.t(1).v
+		var x3: Int = this.p(2).x.toInt; var y3: Int = this.p(2).y.toInt; var u3: Double = this.t(2).u; var v3: Double = this.t(2).v
 		if(y2 < y1) {
-			val tmp: Int = y1
-			// y1 = y2
-			// y2 = tmp
+			val tmp: (Int, Int) = swap(y1, y2)
+			y1 = tmp._1
+			y2 = tmp._2
+
+			val tmp1: (Int, Int) = swap(x1, x2)
+			x1 = tmp1._1
+			x2 = tmp1._2
+
+			val tmp2: (Double, Double) = swap(u1, u2)
+			u1 = tmp2._1
+			u2 = tmp2._2
+
+			val tmp3: (Double, Double) = swap(v1, v2)
+			v1 = tmp3._1
+			v2 = tmp3._2
+		}
+
+		if(y3 < y1) {
+			val tmp: (Int, Int) = swap(y1, y3)
+			y1 = tmp._1
+			y3 = tmp._2
+
+			val tmp1: (Int, Int) = swap(x1, x3)
+			x1 = tmp1._1
+			x3 = tmp1._2
+
+			val tmp2: (Double, Double) = swap(u1, u3)
+			u1 = tmp2._1
+			u3 = tmp2._2
+
+			val tmp3: (Double, Double) = swap(v1, v3)
+			v1 = tmp3._1
+			v3 = tmp3._2
+		}
+
+		if(y3 < y2) {
+			val tmp: (Int, Int) = swap(y2, y3)
+			y2 = tmp._1
+			y3 = tmp._2
+
+			val tmp1: (Int, Int) = swap(x2, x3)
+			x2 = tmp1._1
+			x3 = tmp1._2
+
+			val tmp2: (Double, Double) = swap(u2, u3)
+			u2 = tmp2._1
+			u3 = tmp2._2
+
+			val tmp3: (Double, Double) = swap(v2, v3)
+			v2 = tmp3._1
+			v3 = tmp3._2
+		}
+
+		val dy1: Int = y2 - y1
+		val dx1: Int = x2 - x1
+		val dv1: Double = v2 - v1
+		val du1: Double = u2 - u1
+
+		val dy2: Int = y3 - y1
+		val dx2: Int = x3 - x1
+		val dv2: Double = v3 - v1
+		val du2: Double = u3 - u1
+
+		var dax_step: Double = 0.0
+		var dbx_step: Double = 0.0
+		var du1_step: Double = 0.0
+		var dv1_step: Double = 0.0
+		var du2_step: Double = 0.0
+		var dv2_step: Double = 0.0
+
+		if(dy1 != 0) dax_step = dx1 / math.abs(dy1).toDouble
+		if(dy2 != 0) dbx_step = dx2 / math.abs(dy2).toDouble
+
+		if(dy1 != 0) du1_step = du1 / math.abs(dy1).toDouble
+		if(dy1 != 0) dv1_step = dv1 / math.abs(dy1).toDouble
+
+		if(dy2 != 0) du2_step = du2 / math.abs(dy2).toDouble
+		if(dy2 != 0) dv2_step = dv2 / math.abs(dy2).toDouble
+
+		if(dy1 != 0) {
+			for(i <- y1 until y2) {
+				var ax: Int = (x1 + (i - y1).toDouble * dax_step).toInt
+				var bx: Int = (x1 + (i - y1).toDouble * dbx_step).toInt
+
+				var tex_su: Double = u1 + (i - y1).toDouble * du1_step
+				var tex_sv: Double = v1 + (i - y1).toDouble * dv1_step
+
+				var tex_eu: Double = u1 + (i - y1).toDouble * du2_step
+				var tex_ev: Double = v1 + (i - y1).toDouble * dv2_step
+
+				if(ax > bx) {
+					val tmp: (Int, Int) = swap(ax, bx)
+					ax = tmp._1
+					bx = tmp._2
+
+					val tmp1: (Double, Double) = swap(tex_su, tex_eu)
+					tex_su = tmp1._1
+					tex_eu = tmp1._2
+
+					val tmp2: (Double, Double) = swap(tex_sv, tex_ev)
+					tex_sv = tmp2._1
+					tex_ev = tmp2._2
+				}
+			}
 		}
 	}
 }

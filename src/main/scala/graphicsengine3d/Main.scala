@@ -11,6 +11,7 @@ import scala.io.Source
 import scalafx.scene.input.KeyEvent
 import scalafx.scene.input.KeyCode
 import scala.collection.mutable.ArrayBuffer
+import scalafx.scene.image.Image
 
 object Main extends JFXApp {
 
@@ -33,13 +34,11 @@ object Main extends JFXApp {
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4
   val matProj: Mat4x4 = matrix.makeProjection(90.0, canvas.getHeight() / canvas.getWidth(), 0.1, 1000.0)
-
   val vCamera: Vec3d = new Vec3d
   val vLookDir: Vec3d = new Vec3d
-
   private var fYaw: Double = 0.0
-
   private var fTheta: Double = 0
+  val sprTex1: Image = new Image("file:src/main/resources/floor.png")
   
   stage = new JFXApp.PrimaryStage {
     title = "GraphicsEngine3D"
@@ -235,7 +234,8 @@ object Main extends JFXApp {
             // Rasterize Triangle
             for(t <- arrayTriangles) {
               val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
-              t.fill(gc, color, Color.White)
+              t.fill(gc, Color.Transparent, Color.White)
+              //t.texturedTriangle(sprTex1)
             }
           }
         }

@@ -4180,3 +4180,218 @@ No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
 [0m2021.05.03 23:32:01 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.05.04 11:57:01 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.05.04 11:57:03 INFO  time: initialize in 1.52s[0m
+[0m2021.05.04 11:57:03 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.04 11:57:03 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala[0m
+[0m2021.05.04 11:57:03 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22405'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d-test', 'graphicsengine3d'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22405...
+The server is listening for incoming connections at tcp://127.0.0.1:22405...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.04 11:57:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.04 11:57:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0mOpening a bsp server connection with 'bsp --protocol tcp --port 42503'...2021.05.04 11:57:04 
+INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30376'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42503...
+The server is listening for incoming connections at tcp://127.0.0.1:42503...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30376...
+The server is listening for incoming connections at tcp://127.0.0.1:30376...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.04 11:57:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.04 11:57:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.04 11:57:04 INFO  time: Connected to build server in 1.13s[0m
+[0m2021.05.04 11:57:04 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.04 11:57:06 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.04 11:57:08 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.04 11:57:09 INFO  no build target: using presentation compiler with only scala-library: 2.12.12[0m
+May 04, 2021 11:57:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+May 04, 2021 11:57:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+[0m2021.05.04 11:57:10 INFO  time: indexed workspace in 4.53s[0m
+[0m2021.05.04 11:57:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:57:13 INFO  time: code lens generation in 9.85s[0m
+[0m2021.05.04 11:57:13 INFO  time: code lens generation in 9.98s[0m
+[0m2021.05.04 11:57:14 INFO  time: compiled graphicsengine3d in 2.79s[0m
+[0m2021.05.04 11:57:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:57:36 INFO  time: compiled graphicsengine3d in 0.34s[0m
+[0m2021.05.04 11:57:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:57:56 INFO  time: compiled graphicsengine3d in 1.57s[0m
+[0m2021.05.04 11:57:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:57:56 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.04 11:57:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:00 INFO  time: compiled graphicsengine3d in 1.07s[0m
+[0m2021.05.04 11:58:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:00 INFO  time: compiled graphicsengine3d in 0.38s[0m
+May 04, 2021 11:58:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 235
+[0m2021.05.04 11:58:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:19 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.05.04 11:58:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:32 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.05.04 11:58:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:41 INFO  time: compiled graphicsengine3d in 0.16s[0m
+[0m2021.05.04 11:58:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:47 INFO  time: compiled graphicsengine3d in 60ms[0m
+[0m2021.05.04 11:58:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:50 INFO  time: compiled graphicsengine3d in 0.15s[0m
+[0m2021.05.04 11:58:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:55 INFO  time: compiled graphicsengine3d in 0.15s[0m
+[0m2021.05.04 11:58:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:58:58 INFO  time: compiled graphicsengine3d in 54ms[0m
+[0m2021.05.04 11:59:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:59:02 INFO  time: compiled graphicsengine3d in 1.03s[0m
+[0m2021.05.04 11:59:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:59:02 INFO  time: compiled graphicsengine3d in 0.28s[0m
+May 04, 2021 11:59:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 482
+[0m2021.05.04 11:59:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:59:04 INFO  time: compiled graphicsengine3d in 0.95s[0m
+[0m2021.05.04 11:59:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 11:59:06 INFO  time: compiled graphicsengine3d in 0.28s[0m
+[0m2021.05.04 11:59:52 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 11:59:52 INFO  time: compiled graphicsengine3d in 0.31s[0m
+[0m2021.05.04 12:00:00 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:00:00 INFO  time: compiled graphicsengine3d in 0.3s[0m
+[0m2021.05.04 12:00:24 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:00:24 INFO  time: compiled graphicsengine3d in 0.26s[0m
+[0m2021.05.04 12:00:54 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:00:54 INFO  time: compiled graphicsengine3d in 0.26s[0m
+[0m2021.05.04 12:00:59 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:00:59 INFO  time: compiled graphicsengine3d in 0.26s[0m
+[0m2021.05.04 12:01:03 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:01:03 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.05.04 12:01:07 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:01:07 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.05.04 12:01:12 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:01:12 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.05.04 12:01:18 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:01:18 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.05.04 12:01:22 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:01:22 INFO  time: compiled graphicsengine3d in 0.26s[0m
+[0m2021.05.04 12:01:42 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:01:42 INFO  time: compiled graphicsengine3d in 0.25s[0m
+[0m2021.05.04 12:01:48 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:01:48 INFO  time: compiled graphicsengine3d in 0.25s[0m
+[0m2021.05.04 12:02:05 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:02:05 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.04 12:02:43 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:02:43 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.04 12:02:54 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:02:54 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.04 12:03:08 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:03:08 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.04 12:03:12 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:03:12 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.04 12:03:15 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:03:15 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.04 12:04:00 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:04:00 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.05.04 12:04:06 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:04:06 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.04 12:04:16 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:04:16 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.04 12:04:22 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:04:22 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.04 12:04:51 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:04:51 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.04 12:05:00 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:05:00 INFO  time: compiled graphicsengine3d in 51ms[0m
+[0m2021.05.04 12:05:02 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:05:02 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.04 12:05:05 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:05:05 INFO  time: compiled graphicsengine3d in 53ms[0m
+[0m2021.05.04 12:05:08 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:05:08 INFO  time: compiled graphicsengine3d in 0.23s[0m
+[0m2021.05.04 12:05:17 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.04 12:05:18 INFO  time: compiled graphicsengine3d in 1.92s[0m
+[0m2021.05.04 12:05:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 12:05:33 INFO  time: compiled graphicsengine3d in 1.32s[0m
+[0m2021.05.04 12:06:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 12:06:10 INFO  time: compiled graphicsengine3d in 1.32s[0m
+[0m2021.05.04 12:06:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 12:06:28 INFO  time: compiled graphicsengine3d in 1.33s[0m
+[0m2021.05.04 12:07:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.04 12:07:04 INFO  time: compiled graphicsengine3d in 1.25s[0m
+May 04, 2021 12:09:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.04 12:09:37 INFO  shutting down Metals[0m
+[0m2021.05.04 12:09:37 INFO  Shut down connection with build server.[0m
+[0m2021.05.04 12:09:37 INFO  Shut down connection with build server.[0m
+[0m2021.05.04 12:09:37 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.05.09 02:26:38 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.55.2.[0m
+[0m2021.05.09 02:26:40 INFO  time: initialize in 1.32s[0m
+[0m2021.05.09 02:26:40 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.09 02:26:40 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.05.09 02:26:40 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39887'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39887...
+The server is listening for incoming connections at tcp://127.0.0.1:39887...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.09 02:26:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 02:26:41 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25799'...
+[0m2021.05.09 02:26:41 INFO Waiting for the bsp connection to come up... Attempting to connect to the build server...
+[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 33575'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25799...
+The server is listening for incoming connections at tcp://127.0.0.1:25799...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:33575...
+The server is listening for incoming connections at tcp://127.0.0.1:33575...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.09 02:26:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 02:26:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 02:26:41 INFO  time: Connected to build server in 1.32s[0m
+[0m2021.05.09 02:26:41 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.09 02:26:43 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.09 02:26:46 INFO  no build target: using presentation compiler with only scala-library: 2.12.12[0m
+[0m2021.05.09 02:26:47 INFO  time: indexed workspace in 4.1s[0m
+[0m2021.05.09 02:26:49 INFO  time: code lens generation in 8.45s[0m
+[0m2021.05.09 02:26:50 INFO  time: code lens generation in 9.7s[0m

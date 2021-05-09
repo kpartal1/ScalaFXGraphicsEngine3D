@@ -7,7 +7,6 @@
 ### Metals ###
 .metals/
 project/**/metals.sbt
-target/
 
 ### SBT ###
 # Simple Build Tool

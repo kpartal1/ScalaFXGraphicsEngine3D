@@ -125,6 +125,9 @@ class Triangle {
 			out_tri1.p(0) = this.p(0)
       out_tri1.p(1) = this.p(1)
       out_tri1.p(2) = this.p(2)
+			out_tri1.t(0) = this.t(0)
+			out_tri1.t(1) = this.t(1)
+			out_tri1.t(2) = this.t(2)
       out_tri1.bri = this.bri
 			out_tri1.sat = this.sat
 			out_tri1.col =  this.col

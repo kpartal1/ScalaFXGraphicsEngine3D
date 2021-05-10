@@ -18,12 +18,14 @@ object MeshObjects {
           v.y = line(2).toDouble
           v.z = line(3).toDouble
           verts += v
-        } else if (line(0) == "vt") {
+      }
+      
+      if (line(0) == "vt") {
           val v: Vec2d = new Vec2d
           v.u = line(1).toDouble
           v.v = line(2).toDouble
           texs += v
-        }
+      }
 
       if(!bHasTexture) {
         if (line(0) == "f") {

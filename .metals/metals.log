@@ -6193,3 +6193,490 @@ WARNING: Unmatched cancel notification for request id 116
 [0m2021.05.10 00:47:41 INFO  time: compiled graphicsengine3d in 0.79s[0m
 [0m2021.05.10 00:47:56 INFO  compiling graphicsengine3d (1 scala source)[0m
 [0m2021.05.10 00:47:56 INFO  time: compiled graphicsengine3d in 0.94s[0m
+[0m2021.05.10 00:54:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:54:56 INFO  time: compiled graphicsengine3d in 0.8s[0m
+May 10, 2021 12:55:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2884
+[0m2021.05.10 00:55:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:55:32 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 00:55:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:55:46 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.05.10 00:55:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:55:49 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.05.10 00:57:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:57:04 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.05.10 00:57:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:57:34 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 00:57:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:57:47 INFO  time: compiled graphicsengine3d in 1.01s[0m
+[0m2021.05.10 00:58:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:58:02 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 00:58:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:58:11 INFO  time: compiled graphicsengine3d in 0.78s[0m
+May 10, 2021 12:58:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3252
+[0m2021.05.10 00:58:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:58:39 INFO  time: compiled graphicsengine3d in 0.4s[0m
+May 10, 2021 12:58:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3292
+May 10, 2021 12:59:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3314
+[0m2021.05.10 00:59:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:59:22 INFO  time: compiled graphicsengine3d in 46ms[0m
+[0m2021.05.10 00:59:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 00:59:24 INFO  time: compiled graphicsengine3d in 0.79s[0m
+May 10, 2021 12:59:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3345
+May 10, 2021 12:59:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3352
+[0m2021.05.10 01:00:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:00:08 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.05.10 01:00:16 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:00:16 INFO  time: compiled graphicsengine3d in 0.8s[0m
+May 10, 2021 1:01:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3402
+[0m2021.05.10 01:01:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:01:12 INFO  time: compiled graphicsengine3d in 0.36s[0m
+May 10, 2021 1:01:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3433
+May 10, 2021 1:01:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 10, 2021 1:35:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3454
+May 10, 2021 1:35:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3461
+[0m2021.05.10 01:36:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:36:01 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 01:37:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:37:01 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.05.10 01:39:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:39:36 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 01:40:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:40:20 INFO  time: compiled graphicsengine3d in 91ms[0m
+[0m2021.05.10 01:40:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:40:30 INFO  time: compiled graphicsengine3d in 0.8s[0m
+May 10, 2021 1:40:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3834
+[0m2021.05.10 01:40:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:40:51 INFO  time: compiled graphicsengine3d in 0.81s[0m
+May 10, 2021 1:41:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3851
+[0m2021.05.10 01:41:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:41:36 INFO  time: compiled graphicsengine3d in 1.19s[0m
+[0m2021.05.10 01:41:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:41:56 INFO  time: compiled graphicsengine3d in 1.49s[0m
+May 10, 2021 1:42:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3887
+May 10, 2021 1:42:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3896
+[0m2021.05.10 01:43:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:43:11 INFO  time: compiled graphicsengine3d in 0.51s[0m
+[0m2021.05.10 01:43:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:43:20 INFO  time: compiled graphicsengine3d in 0.51s[0m
+[0m2021.05.10 01:44:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:44:06 INFO  time: compiled graphicsengine3d in 0.51s[0m
+[0m2021.05.10 01:44:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:44:41 INFO  time: compiled graphicsengine3d in 0.49s[0m
+[0m2021.05.10 01:44:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:44:41 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.05.10 01:44:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:44:49 INFO  time: compiled graphicsengine3d in 0.48s[0m
+[0m2021.05.10 01:44:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:44:49 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.05.10 01:44:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:44:51 INFO  time: compiled graphicsengine3d in 0.51s[0m
+[0m2021.05.10 01:44:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:44:51 INFO  time: compiled graphicsengine3d in 0.17s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 350)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 343)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 350)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 350)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 343)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 345)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 346)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 347)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 348)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 347)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 347)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 347)
+[0m2021.05.10 01:45:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in scala.collection.mutable.ArrayBuffer[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 329, 329, 347)
+[0m2021.05.10 01:45:17 INFO  time: compiled graphicsengine3d in 0.5s[0m
+[0m2021.05.10 01:45:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:45:17 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.05.10 01:45:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:45:21 INFO  time: compiled graphicsengine3d in 78ms[0m
+[0m2021.05.10 01:45:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:45:23 INFO  time: compiled graphicsengine3d in 78ms[0m
+[0m2021.05.10 01:45:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:45:27 INFO  time: compiled graphicsengine3d in 0.49s[0m
+[0m2021.05.10 01:45:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:45:27 INFO  time: compiled graphicsengine3d in 0.16s[0m
+[0m2021.05.10 01:46:14 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:46:14 INFO  time: compiled graphicsengine3d in 46ms[0m
+[0m2021.05.10 01:46:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:46:20 INFO  time: compiled graphicsengine3d in 0.49s[0m
+[0m2021.05.10 01:46:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:46:20 INFO  time: compiled graphicsengine3d in 0.16s[0m
+[0m2021.05.10 01:46:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:46:37 INFO  time: compiled graphicsengine3d in 0.5s[0m
+[0m2021.05.10 01:46:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:46:37 INFO  time: compiled graphicsengine3d in 0.17s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1180)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1173)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1177)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1176)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1175)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1173)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1177)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1175)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1180)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1173)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1174)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1177)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+[0m2021.05.10 01:47:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:47:26 INFO  time: compiled graphicsengine3d in 84ms[0m
+[0m2021.05.10 01:47:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:47:37 INFO  time: compiled graphicsengine3d in 0.51s[0m
+[0m2021.05.10 01:47:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:47:37 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.05.10 01:47:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:47:48 INFO  time: compiled graphicsengine3d in 0.51s[0m
+[0m2021.05.10 01:47:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:47:48 INFO  time: compiled graphicsengine3d in 0.17s[0m
+May 10, 2021 1:54:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5210
+May 10, 2021 1:54:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5224
+[0m2021.05.10 01:56:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:56:17 INFO  time: compiled graphicsengine3d in 0.52s[0m
+[0m2021.05.10 01:56:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:56:17 INFO  time: compiled graphicsengine3d in 0.17s[0m
+May 10, 2021 1:56:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5300
+[0m2021.05.10 01:56:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:56:20 INFO  time: compiled graphicsengine3d in 0.5s[0m
+[0m2021.05.10 01:56:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:56:20 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.05.10 01:56:29 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.10 01:56:31 INFO  time: compiled graphicsengine3d in 1.19s[0m
+May 10, 2021 1:56:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5336
+May 10, 2021 1:57:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5354
+May 10, 2021 1:57:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5362
+May 10, 2021 1:58:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5371
+[0m2021.05.10 01:59:13 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 01:59:13 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.05.10 02:00:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:00:26 INFO  time: compiled graphicsengine3d in 0.8s[0m
+May 10, 2021 2:00:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5597
+May 10, 2021 2:00:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5604
+May 10, 2021 2:00:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5619
+[0m2021.05.10 02:00:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:00:56 INFO  time: compiled graphicsengine3d in 0.54s[0m
+May 10, 2021 2:00:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5636
+May 10, 2021 2:01:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5649
+[0m2021.05.10 02:01:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:01:17 INFO  time: compiled graphicsengine3d in 0.77s[0m
+May 10, 2021 2:01:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5678
+May 10, 2021 2:01:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5685
+May 10, 2021 2:02:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5693
+May 10, 2021 2:02:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5700
+May 10, 2021 2:03:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5711
+[0m2021.05.10 02:15:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:15:09 INFO  time: compiled graphicsengine3d in 99ms[0m
+[0m2021.05.10 02:15:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:15:09 INFO  time: compiled graphicsengine3d in 65ms[0m
+May 10, 2021 2:17:00 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1390, count -1, length 1525
+[0m2021.05.10 02:17:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:17:06 INFO  time: compiled graphicsengine3d in 86ms[0m
+[0m2021.05.10 02:17:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:17:44 INFO  time: compiled graphicsengine3d in 83ms[0m
+[0m2021.05.10 02:18:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:18:27 INFO  time: compiled graphicsengine3d in 95ms[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1208, 1208, 1221)
+[0m2021.05.10 02:19:06 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:27: stale bloop error: type mismatch;
+ found   : String
+ required: Char
+            val c: Char = i
+                          ^[0m
+[0m2021.05.10 02:19:06 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:49:11: stale bloop error: missing argument list for method += in class ArrayBuffer
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+= _` or `+=(_)` instead of `+=`.
+          tri += 
+          ^^^^^^[0m
+[0m2021.05.10 02:19:06 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:27: stale bloop error: type mismatch;
+ found   : String
+ required: Char
+            val c: Char = i
+                          ^[0m
+[0m2021.05.10 02:19:06 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:49:11: stale bloop error: missing argument list for method += in class ArrayBuffer
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `+= _` or `+=(_)` instead of `+=`.
+          tri += 
+          ^^^^^^[0m
+[0m2021.05.10 02:19:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:19:12 INFO  time: compiled graphicsengine3d in 83ms[0m
+[0m2021.05.10 02:19:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:19:38 INFO  time: compiled graphicsengine3d in 85ms[0m
+[0m2021.05.10 02:19:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:19:55 INFO  time: compiled graphicsengine3d in 88ms[0m
+[0m2021.05.10 02:20:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:20:21 INFO  time: compiled graphicsengine3d in 87ms[0m
+May 10, 2021 2:20:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6881
+[0m2021.05.10 02:21:29 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.10 02:21:29 INFO  time: compiled graphicsengine3d in 0.12s[0m
+May 10, 2021 2:21:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7308
+[0m2021.05.10 02:21:31 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.10 02:21:31 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.10 02:22:15 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.10 02:22:15 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.10 02:22:19 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.10 02:22:20 INFO  time: compiled graphicsengine3d in 1.14s[0m
+May 10, 2021 2:22:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7624
+May 10, 2021 2:22:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7631
+[0m2021.05.10 02:24:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:24:55 INFO  time: compiled graphicsengine3d in 1.09s[0m
+May 10, 2021 2:25:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7675
+[0m2021.05.10 02:25:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:25:28 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:25:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:25:43 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:25:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:25:53 INFO  time: compiled graphicsengine3d in 0.55s[0m
+[0m2021.05.10 02:26:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:26:19 INFO  time: compiled graphicsengine3d in 86ms[0m
+[0m2021.05.10 02:26:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:26:23 INFO  time: compiled graphicsengine3d in 0.57s[0m
+May 10, 2021 2:26:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7792
+May 10, 2021 2:26:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7799
+May 10, 2021 2:26:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7806
+May 10, 2021 2:26:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7820
+[0m2021.05.10 02:27:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:27:41 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:36: stale bloop error: unclosed character literal (or use " not ' for string literal)
+            if(i == ' ' || i == '/'') nTokenCount += 1
+                                   ^[0m
+[0m2021.05.10 02:27:41 INFO  time: compiled graphicsengine3d in 40ms[0m
+[0m2021.05.10 02:27:43 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:36: stale bloop error: unclosed character literal (or use " not ' for string literal)
+            if(i == ' ' || i == '/'') nTokenCount += 1
+                                   ^[0m
+[0m2021.05.10 02:27:43 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:36: stale bloop error: unclosed character literal (or use " not ' for string literal)
+            if(i == ' ' || i == '/'') nTokenCount += 1
+                                   ^[0m
+[0m2021.05.10 02:27:44 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:36: stale bloop error: unclosed character literal (or use " not ' for string literal)
+            if(i == ' ' || i == '/'') nTokenCount += 1
+                                   ^[0m
+[0m2021.05.10 02:27:44 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:36: stale bloop error: unclosed character literal (or use " not ' for string literal)
+            if(i == ' ' || i == '/'') nTokenCount += 1
+                                   ^[0m
+[0m2021.05.10 02:27:44 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:36: stale bloop error: unclosed character literal (or use " not ' for string literal)
+            if(i == ' ' || i == '/'') nTokenCount += 1
+                                   ^[0m
+[0m2021.05.10 02:27:44 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:42:36: stale bloop error: unclosed character literal (or use " not ' for string literal)
+            if(i == ' ' || i == '/'') nTokenCount += 1
+                                   ^[0m
+[0m2021.05.10 02:27:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:27:46 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:28:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:28:06 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:28:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:28:48 INFO  time: compiled graphicsengine3d in 41ms[0m
+[0m2021.05.10 02:29:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:29:03 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:29:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:29:40 INFO  time: compiled graphicsengine3d in 84ms[0m
+May 10, 2021 2:30:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 10, 2021 2:30:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.10 02:32:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:32:58 INFO  time: compiled graphicsengine3d in 0.58s[0m
+[0m2021.05.10 02:33:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:33:15 INFO  time: compiled graphicsengine3d in 0.55s[0m
+[0m2021.05.10 02:33:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:33:32 INFO  time: compiled graphicsengine3d in 0.57s[0m
+[0m2021.05.10 02:33:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:33:42 INFO  time: compiled graphicsengine3d in 0.57s[0m
+[0m2021.05.10 02:33:57 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:33:57 INFO  time: compiled graphicsengine3d in 87ms[0m
+[0m2021.05.10 02:34:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:34:04 INFO  time: compiled graphicsengine3d in 0.56s[0m
+May 10, 2021 2:34:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8499
+[0m2021.05.10 02:35:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:35:08 INFO  time: compiled graphicsengine3d in 0.61s[0m
+[0m2021.05.10 02:35:15 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:44:21: stale bloop warning: comparing values of types Char and String using `!=' will always yield true
+            else if(i != "f") tokens(nTokenCount) + i
+                    ^^^^^^^^[0m
+[0m2021.05.10 02:35:15 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:44:21: stale bloop warning: comparing values of types Char and String using `!=' will always yield true
+            else if(i != "f") tokens(nTokenCount) + i
+                    ^^^^^^^^[0m
+[0m2021.05.10 02:35:15 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:44:21: stale bloop warning: comparing values of types Char and String using `!=' will always yield true
+            else if(i != "f") tokens(nTokenCount) + i
+                    ^^^^^^^^[0m
+[0m2021.05.10 02:35:15 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:44:21: stale bloop warning: comparing values of types Char and String using `!=' will always yield true
+            else if(i != "f") tokens(nTokenCount) + i
+                    ^^^^^^^^[0m
+[0m2021.05.10 02:35:16 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:44:21: stale bloop warning: comparing values of types Char and String using `!=' will always yield true
+            else if(i != "f") tokens(nTokenCount) + i
+                    ^^^^^^^^[0m
+[0m2021.05.10 02:35:16 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:44:21: stale bloop warning: comparing values of types Char and String using `!=' will always yield true
+            else if(i != "f") tokens(nTokenCount) + i
+                    ^^^^^^^^[0m
+[0m2021.05.10 02:35:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:35:17 INFO  time: compiled graphicsengine3d in 0.58s[0m
+[0m2021.05.10 02:35:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:35:32 INFO  time: compiled graphicsengine3d in 0.58s[0m
+[0m2021.05.10 02:36:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:36:24 INFO  time: compiled graphicsengine3d in 0.57s[0m
+[0m2021.05.10 02:38:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:38:09 INFO  time: compiled graphicsengine3d in 0.58s[0m
+[0m2021.05.10 02:38:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:38:17 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:38:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:38:20 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.05.10 02:39:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:39:17 INFO  time: compiled graphicsengine3d in 0.57s[0m
+[0m2021.05.10 02:39:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:39:28 INFO  time: compiled graphicsengine3d in 0.54s[0m
+[0m2021.05.10 02:41:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:41:12 INFO  time: compiled graphicsengine3d in 87ms[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1180)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1173)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1174)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+[0m2021.05.10 02:41:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:41:41 INFO  time: compiled graphicsengine3d in 0.54s[0m
+[0m2021.05.10 02:41:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:41:54 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:42:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:42:00 INFO  time: compiled graphicsengine3d in 0.55s[0m
+[0m2021.05.10 02:42:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:42:08 INFO  time: compiled graphicsengine3d in 39ms[0m
+[0m2021.05.10 02:42:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:42:15 INFO  time: compiled graphicsengine3d in 0.56s[0m
+May 10, 2021 2:43:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 10, 2021 2:43:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9218
+[0m2021.05.10 02:43:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:43:35 INFO  time: compiled graphicsengine3d in 87ms[0m
+[0m2021.05.10 02:43:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:43:44 INFO  time: compiled graphicsengine3d in 85ms[0m
+[0m2021.05.10 02:43:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:43:47 INFO  time: compiled graphicsengine3d in 94ms[0m
+[0m2021.05.10 02:43:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:43:51 INFO  time: compiled graphicsengine3d in 86ms[0m
+[0m2021.05.10 02:43:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:43:55 INFO  time: compiled graphicsengine3d in 0.57s[0m
+May 10, 2021 2:44:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9392
+[0m2021.05.10 02:44:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:44:28 INFO  time: compiled graphicsengine3d in 0.57s[0m
+[0m2021.05.10 02:44:38 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:44:38 INFO  time: compiled graphicsengine3d in 0.57s[0m
+[0m2021.05.10 02:44:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:44:58 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:46:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:46:21 INFO  time: compiled graphicsengine3d in 82ms[0m
+[0m2021.05.10 02:46:27 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:46:27 INFO  time: compiled graphicsengine3d in 84ms[0m
+[0m2021.05.10 02:46:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:46:35 INFO  time: compiled graphicsengine3d in 78ms[0m
+[0m2021.05.10 02:46:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:46:45 INFO  time: compiled graphicsengine3d in 0.6s[0m
+[0m2021.05.10 02:47:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:47:00 INFO  time: compiled graphicsengine3d in 0.57s[0m
+[0m2021.05.10 02:47:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:47:21 INFO  time: compiled graphicsengine3d in 0.58s[0m
+[0m2021.05.10 02:47:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:47:30 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:47:33 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:47:33 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:47:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:47:56 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.05.10 02:48:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:48:08 INFO  time: compiled graphicsengine3d in 0.55s[0m
+[0m2021.05.10 02:48:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:48:22 INFO  time: compiled graphicsengine3d in 0.55s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1271, 1271, 1284)
+[0m2021.05.10 02:48:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:48:35 INFO  time: compiled graphicsengine3d in 0.57s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1180)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1173)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1174)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1177)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1176)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1175)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1174)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1174)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1178)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1165, 1165, 1177)
+[0m2021.05.10 02:49:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:49:24 INFO  time: compiled graphicsengine3d in 0.55s[0m
+[0m2021.05.10 02:49:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:49:36 INFO  time: compiled graphicsengine3d in 83ms[0m
+[0m2021.05.10 02:49:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:49:40 INFO  time: compiled graphicsengine3d in 0.54s[0m
+[0m2021.05.10 02:49:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:49:48 INFO  time: compiled graphicsengine3d in 0.55s[0m
+[0m2021.05.10 02:49:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:49:51 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:50:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:50:18 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:51:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:51:00 INFO  time: compiled graphicsengine3d in 87ms[0m
+[0m2021.05.10 02:51:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:51:04 INFO  time: compiled graphicsengine3d in 0.55s[0m
+[0m2021.05.10 02:51:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:51:19 INFO  time: compiled graphicsengine3d in 0.55s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1381)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1374)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1375)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1377)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1379)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1378)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1377)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1376)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[<error>]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1375)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1379)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1379)
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala in Array[String]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/MeshObjects.scala, 1366, 1366, 1379)
+[0m2021.05.10 02:51:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:51:46 INFO  time: compiled graphicsengine3d in 79ms[0m
+[0m2021.05.10 02:51:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:51:54 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:51:59 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:51:59 INFO  time: compiled graphicsengine3d in 0.74s[0m
+[0m2021.05.10 02:52:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 02:52:45 INFO  time: compiled graphicsengine3d in 0.56s[0m
+[0m2021.05.10 02:53:10 INFO  compiling graphicsengine3d (1 scala source)[0m

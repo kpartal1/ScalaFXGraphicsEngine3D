@@ -14,6 +14,10 @@ class Triangle {
   def apply(vec1: Vec3d, vec2: Vec3d, vec3: Vec3d): Unit = {
     this.p(0) = vec1; this.p(1) = vec2; this.p(2) = vec3
   }
+
+	def applyTex(vec1: Vec2d, vec2: Vec2d, vec3: Vec2d): Unit = {
+		this.t(0) = vec1; this.t(1) = vec2; this.t(2) = vec3
+	}
   
   def triSort(t: Triangle): Boolean = {
     val z1: Double = (this.p(0).z + this.p(1).z + this.p(2).z) / 3.0
@@ -325,20 +329,20 @@ class Triangle {
 				val tstep: Double = 1.0 / (bx - ax).toDouble
 				var t: Double = 0.0
 				val pix = sprite.pixelReader
+				val gcPixel = gc.pixelWriter
 
 				for(j <- ax until bx) {
 					tex_u = (1.0 - t) * tex_su + t * tex_eu
 					tex_v = (1.0 - t) * tex_sv + t * tex_ev
 
-					gc.setFill(pix.get.getColor((tex_u * sprite.getWidth).toInt - 1, (tex_v * sprite.getHeight).toInt - 1))
-					gc.fillPolygon(Seq((j, i), (j + 1, i + 1), (j + 1, i - 1), (j - 1, i + 1)))
+					gcPixel.setColor(j, i, pix.get.getColor((tex_u * sprite.getWidth).toInt, (tex_v * sprite.getHeight).toInt))
 					t += tstep
 				}
 			}
 
 			dy1 = y3 - y2
 			dx1 = x3 - x2
-			dv1= v3 - v2
+			dv1 = v3 - v2
 			du1 = u3 - u2
 
 			if(dy1 != 0) dax_step = dx1 / math.abs(dy1).toDouble
@@ -348,44 +352,46 @@ class Triangle {
 			if(dy1 != 0) du1_step = du1 / math.abs(dy1).toDouble
 			if(dy1 != 0) dv1_step = dv1 / math.abs(dy1).toDouble
 
-			for(i <- y2 to y3) {
-				var ax: Int = (x2 + (i - y2).toDouble * dax_step).toInt
-				var bx: Int = (x1 + (i - y1).toDouble * dbx_step).toInt
+			if(dy1 != 0) {
+				for(i <- y2 to y3) {
+					var ax: Int = (x2 + (i - y2).toDouble * dax_step).toInt
+					var bx: Int = (x1 + (i - y1).toDouble * dbx_step).toInt
 
-				var tex_su: Double = u2 + (i - y2).toDouble * du1_step
-				var tex_sv: Double = v2 + (i - y2).toDouble * dv1_step
+					var tex_su: Double = u2 + (i - y2).toDouble * du1_step
+					var tex_sv: Double = v2 + (i - y2).toDouble * dv1_step
 
-				var tex_eu: Double = u1 + (i - y1).toDouble * du2_step
-				var tex_ev: Double = v1 + (i - y1).toDouble * dv2_step
+					var tex_eu: Double = u1 + (i - y1).toDouble * du2_step
+					var tex_ev: Double = v1 + (i - y1).toDouble * dv2_step
 
-				if(ax > bx) {
-					val tmp: (Int, Int) = swap(ax, bx)
-					ax = tmp._1
-					bx = tmp._2
+					if(ax > bx) {
+						val tmp: (Int, Int) = swap(ax, bx)
+						ax = tmp._1
+						bx = tmp._2
 
-					val tmp1: (Double, Double) = swap(tex_su, tex_eu)
-					tex_su = tmp1._1
-					tex_eu = tmp1._2
+						val tmp1: (Double, Double) = swap(tex_su, tex_eu)
+						tex_su = tmp1._1
+						tex_eu = tmp1._2
 
-					val tmp2: (Double, Double) = swap(tex_sv, tex_ev)
-					tex_sv = tmp2._1
-					tex_ev = tmp2._2
-				}
+						val tmp2: (Double, Double) = swap(tex_sv, tex_ev)
+						tex_sv = tmp2._1
+						tex_ev = tmp2._2
+					}
 
-				tex_u = tex_su
-				tex_v = tex_sv
+					tex_u = tex_su
+					tex_v = tex_sv
 
-				val tstep: Double = 1.0 / (bx - ax).toDouble
-				var t: Double = 0.0
-				val pix = sprite.pixelReader
+					val tstep: Double = 1.0 / (bx - ax).toDouble
+					var t: Double = 0.0
+					val pix = sprite.pixelReader
+					val gcPixel = gc.pixelWriter
 
-				for(j <- ax until bx) {
-					tex_u = (1.0 - t) * tex_su + t * tex_eu
-					tex_v = (1.0 - t) * tex_sv + t * tex_ev
+					for(j <- ax until bx) {
+						tex_u = (1.0 - t) * tex_su + t * tex_eu
+						tex_v = (1.0 - t) * tex_sv + t * tex_ev
 
-					gc.fill = pix.get.getColor((tex_u * sprite.getWidth).toInt - 1, (tex_v * sprite.getHeight).toInt - 1)
-					gc.fillPolygon(Seq((j, i), (j + 1, i + 1), (j + 1, i - 1), (j - 1, i + 1)))
-					t += tstep
+						gcPixel.setColor(j, i, pix.get.getColor((tex_u * sprite.getWidth).toInt, (tex_v * sprite.getHeight).toInt))
+						t += tstep
+					}
 				}
 			}
 		}

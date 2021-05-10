@@ -29,7 +29,7 @@ object Main extends JFXApp {
   gc.setFill(Color.Black)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
   // Load Object File
-  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/VideoShip.obj")
+  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/monkey.obj", true)
 
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4

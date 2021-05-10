@@ -234,8 +234,8 @@ object Main extends JFXApp {
             // Rasterize Triangle
             for(t <- arrayTriangles) {
               val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
-              //t.texturedTriangle(gc, sprTex1)
-              t.fill(sprTex1, gc, Color.Transparent, Color.White)
+              t.texturedTriangle(gc, sprTex1)
+              t.fill(gc, Color.Transparent, Color.White)
             }
           }
         }

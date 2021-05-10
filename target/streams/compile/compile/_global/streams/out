@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:207:32: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : graphicsengine3d.Vec3d[0m
-[0m[[0m[31merror[0m] [0m[0m required: graphicsengine3d.Triangle[0m
-[0m[[0m[31merror[0m] [0m[0m                  clipped(w) = new Vec3d[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:386:5: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m				}[0m
+[0m[[0m[31merror[0m] [0m[0m				^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

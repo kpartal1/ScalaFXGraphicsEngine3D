@@ -5486,3 +5486,419 @@ Caused by: java.nio.file.FileSystemNotFoundException: Provider "jdt" not install
 	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:992)
 	... 15 more
 
+[0m2021.05.09 04:12:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 04:12:49 INFO  time: compiled graphicsengine3d in 1.23s[0m
+May 09, 2021 4:13:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.09 04:14:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 04:14:31 INFO  time: compiled graphicsengine3d in 1.2s[0m
+[0m2021.05.09 04:15:00 INFO  shutting down Metals[0m
+[0m2021.05.09 04:15:00 INFO  Shut down connection with build server.[0m
+[0mNo more data in the server stdin, exiting...2021.05.09 04:15:00
+ No more data in the server stdin, exiting...INFO 
+ No more data in the server stdin, exiting...Shut down connection with build server.
+[0m
+No more data in the server stdin, exiting...
+[0m2021.05.09 04:15:00 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.05.09 22:52:47 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.56.0.[0m
+[0m2021.05.09 22:52:49 INFO  time: initialize in 1.34s[0m
+[0m2021.05.09 22:52:49 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.09 22:52:49 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.05.09 22:52:49 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 33590'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.05.09 22:52:52 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.05.09 22:52:54 INFO  time: code lens generation in 2.24s[0m
+[0m2021.05.09 22:52:54 INFO  time: code lens generation in 2.32s[0m
+[0m2021.05.09 22:52:54 INFO  time: code lens generation in 5.1s[0m
+[0m2021.05.09 22:52:54 INFO  time: code lens generation in 5.16s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d.json'
+[0m[32m[D][0m Loading project from 'c:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\.bloop\graphicsengine3d-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[0m[32m[D][0m   => C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:33590...
+The server is listening for incoming connections at tcp://127.0.0.1:33590...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.09 22:52:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 22:52:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0mOpening a bsp server connection with 'bsp --protocol tcp --port 12642'...2021.05.09 22:52:54
+ INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40075'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12642...
+The server is listening for incoming connections at tcp://127.0.0.1:12642...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40075...
+The server is listening for incoming connections at tcp://127.0.0.1:40075...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+May 09, 2021 10:52:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.09 22:52:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 22:52:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 22:52:55 INFO  time: Connected to build server in 6.45s[0m
+[0m2021.05.09 22:52:55 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.09 22:52:55 INFO  time: Imported build in 0.12s[0m
+[0m2021.05.09 22:52:58 INFO  time: indexed workspace in 2.42s[0m
+May 09, 2021 10:52:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 10:54:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 10:55:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 10:55:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.09 22:57:09 INFO  shutting down Metals[0m
+[0m2021.05.09 22:57:09 INFO  Shut down connection with build server.[0m
+[0m2021.05.09 22:57:09 INFO  Shut down connection with build server.[0m
+[0m2021.05.09 22:57:09 INFO  Shut down connection with build server.No more data in the client stdin, exiting...[0m
+
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.05.09 22:57:16 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.56.0.[0m
+[0m2021.05.09 22:57:18 INFO  time: initialize in 1.21s[0m
+[0m2021.05.09 22:57:18 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.09 22:57:18 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.05.09 22:57:18 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19272'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19272...
+The server is listening for incoming connections at tcp://127.0.0.1:19272...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.09 22:57:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 22:57:19 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41667'...
+[0m2021.05.09 22:57:19 INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16153'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41667...
+The server is listening for incoming connections at tcp://127.0.0.1:41667...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16153...
+The server is listening for incoming connections at tcp://127.0.0.1:16153...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.09 22:57:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 22:57:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 22:57:19 INFO  time: Connected to build server in 0.99s[0m
+[0m2021.05.09 22:57:19 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.09 22:57:21 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.09 22:57:21 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.05.09 22:57:23 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.09 22:57:24 INFO  time: code lens generation in 3.95s[0m
+May 09, 2021 10:57:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.09 22:57:26 INFO  time: indexed workspace in 5.39s[0m
+[0m2021.05.09 22:57:27 INFO  time: code lens generation in 7.61s[0m
+May 09, 2021 11:08:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:09:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:10:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:11:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:11:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:12:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+May 09, 2021 11:13:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:13:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.09 23:14:00 INFO  shutting down Metals[0m
+[0m2021.05.09 23:14:00 INFO  Shut down connection with build server.No more data in the server stdin, exiting...[0m
+
+No more data in the server stdin, exiting...
+[0mNo more data in the server stdin, exiting...
+No more data in the server stdin, exiting...2021.05.09 23:14:00
+ INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.05.09 23:14:00 No more data in the client stdin, exiting...INFO 
+ Shut down connection with build server.No more data in the client stdin, exiting...[0m
+
+No more data in the client stdin, exiting...
+[0m2021.05.09 23:14:07 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D' for client vscode 1.56.0.[0m
+[0m2021.05.09 23:14:09 INFO  time: initialize in 1.24s[0m
+[0m2021.05.09 23:14:09 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.09 23:14:09 WARN  no build target for: C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala[0m
+[0m2021.05.09 23:14:09 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28288'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28288...
+The server is listening for incoming connections at tcp://127.0.0.1:28288...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.09 23:14:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 23:14:10 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16571'...[0m
+2021.05.09 23:14:10 INFO  Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 29068'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16571...
+The server is listening for incoming connections at tcp://127.0.0.1:16571...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:29068...
+The server is listening for incoming connections at tcp://127.0.0.1:29068...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.09 23:14:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 23:14:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\12103\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.09 23:14:10 INFO  time: Connected to build server in 1.02s[0m
+[0m2021.05.09 23:14:10 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.09 23:14:12 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.09 23:14:16 INFO  time: indexed workspace in 3.99s[0m
+May 09, 2021 11:14:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:14:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:15:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:15:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:15:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:15:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:15:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 101
+May 09, 2021 11:15:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+[0m2021.05.09 23:20:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:20:15 INFO  time: compiled graphicsengine3d in 3.77s[0m
+[0m2021.05.09 23:20:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:20:20 INFO  time: compiled graphicsengine3d in 1.32s[0m
+[0m2021.05.09 23:20:40 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:20:41 INFO  time: compiled graphicsengine3d in 1.16s[0m
+[0m2021.05.09 23:20:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:20:46 INFO  time: compiled graphicsengine3d in 0.99s[0m
+[0m2021.05.09 23:21:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:21:43 INFO  time: compiled graphicsengine3d in 1.06s[0m
+[0m2021.05.09 23:21:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:21:50 INFO  time: compiled graphicsengine3d in 0.95s[0m
+[0m2021.05.09 23:22:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:22:48 INFO  time: compiled graphicsengine3d in 0.92s[0m
+[0m2021.05.09 23:23:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:23:07 INFO  time: compiled graphicsengine3d in 0.84s[0m
+[0m2021.05.09 23:23:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:23:12 INFO  time: compiled graphicsengine3d in 0.88s[0m
+[0m2021.05.09 23:23:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:23:28 INFO  time: compiled graphicsengine3d in 0.85s[0m
+[0m2021.05.09 23:23:33 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:23:33 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.05.09 23:24:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:24:09 INFO  time: compiled graphicsengine3d in 0.17s[0m
+[0m2021.05.09 23:25:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:25:55 INFO  time: compiled graphicsengine3d in 0.13s[0m
+[0m2021.05.09 23:26:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:26:05 INFO  time: compiled graphicsengine3d in 0.14s[0m
+[0m2021.05.09 23:29:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:29:44 INFO  time: compiled graphicsengine3d in 0.13s[0m
+[0m2021.05.09 23:29:58 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:29:58 INFO  time: compiled graphicsengine3d in 0.85s[0m
+[0m2021.05.09 23:31:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:31:15 INFO  time: compiled graphicsengine3d in 0.13s[0m
+[0m2021.05.09 23:31:28 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:31:28 INFO  time: compiled graphicsengine3d in 0.98s[0m
+[0m2021.05.09 23:32:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:32:05 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.05.09 23:32:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:32:26 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.05.09 23:32:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:32:29 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.09 23:32:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:32:32 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.05.09 23:32:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:32:48 INFO  time: compiled graphicsengine3d in 0.78s[0m
+[0m2021.05.09 23:32:56 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:32:56 INFO  time: compiled graphicsengine3d in 64ms[0m
+[0m2021.05.09 23:33:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:33:02 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.05.09 23:33:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:33:26 INFO  time: compiled graphicsengine3d in 0.77s[0m
+[0m2021.05.09 23:34:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:34:15 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.05.09 23:34:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:34:35 INFO  time: compiled graphicsengine3d in 0.83s[0m
+May 09, 2021 11:34:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2501
+May 09, 2021 11:35:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2514
+[0m2021.05.09 23:35:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:35:12 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.05.09 23:35:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:35:23 INFO  time: compiled graphicsengine3d in 1.03s[0m
+[0m2021.05.09 23:35:25 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:35:25 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.05.09 23:35:29 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:35:29 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.09 23:35:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:35:51 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.05.09 23:36:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:36:08 INFO  time: compiled graphicsengine3d in 0.79s[0m
+[0m2021.05.09 23:36:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:36:23 INFO  time: compiled graphicsengine3d in 0.79s[0m
+May 09, 2021 11:36:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2691
+[0m2021.05.09 23:36:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:36:42 INFO  time: compiled graphicsengine3d in 0.31s[0m
+[0m2021.05.09 23:37:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:37:02 INFO  time: compiled graphicsengine3d in 0.28s[0m
+May 09, 2021 11:37:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2744
+[0m2021.05.09 23:37:04 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:37:04 INFO  time: compiled graphicsengine3d in 0.25s[0m
+[0m2021.05.09 23:37:10 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 23:37:10 INFO  time: compiled graphicsengine3d in 0.3s[0m
+[0m2021.05.09 23:37:15 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 23:37:15 INFO  time: compiled graphicsengine3d in 0.29s[0m
+[0m2021.05.09 23:37:18 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 23:37:18 INFO  time: compiled graphicsengine3d in 0.27s[0m
+May 09, 2021 11:37:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2802
+[0m2021.05.09 23:37:20 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 23:37:20 INFO  time: compiled graphicsengine3d in 0.24s[0m
+[0m2021.05.09 23:37:28 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 23:37:30 INFO  time: compiled graphicsengine3d in 2s[0m
+[0m2021.05.09 23:38:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:38:38 INFO  time: compiled graphicsengine3d in 1.26s[0m
+May 09, 2021 11:39:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2909
+[0m2021.05.09 23:39:33 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:39:35 INFO  time: compiled graphicsengine3d in 1.28s[0m
+May 09, 2021 11:39:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 09, 2021 11:40:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2970
+May 09, 2021 11:41:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2982
+May 09, 2021 11:41:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2991
+[0m2021.05.09 23:42:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:42:24 INFO  time: compiled graphicsengine3d in 0.12s[0m
+May 09, 2021 11:42:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3067
+[0m2021.05.09 23:42:35 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:42:35 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 23:42:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:42:51 INFO  time: compiled graphicsengine3d in 0.12s[0m
+[0m2021.05.09 23:44:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:44:02 INFO  time: compiled graphicsengine3d in 0.11s[0m
+[0m2021.05.09 23:44:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:44:08 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.09 23:44:18 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:44:18 INFO  time: compiled graphicsengine3d in 99ms[0m
+[0m2021.05.09 23:45:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:45:37 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.09 23:46:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:46:07 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.09 23:46:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:46:08 INFO  time: compiled graphicsengine3d in 0.21s[0m
+May 09, 2021 11:46:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3623
+[0m2021.05.09 23:46:10 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:46:10 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.05.09 23:46:10 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:46:11 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.09 23:46:17 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 23:46:18 INFO  time: compiled graphicsengine3d in 1.43s[0m
+[0m2021.05.09 23:46:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:46:22 INFO  time: compiled graphicsengine3d in 1.38s[0m
+[0m2021.05.09 23:46:39 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:46:39 INFO  time: compiled graphicsengine3d in 0.21s[0m
+May 09, 2021 11:46:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3716
+[0m2021.05.09 23:46:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.09 23:46:42 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.05.09 23:46:48 INFO  compiling graphicsengine3d (2 scala sources)[0m
+[0m2021.05.09 23:46:49 INFO  time: compiled graphicsengine3d in 1.4s[0m

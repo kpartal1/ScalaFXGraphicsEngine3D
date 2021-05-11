@@ -52,8 +52,8 @@ class Triangle {
   def clipAgainstPlane(plane_p: Vec3d, planeN: Vec3d): (Int, Triangle, Triangle) = {
 		// Make sure plane normal is indeed normal
 		val plane_n: Vec3d = planeN.normalize
-		var out_tri1: Triangle = new Triangle
-		var out_tri2: Triangle = new Triangle
+		val out_tri1: Triangle = new Triangle
+		val out_tri2: Triangle = new Triangle
 
 		// Return signed shortest distance from point to plane, plane normal must be normalised
 		def dist(p: Vec3d) = {
@@ -122,7 +122,11 @@ class Triangle {
 		{
 			// All points lie on the inside of plane, so do nothing
 			// and allow the triangle to simply pass through
-			out_tri1 = this
+			out_tri1.bri = this.bri
+			out_tri1.sat = this.sat
+			out_tri1.col = this.col
+			out_tri1.p = this.p
+			out_tri1.t = this.t
 
 			return (1, out_tri1, out_tri2) // Just the one retuned original triangle is valid
 		}
@@ -152,9 +156,9 @@ class Triangle {
 
 			val ip2: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(1))
 			out_tri1.p(2) = ip2._1
-			out_tri1.t(2).u = ip2._2 * (outside_tex(0).u - inside_tex(0).u) + inside_tex(0).u
-			out_tri1.t(2).v = ip2._2 * (outside_tex(0).v - inside_tex(0).v) + inside_tex(0).v
-			out_tri1.t(2).w = ip2._2 * (outside_tex(0).w - inside_tex(0).w) + inside_tex(0).w
+			out_tri1.t(2).u = ip2._2 * (outside_tex(1).u - inside_tex(0).u) + inside_tex(0).u
+			out_tri1.t(2).v = ip2._2 * (outside_tex(1).v - inside_tex(0).v) + inside_tex(0).v
+			out_tri1.t(2).w = ip2._2 * (outside_tex(1).w - inside_tex(0).w) + inside_tex(0).w
 
 			return (1, out_tri1, out_tri2) // Return the newly formed single triangle
 		}
@@ -203,7 +207,7 @@ class Triangle {
 
 			return (2, out_tri1, out_tri2) // Return two newly formed triangles which form a quad
 		}
-    (1, out_tri1, out_tri2)
+    (0, out_tri1, out_tri2)
 	}
 
 	def swap[A](x: A, y: A): (A, A) = {
@@ -293,10 +297,6 @@ class Triangle {
 		var du2: Double = u3 - u1
 		var dw2: Double = w3 - w1
 
-		var tex_u: Double = 0.0
-		var tex_v: Double = 0.0
-		var tex_w: Double = 0.0
-
 		var dax_step: Double = 0.0; var dbx_step: Double = 0.0
 		var du1_step: Double = 0.0; var dv1_step: Double = 0.0
 		var du2_step: Double = 0.0; var dv2_step: Double = 0.0
@@ -347,9 +347,9 @@ class Triangle {
 					tex_ew = tmp3._2
 				}
 
-				tex_u = tex_su
-				tex_v = tex_sv
-				tex_w = tex_sw
+				var tex_u: Double = tex_su
+				var tex_v: Double = tex_sv
+				var tex_w: Double = tex_sw
 
 				val tstep: Double = 1.0 / (bx - ax).toDouble
 				var t: Double = 0.0
@@ -412,9 +412,9 @@ class Triangle {
 					tex_ew = tmp3._2
 				}
 
-				tex_u = tex_su
-				tex_v = tex_sv
-				tex_w = tex_sw
+				var tex_u: Double = tex_su
+				var tex_v: Double = tex_sv
+				var tex_w: Double = tex_sw
 
 				val tstep: Double = 1.0 / (bx - ax).toDouble
 				var t: Double = 0.0

@@ -7560,3 +7560,162 @@ May 10, 2021 10:01:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 8197
 May 10, 2021 10:03:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 8210
+May 10, 2021 10:05:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8220
+[0m2021.05.10 22:05:49 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:05:50 INFO  time: compiled graphicsengine3d in 1.18s[0m
+May 10, 2021 10:05:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8238
+[0m2021.05.10 22:06:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:06:06 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.05.10 22:07:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:07:00 INFO  time: compiled graphicsengine3d in 0.8s[0m
+May 10, 2021 10:07:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8301
+[0m2021.05.10 22:07:24 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:07:25 INFO  time: compiled graphicsengine3d in 1.18s[0m
+[0m2021.05.10 22:07:32 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:07:34 INFO  time: compiled graphicsengine3d in 1.2s[0m
+May 10, 2021 10:09:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8359
+May 10, 2021 10:09:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8366
+[0m2021.05.10 22:10:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:10:46 INFO  time: compiled graphicsengine3d in 73ms[0m
+[0m2021.05.10 22:10:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:10:52 INFO  time: compiled graphicsengine3d in 0.55s[0m
+May 10, 2021 10:10:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8726
+[0m2021.05.10 22:11:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:11:09 INFO  time: compiled graphicsengine3d in 1.35s[0m
+May 10, 2021 10:11:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8781
+May 10, 2021 10:11:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8787
+[0m2021.05.10 22:11:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:11:23 INFO  time: compiled graphicsengine3d in 0.54s[0m
+May 10, 2021 10:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8804
+[0m2021.05.10 22:11:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:11:42 INFO  time: compiled graphicsengine3d in 1.18s[0m
+[0m2021.05.10 22:11:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:11:57 INFO  time: compiled graphicsengine3d in 1.21s[0m
+[0m2021.05.10 22:19:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:19:07 INFO  time: compiled graphicsengine3d in 1.19s[0m
+[0m2021.05.10 22:19:31 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:19:33 INFO  time: compiled graphicsengine3d in 1.33s[0m
+May 10, 2021 10:19:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.05.10 22:22:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:22:17 INFO  time: compiled graphicsengine3d in 0.26s[0m
+[0m2021.05.10 22:22:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:22:23 INFO  time: compiled graphicsengine3d in 0.2s[0m
+[0m2021.05.10 22:24:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:24:17 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.05.10 22:24:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:24:30 INFO  time: compiled graphicsengine3d in 0.21s[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:64:21: stale bloop error: value -= is not a member of Float
+  Expression does not convert to assignment because:
+    type mismatch;
+     found   : Double
+     required: Float
+    expansion: Main.this.fYaw = Main.this.fYaw.-(2.0.*(delay))
+          if(aHeld) fYaw -= 2.0f * delay
+                    ^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:65:21: stale bloop error: value += is not a member of Float
+  Expression does not convert to assignment because:
+    type mismatch;
+     found   : Double
+     required: Float
+    expansion: Main.this.fYaw = Main.this.fYaw.+(2.0.*(delay))
+          if(dHeld) fYaw += 2.0f * delay
+                    ^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:111:31: stale bloop error: overloaded method value max with alternatives:
+  (x: Float,y: Float)Float <and>
+  (x: Long,y: Long)Long <and>
+  (x: Int,y: Int)Int
+ cannot be applied to (Double, Double)
+              val dp: Float = math.max(0.1, lightDirection.dotProduct(normal))
+                              ^^^^^^^^[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:114:32: stale bloop error: type mismatch;
+ found   : Double(0.0)
+ required: Float
+              val sat: Float = 0.0
+                               ^^^[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:64:21: stale bloop error: value -= is not a member of Float
+  Expression does not convert to assignment because:
+    type mismatch;
+     found   : Double
+     required: Float
+    expansion: Main.this.fYaw = Main.this.fYaw.-(2.0.*(delay))
+          if(aHeld) fYaw -= 2.0f * delay
+                    ^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:65:21: stale bloop error: value += is not a member of Float
+  Expression does not convert to assignment because:
+    type mismatch;
+     found   : Double
+     required: Float
+    expansion: Main.this.fYaw = Main.this.fYaw.+(2.0.*(delay))
+          if(dHeld) fYaw += 2.0f * delay
+                    ^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:111:31: stale bloop error: overloaded method value max with alternatives:
+  (x: Float,y: Float)Float <and>
+  (x: Long,y: Long)Long <and>
+  (x: Int,y: Int)Int
+ cannot be applied to (Double, Double)
+              val dp: Float = math.max(0.1, lightDirection.dotProduct(normal))
+                              ^^^^^^^^[0m
+[0m2021.05.10 22:26:11 INFO  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Main.scala:114:32: stale bloop error: type mismatch;
+ found   : Double(0.0)
+ required: Float
+              val sat: Float = 0.0
+                               ^^^[0m
+[0m2021.05.10 22:26:12 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:26:13 INFO  time: compiled graphicsengine3d in 1.2s[0m
+[0m2021.05.10 22:26:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:26:50 INFO  time: compiled graphicsengine3d in 1.18s[0m
+[0m2021.05.10 22:27:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:27:07 INFO  time: compiled graphicsengine3d in 1.15s[0m
+[0m2021.05.10 22:27:37 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:27:38 INFO  time: compiled graphicsengine3d in 1.35s[0m
+[0m2021.05.10 22:29:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:29:17 INFO  time: compiled graphicsengine3d in 1.16s[0m
+[0m2021.05.10 22:29:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:29:23 INFO  time: compiled graphicsengine3d in 1.17s[0m
+[0m2021.05.10 22:43:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:43:22 INFO  time: compiled graphicsengine3d in 1.19s[0m
+[0m2021.05.10 22:43:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:43:46 INFO  time: compiled graphicsengine3d in 1.37s[0m
+[0m2021.05.10 22:44:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 22:44:02 INFO  time: compiled graphicsengine3d in 1.18s[0m
+May 10, 2021 10:50:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9542
+May 10, 2021 10:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9549
+May 10, 2021 10:50:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9570
+May 10, 2021 10:53:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9591
+May 10, 2021 10:53:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9599
+[0m2021.05.10 23:00:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:00:07 INFO  time: compiled graphicsengine3d in 0.83s[0m
+[0m2021.05.10 23:02:10 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:02:11 INFO  time: compiled graphicsengine3d in 1.2s[0m
+[0m2021.05.10 23:02:21 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:02:22 INFO  time: compiled graphicsengine3d in 1.2s[0m
+[0m2021.05.10 23:02:25 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:02:26 INFO  time: compiled graphicsengine3d in 1.36s[0m
+May 10, 2021 11:03:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9725
+[0m2021.05.10 23:08:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:08:17 INFO  time: compiled graphicsengine3d in 98ms[0m
+[0m2021.05.10 23:08:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:08:19 INFO  time: compiled graphicsengine3d in 91ms[0m
+[0m2021.05.10 23:08:33 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:08:33 INFO  time: compiled graphicsengine3d in 93ms[0m
+[0m2021.05.10 23:08:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:08:36 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 23:08:42 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:08:42 INFO  time: compiled graphicsengine3d in 0.81s[0m
+something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2750, 2750, 2762)

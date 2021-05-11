@@ -111,7 +111,7 @@ object Main extends JFXApp {
               val dp: Double = math.max(0.1, lightDirection.dotProduct(normal))
               
               val bri: Double = dp
-              val sat: Double = 0.0
+              val sat: Double = 0.5
               val col: Color = Color.DarkGreen
 
               triTransformed.bri = bri
@@ -123,12 +123,12 @@ object Main extends JFXApp {
               triViewed.p(0).multiplyMatrixVector(matView, triTransformed.p(0))
               triViewed.p(1).multiplyMatrixVector(matView, triTransformed.p(1))
               triViewed.p(2).multiplyMatrixVector(matView, triTransformed.p(2))
-              triViewed.t(0) = triTransformed.t(0)
-              triViewed.t(1) = triTransformed.t(1)
-              triViewed.t(2) = triTransformed.t(2)
               triViewed.bri = triTransformed.bri
               triViewed.sat = triTransformed.sat
               triViewed.col = triTransformed.col
+              triViewed.t(0) = triTransformed.t(0)
+              triViewed.t(1) = triTransformed.t(1)
+              triViewed.t(2) = triTransformed.t(2)
 
               // Clip Viewed Triangle against near plane, this could form two additional
               // additional triangles.
@@ -148,24 +148,24 @@ object Main extends JFXApp {
                 triProjected.p(0).multiplyMatrixVector(matProj, clipped(n).p(0))
                 triProjected.p(1).multiplyMatrixVector(matProj, clipped(n).p(1))
                 triProjected.p(2).multiplyMatrixVector(matProj, clipped(n).p(2))
-                triProjected.t(0) = clipped(n).t(0)
-                triProjected.t(1) = clipped(n).t(1)
-                triProjected.t(2) = clipped(n).t(2)
                 triProjected.bri = clipped(n).bri
                 triProjected.sat = clipped(n).sat
                 triProjected.col = clipped(n).col
+                triProjected.t(0) = clipped(n).t(0)
+                triProjected.t(1) = clipped(n).t(1)
+                triProjected.t(2) = clipped(n).t(2)
 
-                triProjected.t(0).u /= triProjected.p(0).w
-                triProjected.t(1).u /= triProjected.p(1).w
-                triProjected.t(2).u /= triProjected.p(2).w
+                // triProjected.t(0).u /= triProjected.p(0).w
+                // triProjected.t(1).u /= triProjected.p(1).w
+                // triProjected.t(2).u /= triProjected.p(2).w
 
-                triProjected.t(0).v /= triProjected.p(0).w
-                triProjected.t(1).v /= triProjected.p(1).w
-                triProjected.t(2).v /= triProjected.p(2).w
+                // triProjected.t(0).v /= triProjected.p(0).w
+                // triProjected.t(1).v /= triProjected.p(1).w
+                // triProjected.t(2).v /= triProjected.p(2).w
 
-                triProjected.t(0).w = 1.0 / triProjected.p(0).w
-                triProjected.t(1).w = 1.0 / triProjected.p(1).w
-                triProjected.t(2).w = 1.0 / triProjected.p(2).w
+                // triProjected.t(0).w = 1.0 / triProjected.p(0).w
+                // triProjected.t(1).w = 1.0 / triProjected.p(1).w
+                // triProjected.t(2).w = 1.0 / triProjected.p(2).w
 
                 // Scale into view and normalize
                 triProjected.p(0) = triProjected.p(0) / triProjected.p(0).w

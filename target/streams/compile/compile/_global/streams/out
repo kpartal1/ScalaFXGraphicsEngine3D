@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\MeshObjects.scala:44:23: comparing values of types Char and String using `!=' will always yield true[0m
-[0m[[0m[33mwarn[0m] [0m[0m            else if(i != "f") tokens(nTokenCount) + i[0m
-[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:343:5: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m				}[0m
+[0m[[0m[31merror[0m] [0m[0m				^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

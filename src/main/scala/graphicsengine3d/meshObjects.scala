@@ -4,7 +4,7 @@ import scala.io.Source
 import scala.collection.mutable.ArrayBuffer
 
 object MeshObjects {
-  def loadObjectFromFile(fileName: String, bHasTexture: Boolean): Mesh = {
+  def loadObjectFromFile(fileName: String, bHasTexture: Boolean = false): Mesh = {
     val tri: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
     val verts: ArrayBuffer[Vec3d] = ArrayBuffer[Vec3d]()
     val texs: ArrayBuffer[Vec2d] = ArrayBuffer[Vec2d]()
@@ -38,13 +38,13 @@ object MeshObjects {
           val pLine: Array[String] = line.drop(1)
           val t: Triangle = new Triangle
           val tokens: Array[String] = Array.fill(6)("")
-          var count: Int = 0
+          var nTokenCount: Int = 0
 
           for(i <- pLine) {
             val nLine: Array[String] = i.split("/")
-            tokens(count) = nLine(0)
-            tokens(count + 1) = nLine(1)
-            count += 2
+            tokens(nTokenCount) = nLine(0)
+            tokens(nTokenCount + 1) = nLine(1)
+            nTokenCount += 2
           }
 
           t.apply(verts(tokens(0).toInt - 1), verts(tokens(2).toInt - 1), verts(tokens(4).toInt - 1))

@@ -52,8 +52,8 @@ class Triangle {
   def clipAgainstPlane(plane_p: Vec3d, planeN: Vec3d): (Int, Triangle, Triangle) = {
 		// Make sure plane normal is indeed normal
 		val plane_n: Vec3d = planeN.normalize
-		val out_tri1: Triangle = new Triangle
-		val out_tri2: Triangle = new Triangle
+		var out_tri1: Triangle = new Triangle
+		var out_tri2: Triangle = new Triangle
 
 		// Return signed shortest distance from point to plane, plane normal must be normalised
 		def dist(p: Vec3d) = {
@@ -122,15 +122,7 @@ class Triangle {
 		{
 			// All points lie on the inside of plane, so do nothing
 			// and allow the triangle to simply pass through
-			out_tri1.p(0) = this.p(0)
-      out_tri1.p(1) = this.p(1)
-      out_tri1.p(2) = this.p(2)
-			out_tri1.t(0) = this.t(0)
-			out_tri1.t(1) = this.t(1)
-			out_tri1.t(2) = this.t(2)
-      out_tri1.bri = this.bri
-			out_tri1.sat = this.sat
-			out_tri1.col =  this.col
+			out_tri1 = this
 
 			return (1, out_tri1, out_tri2) // Just the one retuned original triangle is valid
 		}
@@ -144,7 +136,7 @@ class Triangle {
 			// Copy appearance info to new triangle
       out_tri1.bri = this.bri
 			out_tri1.sat = this.sat
-			out_tri1.col = this.col;
+			out_tri1.col = this.col
 
 			// The inside point is valid, so keep that...
 			out_tri1.p(0) = inside_points(0)
@@ -153,14 +145,16 @@ class Triangle {
 			// but the two new points are at the locations where the 
 			// original sides of the triangle (lines) intersect with the plane
 			val ip1: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(0))
-			val ip2: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(1))
 			out_tri1.p(1) = ip1._1
 			out_tri1.t(1).u = ip1._2 * (outside_tex(0).u - inside_tex(0).u) + inside_tex(0).u
 			out_tri1.t(1).v = ip1._2 * (outside_tex(0).v - inside_tex(0).v) + inside_tex(0).v
+			out_tri1.t(1).w = ip1._2 * (outside_tex(0).w - inside_tex(0).w) + inside_tex(0).w
 
+			val ip2: (Vec3d, Double) = intersectPlane(plane_p, plane_n, inside_points(0), outside_points(1))
 			out_tri1.p(2) = ip2._1
 			out_tri1.t(2).u = ip2._2 * (outside_tex(0).u - inside_tex(0).u) + inside_tex(0).u
 			out_tri1.t(2).v = ip2._2 * (outside_tex(0).v - inside_tex(0).v) + inside_tex(0).v
+			out_tri1.t(2).w = ip2._2 * (outside_tex(0).w - inside_tex(0).w) + inside_tex(0).w
 
 			return (1, out_tri1, out_tri2) // Return the newly formed single triangle
 		}
@@ -192,6 +186,7 @@ class Triangle {
 			out_tri1.p(2) = ip1._1
 			out_tri1.t(2).u = ip1._2 * (outside_tex(0).u - inside_tex(0).u) + inside_tex(0).u
 			out_tri1.t(2).v = ip1._2 * (outside_tex(0).v - inside_tex(0).v) + inside_tex(0).v
+			out_tri1.t(2).w = ip1._2 * (outside_tex(0).w - inside_tex(0).w) + inside_tex(0).w
 
 			// The second triangle is composed of one of he inside points, a
 			// new point determined by the intersection of the other side of the 
@@ -204,6 +199,7 @@ class Triangle {
 			out_tri2.p(2) = ip2._1
 			out_tri1.t(2).u = ip2._2 * (outside_tex(0).u - inside_tex(1).u) + inside_tex(1).u
 			out_tri1.t(2).v = ip2._2 * (outside_tex(0).v - inside_tex(1).v) + inside_tex(1).v
+			out_tri1.t(2).w = ip2._2 * (outside_tex(0).w - inside_tex(1).w) + inside_tex(1).w
 
 			return (2, out_tri1, out_tri2) // Return two newly formed triangles which form a quad
 		}
@@ -215,9 +211,10 @@ class Triangle {
 	}
 
 	def texturedTriangle(gc: GraphicsContext, sprite: Image): Unit = {
-		var x1: Int = this.p(0).x.toInt; var y1: Int = this.p(0).y.toInt; var u1: Double = this.t(0).u; var v1: Double = this.t(0).v
-		var x2: Int = this.p(1).x.toInt; var y2: Int = this.p(1).y.toInt; var u2: Double = this.t(1).u; var v2: Double = this.t(1).v
-		var x3: Int = this.p(2).x.toInt; var y3: Int = this.p(2).y.toInt; var u3: Double = this.t(2).u; var v3: Double = this.t(2).v
+		var x1: Int = this.p(0).x.toInt; var y1: Int = this.p(0).y.toInt; var u1: Double = this.t(0).u; var v1: Double = this.t(0).v; var w1: Double = this.t(0).w
+		var x2: Int = this.p(1).x.toInt; var y2: Int = this.p(1).y.toInt; var u2: Double = this.t(1).u; var v2: Double = this.t(1).v; var w2: Double = this.t(1).w
+		var x3: Int = this.p(2).x.toInt; var y3: Int = this.p(2).y.toInt; var u3: Double = this.t(2).u; var v3: Double = this.t(2).v; var w3: Double = this.t(2).w
+		
 		if(y2 < y1) {
 			val tmp: (Int, Int) = swap(y1, y2)
 			y1 = tmp._1
@@ -234,6 +231,10 @@ class Triangle {
 			val tmp3: (Double, Double) = swap(v1, v2)
 			v1 = tmp3._1
 			v2 = tmp3._2
+
+			val tmp4: (Double, Double) = swap(w1, w2)
+			w1 = tmp4._1
+			w2 = tmp4._2
 		}
 
 		if(y3 < y1) {
@@ -252,6 +253,10 @@ class Triangle {
 			val tmp3: (Double, Double) = swap(v1, v3)
 			v1 = tmp3._1
 			v3 = tmp3._2
+
+			val tmp4: (Double, Double) = swap(w1, w3)
+			w1 = tmp4._1
+			w3 = tmp4._2
 		}
 
 		if(y3 < y2) {
@@ -270,36 +275,46 @@ class Triangle {
 			val tmp3: (Double, Double) = swap(v2, v3)
 			v2 = tmp3._1
 			v3 = tmp3._2
+
+			val tmp4: (Double, Double) = swap(w2, w3)
+			w2 = tmp4._1
+			w3 = tmp4._2
 		}
 
 		var dy1: Int = y2 - y1
 		var dx1: Int = x2 - x1
 		var dv1: Double = v2 - v1
 		var du1: Double = u2 - u1
+		var dw1: Double = w2 - w1
 
 		var dy2: Int = y3 - y1
 		var dx2: Int = x3 - x1
 		var dv2: Double = v3 - v1
 		var du2: Double = u3 - u1
+		var dw2: Double = w3 - w1
 
 		var tex_u: Double = 0.0
 		var tex_v: Double = 0.0
+		var tex_w: Double = 0.0
 
-		var dax_step: Double = 0.0
-		var dbx_step: Double = 0.0
-		var du1_step: Double = 0.0
-		var dv1_step: Double = 0.0
-		var du2_step: Double = 0.0
-		var dv2_step: Double = 0.0
+		var dax_step: Double = 0.0; var dbx_step: Double = 0.0
+		var du1_step: Double = 0.0; var dv1_step: Double = 0.0
+		var du2_step: Double = 0.0; var dv2_step: Double = 0.0
+		var dw1_step: Double = 0.0; var dw2_step: Double = 0.0
+
+		val pix = sprite.pixelReader
+		val gcPixel = gc.pixelWriter
 
 		if(dy1 != 0) dax_step = dx1 / math.abs(dy1).toDouble
 		if(dy2 != 0) dbx_step = dx2 / math.abs(dy2).toDouble
 
 		if(dy1 != 0) du1_step = du1 / math.abs(dy1).toDouble
 		if(dy1 != 0) dv1_step = dv1 / math.abs(dy1).toDouble
+		if(dy1 != 0) dw1_step = dw1 / math.abs(dy1).toDouble
 
 		if(dy2 != 0) du2_step = du2 / math.abs(dy2).toDouble
 		if(dy2 != 0) dv2_step = dv2 / math.abs(dy2).toDouble
+		if(dy2 != 0) dw2_step = dw2 / math.abs(dy2).toDouble
 
 		if(dy1 != 0) {
 			for(i <- y1 to y2) {
@@ -308,9 +323,11 @@ class Triangle {
 
 				var tex_su: Double = u1 + (i - y1).toDouble * du1_step
 				var tex_sv: Double = v1 + (i - y1).toDouble * dv1_step
+				var tex_sw: Double = w1 + (i - y1).toDouble * dw1_step
 
 				var tex_eu: Double = u1 + (i - y1).toDouble * du2_step
 				var tex_ev: Double = v1 + (i - y1).toDouble * dv2_step
+				var tex_ew: Double = w1 + (i - y1).toDouble * dw2_step
 
 				if(ax > bx) {
 					val tmp: (Int, Int) = swap(ax, bx)
@@ -324,77 +341,93 @@ class Triangle {
 					val tmp2: (Double, Double) = swap(tex_sv, tex_ev)
 					tex_sv = tmp2._1
 					tex_ev = tmp2._2
+
+					val tmp3: (Double, Double) = swap(tex_sw, tex_ew)
+					tex_sw = tmp3._1
+					tex_ew = tmp3._2
 				}
 
 				tex_u = tex_su
 				tex_v = tex_sv
+				tex_w = tex_sw
 
 				val tstep: Double = 1.0 / (bx - ax).toDouble
 				var t: Double = 0.0
-				val pix = sprite.pixelReader
-				val gcPixel = gc.pixelWriter
 
 				for(j <- ax until bx) {
 					tex_u = (1.0 - t) * tex_su + t * tex_eu
 					tex_v = (1.0 - t) * tex_sv + t * tex_ev
+					tex_w = (1.0 - t) * tex_sw + t * tex_ew
+					val col: Color = pix.get.getColor(((tex_u / tex_w) * (sprite.getWidth - 1)).toInt, ((tex_v / tex_w) * (sprite.getHeight - 1)).toInt)
+					val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
 
-					gcPixel.setColor(j, i, pix.get.getColor((tex_u * sprite.getWidth).toInt, (tex_v * sprite.getHeight).toInt))
+					gcPixel.setColor(j, i, color)
 					t += tstep
 				}
 			}
+		}
 
-			dy1 = y3 - y2
-			dx1 = x3 - x2
-			dv1 = v3 - v2
-			du1 = u3 - u2
+		dy1 = y3 - y2
+		dx1 = x3 - x2
+		dv1 = v3 - v2
+		du1 = u3 - u2
+		dw1 = w3 - w2
 
-			if(dy1 != 0) dax_step = dx1 / math.abs(dy1).toDouble
-			if(dy2 != 0) dbx_step = dx2 / math.abs(dy2).toDouble
+		if(dy1 != 0) dax_step = dx1 / math.abs(dy1).toDouble
+		if(dy2 != 0) dbx_step = dx2 / math.abs(dy2).toDouble
 
-			du1_step = 0.0; dv1_step = 0.0
-			if(dy1 != 0) du1_step = du1 / math.abs(dy1).toDouble
-			if(dy1 != 0) dv1_step = dv1 / math.abs(dy1).toDouble
+		du1_step = 0.0; dv1_step = 0.0
+		if(dy1 != 0) du1_step = du1 / math.abs(dy1).toDouble
+		if(dy1 != 0) dv1_step = dv1 / math.abs(dy1).toDouble
+		if(dy1 != 0) dw1_step = dw1 / math.abs(dy1).toDouble
 
-			if(dy1 != 0) {
-				for(i <- y2 to y3) {
-					var ax: Int = (x2 + (i - y2).toDouble * dax_step).toInt
-					var bx: Int = (x1 + (i - y1).toDouble * dbx_step).toInt
+		if(dy1 != 0) {
+			for(i <- y2 to y3) {
+				var ax: Int = (x2 + (i - y2).toDouble * dax_step).toInt
+				var bx: Int = (x1 + (i - y1).toDouble * dbx_step).toInt
 
-					var tex_su: Double = u2 + (i - y2).toDouble * du1_step
-					var tex_sv: Double = v2 + (i - y2).toDouble * dv1_step
+				var tex_su: Double = u2 + (i - y2).toDouble * du1_step
+				var tex_sv: Double = v2 + (i - y2).toDouble * dv1_step
+				var tex_sw: Double = w2 + (i - y2).toDouble * dw1_step
 
-					var tex_eu: Double = u1 + (i - y1).toDouble * du2_step
-					var tex_ev: Double = v1 + (i - y1).toDouble * dv2_step
+				var tex_eu: Double = u1 + (i - y1).toDouble * du2_step
+				var tex_ev: Double = v1 + (i - y1).toDouble * dv2_step
+				var tex_ew: Double = w1 + (i - y1).toDouble * dw2_step
 
-					if(ax > bx) {
-						val tmp: (Int, Int) = swap(ax, bx)
-						ax = tmp._1
-						bx = tmp._2
+				if(ax > bx) {
+					val tmp: (Int, Int) = swap(ax, bx)
+					ax = tmp._1
+					bx = tmp._2
 
-						val tmp1: (Double, Double) = swap(tex_su, tex_eu)
-						tex_su = tmp1._1
-						tex_eu = tmp1._2
+					val tmp1: (Double, Double) = swap(tex_su, tex_eu)
+					tex_su = tmp1._1
+					tex_eu = tmp1._2
 
-						val tmp2: (Double, Double) = swap(tex_sv, tex_ev)
-						tex_sv = tmp2._1
-						tex_ev = tmp2._2
-					}
+					val tmp2: (Double, Double) = swap(tex_sv, tex_ev)
+					tex_sv = tmp2._1
+					tex_ev = tmp2._2
 
-					tex_u = tex_su
-					tex_v = tex_sv
+					val tmp3: (Double, Double) = swap(tex_sw, tex_ew)
+					tex_sw = tmp3._1
+					tex_ew = tmp3._2
+				}
 
-					val tstep: Double = 1.0 / (bx - ax).toDouble
-					var t: Double = 0.0
-					val pix = sprite.pixelReader
-					val gcPixel = gc.pixelWriter
+				tex_u = tex_su
+				tex_v = tex_sv
+				tex_w = tex_sw
 
-					for(j <- ax until bx) {
-						tex_u = (1.0 - t) * tex_su + t * tex_eu
-						tex_v = (1.0 - t) * tex_sv + t * tex_ev
+				val tstep: Double = 1.0 / (bx - ax).toDouble
+				var t: Double = 0.0
 
-						gcPixel.setColor(j, i, pix.get.getColor((tex_u * sprite.getWidth).toInt, (tex_v * sprite.getHeight).toInt))
-						t += tstep
-					}
+				for(j <- ax until bx) {
+					tex_u = (1.0 - t) * tex_su + t * tex_eu
+					tex_v = (1.0 - t) * tex_sv + t * tex_ev
+					tex_w = (1.0 - t) * tex_sw + t * tex_ew
+					val col: Color = pix.get.getColor(((tex_u / tex_w) * (sprite.getWidth - 1)).toInt, ((tex_v / tex_w) * (sprite.getHeight - 1)).toInt)
+					val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
+
+					gcPixel.setColor(j, i, color)
+					t += tstep
 				}
 			}
 		}

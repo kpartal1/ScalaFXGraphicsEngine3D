@@ -7719,3 +7719,73 @@ WARNING: Unmatched cancel notification for request id 9725
 [0m2021.05.10 23:08:42 INFO  compiling graphicsengine3d (1 scala source)[0m
 [0m2021.05.10 23:08:42 INFO  time: compiled graphicsengine3d in 0.81s[0m
 something's wrong: no file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala in Array[graphicsengine3d.Vec2d]RangePosition(file:///C:/Users/12103/OneDrive%20-%20Trinity%20University/Documents/CodingProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala, 2750, 2750, 2762)
+[0m2021.05.10 23:21:23 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:21:23 INFO  time: compiled graphicsengine3d in 0.82s[0m
+May 10, 2021 11:22:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10060
+May 10, 2021 11:22:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10067
+[0m2021.05.10 23:22:53 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:22:53 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.05.10 23:23:20 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:23:20 INFO  time: compiled graphicsengine3d in 0.81s[0m
+[0m2021.05.10 23:28:09 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:28:09 INFO  time: compiled graphicsengine3d in 0.12s[0m
+[0m2021.05.10 23:28:30 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:28:30 INFO  time: compiled graphicsengine3d in 99ms[0m
+[0m2021.05.10 23:28:44 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:28:44 INFO  time: compiled graphicsengine3d in 0.84s[0m
+[0m2021.05.10 23:29:52 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:29:52 INFO  time: compiled graphicsengine3d in 0.86s[0m
+[0m2021.05.10 23:29:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:29:55 INFO  time: compiled graphicsengine3d in 0.93s[0m
+[0m2021.05.10 23:30:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:30:06 INFO  time: compiled graphicsengine3d in 0.84s[0m
+[0m2021.05.10 23:31:07 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:31:07 INFO  time: compiled graphicsengine3d in 90ms[0m
+[0m2021.05.10 23:31:11 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:31:11 INFO  time: compiled graphicsengine3d in 0.85s[0m
+May 10, 2021 11:31:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10412
+[0m2021.05.10 23:31:19 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:31:20 INFO  time: compiled graphicsengine3d in 1.23s[0m
+[0m2021.05.10 23:32:17 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:32:18 INFO  time: compiled graphicsengine3d in 1.22s[0m
+[0m2021.05.10 23:32:50 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:32:51 INFO  time: compiled graphicsengine3d in 1.23s[0m
+[0m2021.05.10 23:33:02 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:33:04 INFO  time: compiled graphicsengine3d in 1.55s[0m
+[0m2021.05.10 23:33:14 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:33:14 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 23:34:22 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:34:22 INFO  time: compiled graphicsengine3d in 0.8s[0m
+May 10, 2021 11:34:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10606
+[0m2021.05.10 23:34:36 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:34:37 INFO  time: compiled graphicsengine3d in 1.19s[0m
+[0m2021.05.10 23:34:45 INFO  compiling graphicsengine3d (1 scala source)[0m
+May 10, 2021 11:34:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10643
+[0m2021.05.10 23:34:46 INFO  time: compiled graphicsengine3d in 1.23s[0m
+[0m2021.05.10 23:34:51 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:34:51 INFO  time: compiled graphicsengine3d in 0.8s[0m
+[0m2021.05.10 23:35:26 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:35:26 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.05.10 23:35:48 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:35:48 INFO  time: compiled graphicsengine3d in 0.82s[0m
+[0m2021.05.10 23:36:06 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:36:06 INFO  time: compiled graphicsengine3d in 47ms[0m
+[0m2021.05.10 23:36:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 23:36:08 INFO  time: compiled graphicsengine3d in 0.1s[0m
+[0m2021.05.10 23:41:02 INFO  shutting down Metals[0m
+[0m2021.05.10 23:41:02 INFO  Shut down connection with build server.[0m
+[0m2021.05.10 23:41:02 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.05.10 23:41:02 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

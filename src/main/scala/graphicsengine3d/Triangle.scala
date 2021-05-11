@@ -3,6 +3,7 @@ package graphicsengine3d
 import scalafx.scene.paint.Color
 import scalafx.scene.canvas.GraphicsContext
 import scalafx.scene.image.Image
+import scalafx.scene.canvas.Canvas
 
 class Triangle {
   var p: Array[Vec3d] = Array.fill(3)(new Vec3d)
@@ -214,7 +215,7 @@ class Triangle {
 		(y, x)
 	}
 
-	def texturedTriangle(gc: GraphicsContext, sprite: Image): Unit = {
+	def texturedTriangle(canvas: Canvas, depthBuffer: Array[Double], gc: GraphicsContext, sprite: Image): Unit = {
 		var x1: Int = this.p(0).x.toInt; var y1: Int = this.p(0).y.toInt; var u1: Double = this.t(0).u; var v1: Double = this.t(0).v; var w1: Double = this.t(0).w
 		var x2: Int = this.p(1).x.toInt; var y2: Int = this.p(1).y.toInt; var u2: Double = this.t(1).u; var v2: Double = this.t(1).v; var w2: Double = this.t(1).w
 		var x3: Int = this.p(2).x.toInt; var y3: Int = this.p(2).y.toInt; var u3: Double = this.t(2).u; var v3: Double = this.t(2).v; var w3: Double = this.t(2).w
@@ -358,10 +359,15 @@ class Triangle {
 					tex_u = (1.0 - t) * tex_su + t * tex_eu
 					tex_v = (1.0 - t) * tex_sv + t * tex_ev
 					tex_w = (1.0 - t) * tex_sw + t * tex_ew
-					val col: Color = pix.get.getColor(((tex_u / tex_w) * (sprite.getWidth - 1)).toInt, ((tex_v / tex_w) * (sprite.getHeight - 1)).toInt)
-					val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
 
-					gcPixel.setColor(j, i, color)
+					if(tex_w > depthBuffer((i * canvas.getWidth() + j).toInt)) {
+						val col: Color = pix.get.getColor(((tex_u / tex_w) * (sprite.getWidth - 1)).toInt, ((tex_v / tex_w) * (sprite.getHeight - 1)).toInt)
+						val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
+
+						gcPixel.setColor(j, i, color)
+						depthBuffer((i * canvas.getWidth() + j).toInt) = tex_w
+					}
+
 					t += tstep
 				}
 			}
@@ -423,10 +429,15 @@ class Triangle {
 					tex_u = (1.0 - t) * tex_su + t * tex_eu
 					tex_v = (1.0 - t) * tex_sv + t * tex_ev
 					tex_w = (1.0 - t) * tex_sw + t * tex_ew
-					val col: Color = pix.get.getColor(((tex_u / tex_w) * (sprite.getWidth - 1)).toInt, ((tex_v / tex_w) * (sprite.getHeight - 1)).toInt)
-					val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
 
-					gcPixel.setColor(j, i, color)
+					if(tex_w > depthBuffer((i * canvas.getWidth() + j).toInt)) {
+						val col: Color = pix.get.getColor(((tex_u / tex_w) * (sprite.getWidth - 1)).toInt, ((tex_v / tex_w) * (sprite.getHeight - 1)).toInt)
+						val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
+
+						gcPixel.setColor(j, i, color)
+						depthBuffer((i * canvas.getWidth() + j).toInt) = tex_w
+					}
+					
 					t += tstep
 				}
 			}

@@ -28,8 +28,10 @@ object Main extends JFXApp {
   val gc: GraphicsContext = canvas.getGraphicsContext2D()
   gc.setFill(Color.Black)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
+  private var pDepthBuffer: Array[Double] = Array.fill((canvas.getWidth() * canvas.getHeight()).toInt)(0.0)
+
   // Load Object File
-  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/cube.obj", true)
+  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj")
 
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4
@@ -38,7 +40,7 @@ object Main extends JFXApp {
   val vLookDir: Vec3d = new Vec3d
   private var fYaw: Double = 0.0
   private var fTheta: Double = 0
-  val sprTex1: Image = new Image("file:src/main/resources/cubetexture.png")
+  val sprTex1: Image = new Image("file:src/main/resources/floor.png")
   
   stage = new JFXApp.PrimaryStage {
     title = "GraphicsEngine3D"
@@ -84,7 +86,7 @@ object Main extends JFXApp {
           val matView: Mat4x4 = matCamera.quickInverse(matCamera)
 
           // Store triangles for rastering later
-          val vecTrianglesToRasterUnsorted: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
+          val vecTrianglesToRaster: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
 
           // Draw Triangles
           for(tri <- meshCube.tris) {
@@ -155,17 +157,17 @@ object Main extends JFXApp {
                 triProjected.t(1) = clipped(n).t(1)
                 triProjected.t(2) = clipped(n).t(2)
 
-                // triProjected.t(0).u /= triProjected.p(0).w
-                // triProjected.t(1).u /= triProjected.p(1).w
-                // triProjected.t(2).u /= triProjected.p(2).w
+                triProjected.t(0).u /= triProjected.p(0).w
+                triProjected.t(1).u /= triProjected.p(1).w
+                triProjected.t(2).u /= triProjected.p(2).w
 
-                // triProjected.t(0).v /= triProjected.p(0).w
-                // triProjected.t(1).v /= triProjected.p(1).w
-                // triProjected.t(2).v /= triProjected.p(2).w
+                triProjected.t(0).v /= triProjected.p(0).w
+                triProjected.t(1).v /= triProjected.p(1).w
+                triProjected.t(2).v /= triProjected.p(2).w
 
-                // triProjected.t(0).w = 1.0 / triProjected.p(0).w
-                // triProjected.t(1).w = 1.0 / triProjected.p(1).w
-                // triProjected.t(2).w = 1.0 / triProjected.p(2).w
+                triProjected.t(0).w = 1.0 / triProjected.p(0).w
+                triProjected.t(1).w = 1.0 / triProjected.p(1).w
+                triProjected.t(2).w = 1.0 / triProjected.p(2).w
 
                 // Scale into view and normalize
                 triProjected.p(0) = triProjected.p(0) / triProjected.p(0).w
@@ -188,16 +190,18 @@ object Main extends JFXApp {
                 triProjected.p(2).x *= 0.5 * canvas.getWidth(); triProjected.p(2).y *= 0.5 * canvas.getHeight()
 
                 // Store triangles for sorting
-                vecTrianglesToRasterUnsorted += triProjected
+                vecTrianglesToRaster += triProjected
               }
             }
           }
 
-          val vecTrianglesToRaster: ArrayBuffer[Triangle] = vecTrianglesToRasterUnsorted.sortWith(_.triSort(_))
+          //val vecTrianglesToRaster: ArrayBuffer[Triangle] = vecTrianglesToRasterUnsorted.sortWith(_.triSort(_))
 
           // Fill Screen
           gc.setFill(Color.Black)
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
+
+          for(i <- 0 until (canvas.getWidth() * canvas.getHeight()).toInt) pDepthBuffer(i) = 0.0
 
           for(triToRaster <- vecTrianglesToRaster) {
             // Clip triangles against all four screen edges, this could yield a bunch of triangles
@@ -245,8 +249,8 @@ object Main extends JFXApp {
             // Rasterize Triangle
             for(t <- arrayTriangles) {
               //val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
-              t.texturedTriangle(gc, sprTex1)
-              t.fill(gc, Color.Transparent, Color.White)
+              t.texturedTriangle(canvas, pDepthBuffer, gc, sprTex1)
+              //t.fill(gc, Color.Transparent, Color.White)
             }
           }
         }

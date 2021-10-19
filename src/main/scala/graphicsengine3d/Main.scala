@@ -28,8 +28,13 @@ object Main extends JFXApp {
   val gc: GraphicsContext = canvas.getGraphicsContext2D()
   gc.setFill(Color.Black)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
+  private var pDepthBuffer: Array[Double] = Array.fill((canvas.getWidth() * canvas.getHeight()).toInt)(0.0)
+
   // Load Object File
-  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj", false)
+<<<<<<< HEAD
+=======
+  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj")
+>>>>>>> ac607d7f23d11345d7024758886982a05a794e10
 
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4
@@ -84,7 +89,7 @@ object Main extends JFXApp {
           val matView: Mat4x4 = matCamera.quickInverse(matCamera)
 
           // Store triangles for rastering later
-          val vecTrianglesToRasterUnsorted: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
+          val vecTrianglesToRaster: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
 
           // Draw Triangles
           for(tri <- meshCube.tris) {
@@ -111,7 +116,7 @@ object Main extends JFXApp {
               val dp: Double = math.max(0.1, lightDirection.dotProduct(normal))
               
               val bri: Double = dp
-              val sat: Double = 0.0
+              val sat: Double = 0.5
               val col: Color = Color.DarkGreen
 
               triTransformed.bri = bri
@@ -123,12 +128,12 @@ object Main extends JFXApp {
               triViewed.p(0).multiplyMatrixVector(matView, triTransformed.p(0))
               triViewed.p(1).multiplyMatrixVector(matView, triTransformed.p(1))
               triViewed.p(2).multiplyMatrixVector(matView, triTransformed.p(2))
-              triViewed.t(0) = triTransformed.t(0)
-              triViewed.t(1) = triTransformed.t(1)
-              triViewed.t(2) = triTransformed.t(2)
               triViewed.bri = triTransformed.bri
               triViewed.sat = triTransformed.sat
               triViewed.col = triTransformed.col
+              triViewed.t(0) = triTransformed.t(0)
+              triViewed.t(1) = triTransformed.t(1)
+              triViewed.t(2) = triTransformed.t(2)
 
               // Clip Viewed Triangle against near plane, this could form two additional
               // additional triangles.
@@ -148,12 +153,24 @@ object Main extends JFXApp {
                 triProjected.p(0).multiplyMatrixVector(matProj, clipped(n).p(0))
                 triProjected.p(1).multiplyMatrixVector(matProj, clipped(n).p(1))
                 triProjected.p(2).multiplyMatrixVector(matProj, clipped(n).p(2))
-                triProjected.t(0) = clipped(n).t(0)
-                triProjected.t(1) = clipped(n).t(1)
-                triProjected.t(2) = clipped(n).t(2)
                 triProjected.bri = clipped(n).bri
                 triProjected.sat = clipped(n).sat
                 triProjected.col = clipped(n).col
+                triProjected.t(0) = clipped(n).t(0)
+                triProjected.t(1) = clipped(n).t(1)
+                triProjected.t(2) = clipped(n).t(2)
+
+                triProjected.t(0).u /= triProjected.p(0).w
+                triProjected.t(1).u /= triProjected.p(1).w
+                triProjected.t(2).u /= triProjected.p(2).w
+
+                triProjected.t(0).v /= triProjected.p(0).w
+                triProjected.t(1).v /= triProjected.p(1).w
+                triProjected.t(2).v /= triProjected.p(2).w
+
+                triProjected.t(0).w = 1.0 / triProjected.p(0).w
+                triProjected.t(1).w = 1.0 / triProjected.p(1).w
+                triProjected.t(2).w = 1.0 / triProjected.p(2).w
 
                 // Scale into view and normalize
                 triProjected.p(0) = triProjected.p(0) / triProjected.p(0).w
@@ -176,17 +193,18 @@ object Main extends JFXApp {
                 triProjected.p(2).x *= 0.5 * canvas.getWidth(); triProjected.p(2).y *= 0.5 * canvas.getHeight()
 
                 // Store triangles for sorting
-                vecTrianglesToRasterUnsorted += triProjected
-                clipped(n) = new Triangle
+                vecTrianglesToRaster += triProjected
               }
             }
           }
 
-          val vecTrianglesToRaster: ArrayBuffer[Triangle] = vecTrianglesToRasterUnsorted.sortWith(_.triSort(_))
+          //val vecTrianglesToRaster: ArrayBuffer[Triangle] = vecTrianglesToRasterUnsorted.sortWith(_.triSort(_))
 
           // Fill Screen
           gc.setFill(Color.Black)
           gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
+
+          for(i <- 0 until (canvas.getWidth() * canvas.getHeight()).toInt) pDepthBuffer(i) = 0.0
 
           for(triToRaster <- vecTrianglesToRaster) {
             // Clip triangles against all four screen edges, this could yield a bunch of triangles
@@ -234,7 +252,11 @@ object Main extends JFXApp {
             // Rasterize Triangle
             for(t <- arrayTriangles) {
               //val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
+<<<<<<< HEAD
               t.texturedTriangle(gc, sprTex1)
+=======
+              t.texturedTriangle(canvas, pDepthBuffer, gc, sprTex1)
+>>>>>>> ac607d7f23d11345d7024758886982a05a794e10
               //t.fill(gc, Color.Transparent, Color.White)
             }
           }

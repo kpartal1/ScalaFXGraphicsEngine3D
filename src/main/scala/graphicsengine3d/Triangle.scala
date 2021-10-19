@@ -391,8 +391,9 @@ class Triangle {
 					for(j <- ax until bx) {
 						tex_u = (1.0 - t) * tex_su + t * tex_eu
 						tex_v = (1.0 - t) * tex_sv + t * tex_ev
-
-						gcPixel.setColor(j, i, pix.get.getColor((tex_u * sprite.getWidth).toInt, (tex_v * sprite.getHeight).toInt))
+						val col: Color = pix.get.getColor((tex_u * sprite.getWidth).toInt, (tex_v * sprite.getHeight).toInt)
+						val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
+						gcPixel.setColor(j, i, color)
 						t += tstep
 					}
 				}

@@ -2,39 +2,39 @@
     "version": "1.4.0",
     "project": {
         "name": "graphicsengine3d",
-        "directory": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D",
-        "workspaceDir": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D",
+        "directory": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D",
+        "workspaceDir": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D",
         "sources": [
-            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\main\\scala-2.12",
-            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\main\\scala",
-            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\main\\java",
-            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\scala-2.12\\src_managed\\main"
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala-2.12",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/java",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/src_managed/main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.12\\scala-reflect-2.12.12.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11-win.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11-win.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11-win.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-web\\11\\javafx-web-11-win.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11-win.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\11-R16\\scalafx_2.12-11-R16.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-swing\\11\\javafx-swing-11-win.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-fxml\\11\\javafx-fxml-11-win.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11.jar",
-            "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.2.2\\scalactic_2.12-3.2.2.jar"
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/11/javafx-fxml-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/11/javafx-swing-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_2.12/11-R16/scalafx_2.12-11-R16.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/11/javafx-web-11-mac.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar",
+            "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2.jar"
         ],
-        "out": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d",
-        "classesDir": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\.bloop\\graphicsengine3d\\scala-2.12\\classes",
+        "out": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d",
+        "classesDir": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d/scala-2.12/classes",
         "resources": [
-            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\src\\main\\resources",
-            "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\scala-2.12\\resource_managed\\main"
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/resources",
+            "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -45,14 +45,14 @@
                 "-feature"
             ],
             "jars": [
-                "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.12\\scala-reflect-2.12.12.jar",
-                "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.12.12\\scala-compiler-2.12.12.jar",
-                "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar",
-                "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\1.0.6\\scala-xml_2.12-1.0.6.jar",
-                "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\1.12\\jansi-1.12.jar",
-                "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12.jar"
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.12/scala-compiler-2.12.12.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar",
+                "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar"
             ],
-            "analysis": "C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
+            "analysis": "/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -109,9 +109,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Java\\jdk-11.0.9",
+                "home": "/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home",
                 "options": [
-                    "-Duser.dir=C:\\Users\\12103\\OneDrive - Trinity University\\Documents\\CodingProjects\\GraphicsEngine3D"
+                    "-Duser.dir=/Users/konstantits/Documents/TestProjects/GraphicsEngine3D"
                 ]
             },
             "mainClass": [
@@ -128,12 +128,12 @@
                     "artifacts": [
                         {
                             "name": "scala-reflect",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.12\\scala-reflect-2.12.12.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar"
                         },
                         {
                             "name": "scala-reflect",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.12\\scala-reflect-2.12.12-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12-sources.jar"
                         }
                     ]
                 },
@@ -145,12 +145,12 @@
                     "artifacts": [
                         {
                             "name": "javafx-media",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11.jar"
                         },
                         {
                             "name": "javafx-media",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11/javafx-media-11-sources.jar"
                         }
                     ]
                 },
@@ -162,17 +162,17 @@
                     "artifacts": [
                         {
                             "name": "javafx-controls",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11.jar"
                         },
                         {
                             "name": "javafx-controls",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11-sources.jar"
                         },
                         {
                             "name": "javafx-controls",
-                            "classifier": "win",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11-win.jar"
+                            "classifier": "mac",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11/javafx-controls-11-mac.jar"
                         }
                     ]
                 },
@@ -184,12 +184,12 @@
                     "artifacts": [
                         {
                             "name": "scalafx_2.12",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\11-R16\\scalafx_2.12-11-R16.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_2.12/11-R16/scalafx_2.12-11-R16.jar"
                         },
                         {
                             "name": "scalafx_2.12",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\11-R16\\scalafx_2.12-11-R16-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_2.12/11-R16/scalafx_2.12-11-R16-sources.jar"
                         }
                     ]
                 },
@@ -201,12 +201,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
                         }
                     ]
                 },
@@ -218,17 +218,17 @@
                     "artifacts": [
                         {
                             "name": "javafx-base",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11.jar"
                         },
                         {
                             "name": "javafx-base",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11-sources.jar"
                         },
                         {
                             "name": "javafx-base",
-                            "classifier": "win",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11-win.jar"
+                            "classifier": "mac",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11/javafx-base-11-mac.jar"
                         }
                     ]
                 },
@@ -240,17 +240,17 @@
                     "artifacts": [
                         {
                             "name": "javafx-graphics",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar"
                         },
                         {
                             "name": "javafx-graphics",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar"
                         },
                         {
                             "name": "javafx-graphics",
-                            "classifier": "win",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11-win.jar"
+                            "classifier": "mac",
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11/javafx-graphics-11-mac.jar"
                         }
                     ]
                 },
@@ -262,12 +262,12 @@
                     "artifacts": [
                         {
                             "name": "scalactic_2.12",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.2.2\\scalactic_2.12-3.2.2.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2.jar"
                         },
                         {
                             "name": "scalactic_2.12",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.2.2\\scalactic_2.12-3.2.2-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2-sources.jar"
                         }
                     ]
                 },
@@ -279,12 +279,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\12103\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.12\\scala-library-2.12.12-sources.jar"
+                            "path": "/Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
                         }
                     ]
                 }

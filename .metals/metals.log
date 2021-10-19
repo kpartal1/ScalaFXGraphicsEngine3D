@@ -6876,3 +6876,447 @@ May 10, 2021 3:21:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 13708
 May 10, 2021 3:22:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 13718
+[0m2021.05.10 14:38:31 INFO  Started: Metals version 0.10.2 in workspace '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D' for client vscode 1.56.0.[0m
+[0m2021.05.10 14:38:32 INFO  time: initialize in 1.24s[0m
+[0m2021.05.10 14:38:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher11188802065101753895/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.05.10 14:38:36 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Main.scala[0m
+error: The command bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher11188802065101753895/bsp.socket returned with an error
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+> [0m[32m[D][0m Loading 2 projects from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop'...
+> [0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json'
+> [0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d.json'
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar doesn't exist!
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+> [0m[32m[D][0m Elapsed: 4.519157 ms
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+> [0m[31m[E][0m Failed to load project from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json
+> [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:834)
+> [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+> [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:27)
+> [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:27)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1737)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:235)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:834)
+error: Trying a tcp-based connection to the server instead...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25355'...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol tcp --port 25355 returned with an error
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+> [0m[32m[D][0m Loading 2 projects from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop'...
+> [0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d.json'
+> [0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json'
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar doesn't exist!
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+> [0m[32m[D][0m Elapsed: 3.759428 ms
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+> [0m[31m[E][0m Failed to load project from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json
+> [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[32m[D][0m   => /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:834)
+> [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.12\scala-reflect-2.12.12.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.12\scala-compiler-2.12.12.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar, /Users/konstantits/Documents/mud-s21-kpartal1/C:\Users\12103\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+> [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:27)
+> [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:27)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1737)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:235)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:834)
+error: The launcher failed to establish a bsp connection, aborting...
+[0m2021.05.10 14:38:36 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+[0m
+[0m2021.05.10 14:38:40 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.10 14:38:41 INFO  running '/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/metals4275301012827505940/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.05.10 14:38:41 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/metals.sbt[0m
+[0m2021.05.10 14:38:41 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/metals.sbt[0m
+[0m2021.05.10 14:38:41 INFO  skipping build import with status 'Started'[0m
+[0m2021.05.10 14:38:41 INFO  time: code lens generation in 5.22s[0m
+[0m2021.05.10 14:38:42 INFO  time: code lens generation in 5.3s[0m
+[0m2021.05.10 14:38:42 INFO  time: code lens generation in 5.39s[0m
+[0m2021.05.10 14:38:42 INFO  time: code lens generation in 5.45s[0m
+[0m2021.05.10 14:38:44 INFO  [info] Loading settings for project graphicsengine3d-build-build-build from metals.sbt ...[0m
+[0m2021.05.10 14:38:44 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project/project[0m
+[0m2021.05.10 14:38:49 INFO  [info] Loading settings for project graphicsengine3d-build-build from metals.sbt ...[0m
+[0m2021.05.10 14:38:49 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project/project[0m
+[0m2021.05.10 14:38:50 INFO  [success] Generated .bloop/graphicsengine3d-build-build.json[0m
+[0m2021.05.10 14:38:50 INFO  [success] Total time: 1 s, completed May 10, 2021, 2:38:50 PM[0m
+[0m2021.05.10 14:38:50 INFO  [info] Loading settings for project graphicsengine3d-build from assembly.sbt,plugins.sbt,metals.sbt ...[0m
+[0m2021.05.10 14:38:50 INFO  [info] Loading project definition from /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project[0m
+[0m2021.05.10 14:38:50 INFO  [success] Generated .bloop/graphicsengine3d-build.json[0m
+[0m2021.05.10 14:38:51 INFO  [success] Total time: 1 s, completed May 10, 2021, 2:38:51 PM[0m
+[0m2021.05.10 14:38:53 INFO  [info] Loading settings for project graphicsengine3d from build.sbt ...[0m
+[0m2021.05.10 14:38:53 INFO  [info] Set current project to GraphicsEngine3D (in build file:/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/)[0m
+[0m2021.05.10 14:38:53 INFO  [success] Generated .bloop/graphicsengine3d.json[0m
+[0m2021.05.10 14:38:53 INFO  [success] Generated .bloop/graphicsengine3d-test.json[0m
+[0m2021.05.10 14:38:53 INFO  [success] Total time: 0 s, completed May 10, 2021, 2:38:54 PM[0m
+[0m2021.05.10 14:38:54 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.05.10 14:38:54 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+[0m2021.05.10 14:38:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5982274981312901615/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5982274981312901615/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5982274981312901615/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.10 14:38:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.10 14:38:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.05.10 14:38:54 INFO  Attempting to connect to the build server...[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5858086069665229972/bsp.socket'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17975672016224990768/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17975672016224990768/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher17975672016224990768/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5858086069665229972/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5858086069665229972/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.10 14:38:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.10 14:38:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.10 14:38:54 INFO  time: Connected to build server in 77ms[0m
+[0m2021.05.10 14:38:54 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.10 14:38:58 INFO  time: indexed workspace in 3.86s[0m
+[0m2021.05.10 14:38:58 INFO  compiling graphicsengine3d (7 scala sources)[0m
+[0m2021.05.10 14:39:02 INFO  time: compiled graphicsengine3d in 3.94s[0m
+[0m2021.05.10 14:50:34 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:50:35 INFO  time: compiled graphicsengine3d in 1.81s[0m
+[0m2021.05.10 14:51:08 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:51:10 INFO  time: compiled graphicsengine3d in 1.93s[0m
+May 10, 2021 2:51:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+May 10, 2021 2:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 248
+May 10, 2021 2:57:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 262
+[0m2021.05.10 14:57:54 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:57:55 INFO  time: compiled graphicsengine3d in 1.15s[0m
+[0m2021.05.10 14:58:01 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:58:02 INFO  time: compiled graphicsengine3d in 1.02s[0m
+[0m2021.05.10 14:58:43 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:58:44 INFO  time: compiled graphicsengine3d in 1.12s[0m
+[0m2021.05.10 14:58:47 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:58:47 INFO  time: compiled graphicsengine3d in 0.99s[0m
+May 10, 2021 2:59:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 737
+[0m2021.05.10 14:59:15 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:59:17 INFO  time: compiled graphicsengine3d in 1.71s[0m
+May 10, 2021 2:59:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 769
+[0m2021.05.10 14:59:57 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 14:59:57 INFO  time: compiled graphicsengine3d in 0.22s[0m
+[0m2021.05.10 15:00:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 15:00:03 INFO  time: compiled graphicsengine3d in 0.15s[0m
+[0m2021.05.10 15:00:05 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 15:00:06 INFO  time: compiled graphicsengine3d in 1.07s[0m
+May 10, 2021 3:00:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 850
+May 10, 2021 3:00:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 859
+[0m2021.05.10 15:00:46 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 15:00:46 INFO  time: compiled graphicsengine3d in 0.99s[0m
+May 10, 2021 3:00:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 918
+May 10, 2021 3:00:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 925
+May 10, 2021 3:00:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 934
+May 10, 2021 3:01:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 945
+May 10, 2021 3:02:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1009
+[0m2021.05.10 15:03:00 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 15:03:02 INFO  time: compiled graphicsengine3d in 1.63s[0m
+[0m2021.05.10 15:03:03 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 15:03:04 INFO  time: compiled graphicsengine3d in 1.5s[0m
+[0m2021.05.10 15:03:41 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 15:03:43 INFO  time: compiled graphicsengine3d in 1.5s[0m
+[0m2021.05.10 15:03:55 INFO  compiling graphicsengine3d (1 scala source)[0m
+[0m2021.05.10 15:03:57 INFO  time: compiled graphicsengine3d in 1.97s[0m
+[0m2021.05.11 05:17:44 INFO  shutting down Metals[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.05.11 15:51:46 INFO  Started: Metals version 0.10.2 in workspace '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D' for client vscode 1.56.0.[0m
+[0m2021.05.11 15:51:49 INFO  time: initialize in 2.44s[0m
+[0m2021.05.11 15:51:50 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.11 15:51:49 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Main.scala[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12118891330716116631/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.05.11 15:51:50 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12118891330716116631/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher12118891330716116631/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.11 15:51:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.11 15:51:50 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.05.11 15:51:50 Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher8573799744828550986/bsp.socket'...INFO  
+Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher10848341897285212474/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher8573799744828550986/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher8573799744828550986/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher10848341897285212474/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher10848341897285212474/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.11 15:51:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.11 15:51:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.11 15:51:50 INFO  time: Connected to build server in 0.69s[0m
+[0m2021.05.11 15:51:50 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.11 15:51:54 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@5877db2 rejected from java.util.concurrent.ThreadPoolExecutor@6f5123b6[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 109]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
+	at scala.concurrent.Future.map(Future.scala:292)
+	at scala.concurrent.Future.map$(Future.scala:292)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
+	at scala.concurrent.Future$.apply(Future.scala:659)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2142)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2140)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@346293f8 rejected from java.util.concurrent.ThreadPoolExecutor@6f5123b6[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 109]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@6d77544f rejected from java.util.concurrent.ThreadPoolExecutor@6f5123b6[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 109]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.10.19 18:29:56 INFO  Started: Metals version 0.10.7 in workspace '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D' for client Visual Studio Code 1.60.2.[0m
+[0m2021.10.19 18:29:57 INFO  time: initialize in 1.48s[0m
+[0m2021.10.19 18:29:58 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher1965633335892623775/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.19 18:29:58 WARN  no build target for: /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Main.scala[0m
+[0m2021.10.19 18:29:57 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.19 18:30:02 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d.json'
+[0m[32m[D][0m Loading project from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/.bloop/graphicsengine3d-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.12.
+[0m[32m[D][0m   => /Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.12/scala-compiler-2.12.12.jar
+[0m[32m[D][0m   => /Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar
+[0m[32m[D][0m   => /Users/konstantits/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'graphicsengine3d', 'graphicsengine3d-test'
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d' from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'graphicsengine3d-test' from '/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher1965633335892623775/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher1965633335892623775/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 18:30:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.19 18:30:04 INFO  time: code lens generation in 5.2s[0m
+[0m2021.10.19 18:30:04 INFO  time: code lens generation in 5.28s[0m
+[0m2021.10.19 18:30:05 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.10.19 18:30:05 INFO  Attempting to connect to the build server...Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher13450394965705008673/bsp.socket'...[0m
+
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5254386442219772648/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher13450394965705008673/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher13450394965705008673/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 18:30:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5254386442219772648/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fz/brqv_vfs1_1bq93kd6c0gvvc0000gn/T/bsp-launcher5254386442219772648/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 18:30:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/konstantits/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.19 18:30:06 INFO  time: Connected to build server in 7.83s[0m
+[0m2021.10.19 18:30:06 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 18:30:06 INFO  time: Imported build in 0.15s[0m
+[0m2021.10.19 18:30:10 INFO  time: indexed workspace in 3.85s[0m
+[0m2021.10.19 18:30:10 INFO  compiling graphicsengine3d (7 scala sources)[0m
+[0m2021.10.19 18:30:11 INFO  no build target: using presentation compiler with only scala-library: 2.12.12[0m
+[0m2021.10.19 18:30:20 INFO  time: compiled graphicsengine3d in 9.56s[0m

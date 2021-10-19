@@ -29,7 +29,7 @@ object Main extends JFXApp {
   gc.setFill(Color.Black)
   gc.fillRect(0.0, 0.0, canvas.getWidth(), canvas.getHeight())
   // Load Object File
-  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/monkey.obj", true)
+  val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj", false)
 
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4
@@ -233,9 +233,9 @@ object Main extends JFXApp {
             
             // Rasterize Triangle
             for(t <- arrayTriangles) {
-              val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
+              //val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
               t.texturedTriangle(gc, sprTex1)
-              t.fill(gc, Color.Transparent, Color.White)
+              //t.fill(gc, Color.Transparent, Color.White)
             }
           }
         }

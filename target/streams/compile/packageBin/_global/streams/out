@@ -1,55 +1,9 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/graphicsengine3d_2.12-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[0m
-<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes[0m
 [0m[[0m[0mdebug[0m] [0m[0m	WeirdObject.obj[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes/WeirdObject.obj[0m
-=======
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes[0m
-[0m[[0m[0mdebug[0m] [0m[0m	axis.obj[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\axis.obj[0m
-[0m[[0m[0mdebug[0m] [0m[0m	cube.obj[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\cube.obj[0m
-[0m[[0m[0mdebug[0m] [0m[0m	cubetexture.png[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\cubetexture.png[0m
-[0m[[0m[0mdebug[0m] [0m[0m	floor.png[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\floor.png[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Main$$anon$1$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Main$$anon$1$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Main$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Main$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Main$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Main$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Mat4x4.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Mat4x4.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Mesh.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Mesh.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\MeshObjects$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\MeshObjects$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\MeshObjects.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\MeshObjects.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Triangle.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Triangle.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Vec2d$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Vec2d$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Vec2d.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Vec2d.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Vec3d$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Vec3d$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	graphicsengine3d\Vec3d.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\graphicsengine3d\Vec3d.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	monkey.obj[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\monkey.obj[0m
-[0m[[0m[0mdebug[0m] [0m[0m	mountains.obj[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\target\scala-2.12\classes\mountains.obj[0m
->>>>>>> ac607d7f23d11345d7024758886982a05a794e10
 [0m[[0m[0mdebug[0m] [0m[0m	mud[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes/mud[0m
 [0m[[0m[0mdebug[0m] [0m[0m	mud/Room$GetItem.class[0m
@@ -192,6 +146,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes/graphicsengine3d/Triangle.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	sphere.obj[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes/sphere.obj[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cube.obj[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes/cube.obj[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cubetexture.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes/cubetexture.png[0m
 [0m[[0m[0mdebug[0m] [0m[0m	axis.obj[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/konstantits/Documents/TestProjects/GraphicsEngine3D/target/scala-2.12/classes/axis.obj[0m
 [0m[[0m[0mdebug[0m] [0m[0m	teapot.obj[0m

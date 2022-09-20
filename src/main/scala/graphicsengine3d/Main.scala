@@ -86,7 +86,7 @@ object Main extends JFXApp {
           val matView: Mat4x4 = matCamera.quickInverse(matCamera)
 
           // Store triangles for rastering later
-          val vecTrianglesToRaster: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
+          var vecTrianglesToRaster: ArrayBuffer[Triangle] = ArrayBuffer[Triangle]()
 
           // Draw Triangles
           for(tri <- meshCube.tris) {
@@ -195,7 +195,7 @@ object Main extends JFXApp {
             }
           }
 
-          //val vecTrianglesToRaster: ArrayBuffer[Triangle] = vecTrianglesToRasterUnsorted.sortWith(_.triSort(_))
+          vecTrianglesToRaster = vecTrianglesToRaster.sortWith(_.triSort(_))
 
           // Fill Screen
           gc.setFill(Color.Black)
@@ -248,10 +248,10 @@ object Main extends JFXApp {
             
             // Rasterize Triangle
             for(t <- arrayTriangles) {
-              //val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
+              val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
               //t.texturedTriangle(gc, sprTex1)
-              t.texturedTriangle(canvas, pDepthBuffer, gc, sprTex1)
-              //t.fill(gc, Color.Transparent, Color.White)
+              //t.texturedTriangle(canvas, pDepthBuffer, gc, sprTex1)
+              t.fill(gc, color, color)//Color.Transparent, Color.White)
             }
           }
         }

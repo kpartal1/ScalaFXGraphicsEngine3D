@@ -214,7 +214,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Users/konstantits/.jabba/jdk/adopt@1.11.0-9/Contents/Home",
+                "home": "/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/project"
                 ]

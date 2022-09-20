@@ -430,22 +430,12 @@ class Triangle {
 					tex_v = (1.0 - t) * tex_sv + t * tex_ev
 					tex_w = (1.0 - t) * tex_sw + t * tex_ew
 
-<<<<<<< HEAD
-					for(j <- ax until bx) {
-						tex_u = (1.0 - t) * tex_su + t * tex_eu
-						tex_v = (1.0 - t) * tex_sv + t * tex_ev
-						val col: Color = pix.get.getColor((tex_u * sprite.getWidth).toInt, (tex_v * sprite.getHeight).toInt)
-						val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
-						gcPixel.setColor(j, i, color)
-						t += tstep
-=======
 					if(tex_w > depthBuffer((i * canvas.getWidth() + j).toInt)) {
 						val col: Color = pix.get.getColor(((tex_u / tex_w) * (sprite.getWidth - 1)).toInt, ((tex_v / tex_w) * (sprite.getHeight - 1)).toInt)
 						val color: Color = Color.hsb(col.hue, col.saturation, this.bri)
 
 						gcPixel.setColor(j, i, color)
 						depthBuffer((i * canvas.getWidth() + j).toInt) = tex_w
->>>>>>> ac607d7f23d11345d7024758886982a05a794e10
 					}
 					
 					t += tstep

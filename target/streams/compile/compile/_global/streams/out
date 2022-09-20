@@ -1,4 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\12103\OneDrive - Trinity University\Documents\CodingProjects\GraphicsEngine3D\src\main\scala\graphicsengine3d\Triangle.scala:343:5: ')' expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m				}[0m
-[0m[[0m[31merror[0m] [0m[0m				^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala:55:3: Missing closing brace `}' assumed here[0m
+[0m[[0m[31merror[0m] [0m[0m		val plane_n: Vec3d = planeN.normalize[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala:214:2: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m	def swap[A](x: A, y: A): (A, A) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/konstantits/Documents/TestProjects/GraphicsEngine3D/src/main/scala/graphicsengine3d/Triangle.scala:218:2: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m	def texturedTriangle(canvas: Canvas, depthBuffer: Array[Double], gc: GraphicsContext, sprite: Image): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

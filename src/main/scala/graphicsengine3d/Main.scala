@@ -31,10 +31,7 @@ object Main extends JFXApp {
   private var pDepthBuffer: Array[Double] = Array.fill((canvas.getWidth() * canvas.getHeight()).toInt)(0.0)
 
   // Load Object File
-<<<<<<< HEAD
-=======
   val meshCube: Mesh = MeshObjects.loadObjectFromFile("src/main/resources/mountains.obj")
->>>>>>> ac607d7f23d11345d7024758886982a05a794e10
 
   // Projection Matrix
   val matrix: Mat4x4 = new Mat4x4
@@ -252,11 +249,8 @@ object Main extends JFXApp {
             // Rasterize Triangle
             for(t <- arrayTriangles) {
               //val color: Color = Color.hsb(t.col.hue, t.sat, t.bri)
-<<<<<<< HEAD
-              t.texturedTriangle(gc, sprTex1)
-=======
+              //t.texturedTriangle(gc, sprTex1)
               t.texturedTriangle(canvas, pDepthBuffer, gc, sprTex1)
->>>>>>> ac607d7f23d11345d7024758886982a05a794e10
               //t.fill(gc, Color.Transparent, Color.White)
             }
           }
